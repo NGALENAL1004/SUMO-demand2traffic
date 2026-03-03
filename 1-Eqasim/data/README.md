@@ -4,7 +4,7 @@ This folder contains **all raw input datasets** required to run the Eqasim Franc
 It follows the directory layout described in the official Eqasim documentation (“Gathering the data”).
 
 **Reference:** Eqasim documentation — *Gathering the data*  
-https://eqasim-org.github.io/eqasim-france/population/population_data.html :contentReference[oaicite:0]{index=0}
+https://eqasim-org.github.io/eqasim-france/population/population_data.html 
 
 ## Scope and principles
 
@@ -52,9 +52,8 @@ data/
 
 For **department-split datasets** (e.g., **IGN BD TOPO** buildings, **BAN** addresses), download **only** the department(s) covering your study area.
 
-
 **Reference:** Eqasim documentation — *Gathering the data*  
-https://eqasim-org.github.io/eqasim-france/population/population_data.html :contentReference[oaicite:0]{index=0}
+https://eqasim-org.github.io/eqasim-france/population/population_data.html 
 
 **Example — Charente-Maritime (department 17):**
 - Download **BD TOPO** for **D017** and place it in:
