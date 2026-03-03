@@ -1,0 +1,19 @@
+type_id;nb_seats;length;width;pce;mode;hbefa_cat;hbefa_tech;hbefa_size;hbefa_emission
+default_car;4.0;5.0;1.0;1.0;car;pass. car;average;average;average
+car_petrol_1;;7.5;1.0;;;pass. car;petrol (4S);not specified;PC P Euro-1
+car_petrol_2;;7.5;1.0;;;pass. car;petrol (4S);not specified;PC P Euro-2
+car_petrol_3;;7.5;1.0;;;pass. car;petrol (4S);not specified;PC P Euro-3
+car_petrol_4;;7.5;1.0;;;pass. car;petrol (4S);not specified;PC P Euro-4
+car_petrol_5;;7.5;1.0;;;pass. car;petrol (4S);not specified;PC P Euro-5
+car_petrol_6ab;;7.5;1.0;;;pass. car;petrol (4S);not specified;PC P Euro-6ab
+car_petrol_6c;;7.5;1.0;;;pass. car;petrol (4S);not specified;PC P Euro-6c
+car_petrol_6d;;7.5;1.0;;;pass. car;petrol (4S);not specified;PC P Euro-6d
+car_diesel_1;;7.5;1.0;;;pass. car;diesel;not specified;PC D Euro-1
+car_diesel_2;;7.5;1.0;;;pass. car;diesel;not specified;PC D Euro-2
+car_diesel_3;;7.5;1.0;;;pass. car;diesel;not specified;PC D Euro-3
+car_diesel_4;;7.5;1.0;;;pass. car;diesel;not specified;PC D Euro-4
+car_diesel_5;;7.5;1.0;;;pass. car;diesel;not specified;PC D Euro-5
+car_diesel_6ab;;7.5;1.0;;;pass. car;diesel;not specified;PC D Euro-6ab
+car_diesel_6c;;7.5;1.0;;;pass. car;diesel;not specified;PC D Euro-6c
+car_diesel_6d;;7.5;1.0;;;pass. car;diesel;not specified;PC D Euro-6d
+default_car_passenger;4.0;5.0;1.0;1.0;car_passenger;pass. car;average;average;average

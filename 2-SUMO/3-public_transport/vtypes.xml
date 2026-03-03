@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-12-29 15:30:43.058529 by gtfs2pt.py v1_22_0+0002-63e50f52594
+  options: -n cda_la_rochelle.net.xml <doubleminus>gtfs ca_la_rochelle-aggregated-gtfs.zip <doubleminus>date 20251124 <doubleminus>modes bus <doubleminus>stops busstop.add.xml
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <vType id="bus" vClass="bus" personCapacity="80"/>
+</additional>

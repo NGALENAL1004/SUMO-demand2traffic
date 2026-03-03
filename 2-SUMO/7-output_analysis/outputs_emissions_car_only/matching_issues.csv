@@ -1,0 +1,4 @@
+person_id,n_car_trips_in_rou,n_tripinfo_rows,issue
+121736,2,0,no_tripinfo_for_person
+122556,6,5,count_mismatch_or_partial_match
+143760,5,3,count_mismatch_or_partial_match

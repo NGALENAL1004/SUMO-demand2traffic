@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+    <input>
+        <!-- réseau routier -->
+        <net-file value="cda_la_rochelle.net.xml"/>
+
+       
+    </input>
+
+    <time>
+        <!-- début et fin de la simulation en secondes -->
+        <begin value="0"/>
+        <end value="86400"/> <!-- 24h -->
+    </time>
+
+    <report>
+        <!-- logs et avertissements -->
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+</configuration>

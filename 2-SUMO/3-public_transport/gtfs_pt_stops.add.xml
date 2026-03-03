@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-12-29 18:34:19.058713 by gtfs2pt.py v1_22_0+0002-63e50f52594
+<configuration>
+    <gtfs value="ca_la_rochelle-aggregated-gtfs.zip"/>
+    <date value="20251124"/>
+    <modes value="bus"/>
+    <network value="cda_la_rochelle.net.xml"/>
+    <stops value="busstop.add.xml"/>
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.0" lane="1291315332_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Belle Aire"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.1" lane="-332649967#7_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Malidor"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.2" lane="-332649967#3_0" startPos="36.58" endPos="49.58" friendlyPos="true" name="Modigliani"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.3" lane="-367406285#1_0" startPos="48.21" endPos="61.21" friendlyPos="true" name="Jaurès"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.4" lane="-332649982#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Jules Ferry"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.5" lane="360579835#1_0" startPos="29.68" endPos="42.68" friendlyPos="true" name="Alstom"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.6" lane="46891985#3_0" startPos="0.86" endPos="13.86" friendlyPos="true" name="Les Iles"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.7" lane="305516237#0_0" startPos="3.19" endPos="16.19" friendlyPos="true" name="Salengro"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.8" lane="749303419#1_0" startPos="11.21" endPos="24.21" friendlyPos="true" name="Normandin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.9" lane="40744245#2_0" startPos="45.42" endPos="58.42" friendlyPos="true" name="Les Frênes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.10" lane="40744245#7_0" startPos="133.73" endPos="146.73" friendlyPos="true" name="Octroi"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.11" lane="1290291027#0_0" startPos="20.62" endPos="33.62" friendlyPos="true" name="Eglise de Tasdon"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.12" lane="-39695983#0_0" startPos="16.48" endPos="29.48" friendlyPos="true" name="Gare La Rochelle - Jean Bouche"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.13" lane="291299103#0_0" startPos="40.84" endPos="53.84" friendlyPos="true" name="Gare La Rochelle - Jean Moulin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.14" lane="676065322#0_0" startPos="29.01" endPos="42.01" friendlyPos="true" name="Hôpital"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.15" lane="1296058758#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Dames Blanches (Maubec)"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.16" lane="289724587#1_0" startPos="7.38" endPos="20.38" friendlyPos="true" name="Grosse Horloge">
+        <access friendlyPos="true" lane="18886596_0" pos="0.00" length="24.47"/>
+        <access friendlyPos="true" lane="18888422_0" pos="29.18" length="26.84"/>
+        <access friendlyPos="true" lane="31903804#0_0" pos="13.58" length="31.96"/>
+        <access friendlyPos="true" lane="31903804#1_0" pos="0.19" length="11.86"/>
+        <access friendlyPos="true" lane="555797643#0_0" pos="4.46" length="20.63"/>
+        <access friendlyPos="true" lane="555797643#1_0" pos="0.00" length="20.60"/>
+        <access friendlyPos="true" lane="555797644_0" pos="4.18" length="23.11"/>
+        <access friendlyPos="true" lane="766676157_0" pos="0.98" length="48.36"/>
+        <access friendlyPos="true" lane="948470002_0" pos="24.10" length="22.97"/>
+        <access friendlyPos="true" lane="948710732#4_0" pos="11.01" length="50.86"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.17" lane="-18891442_0" startPos="48.20" endPos="61.20" friendlyPos="true" name="Banque de France"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.18" lane="246490249_0" startPos="0.86" endPos="13.86" friendlyPos="true" name="Place de Verdun">
+        <access friendlyPos="true" lane="-1295735942_0" pos="0.00" length="19.00"/>
+        <access friendlyPos="true" lane="-1302273601_0" pos="0.20" length="11.84"/>
+        <access friendlyPos="true" lane="-1302528191_0" pos="0.00" length="6.85"/>
+        <access friendlyPos="true" lane="-758598878#0_0" pos="0.19" length="24.12"/>
+        <access friendlyPos="true" lane="1295735942_0" pos="1.26" length="18.00"/>
+        <access friendlyPos="true" lane="1302273601_0" pos="0.00" length="10.18"/>
+        <access friendlyPos="true" lane="1302499282_0" pos="0.19" length="17.30"/>
+        <access friendlyPos="true" lane="1302528191_0" pos="0.20" length="3.19"/>
+        <access friendlyPos="true" lane="676384840#6_0" pos="75.49" length="2.34"/>
+        <access friendlyPos="true" lane="758598878#0_0" pos="0.00" length="23.34"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.19" lane="-23062681#5_0" startPos="15.40" endPos="28.40" friendlyPos="true" name="Claude Masse"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.20" lane="-154888167#8_0" startPos="22.36" endPos="35.36" friendlyPos="true" name="Coligny"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.21" lane="-154888167#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Missy"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.22" lane="-354878246#0_0" startPos="57.68" endPos="70.68" friendlyPos="true" name="Saint-Maurice"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.23" lane="-256000778#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Quatre Fages"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.24" lane="-68254507#0_0" startPos="22.42" endPos="35.42" friendlyPos="true" name="Rossignolette"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.25" lane="-38369675#2_0" startPos="70.84" endPos="83.84" friendlyPos="true" name="Cité"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.26" lane="1291315343#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Oncor"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.27" lane="981239088#4_0" startPos="56.19" endPos="69.19" friendlyPos="true" name="Place des Halles"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.28" lane="38351395#12_0" startPos="1.55" endPos="14.55" friendlyPos="true" name="Eglise de Laleu"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.29" lane="303942643#5_0" startPos="7.16" endPos="20.16" friendlyPos="true" name="Les Rivauds"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.30" lane="-303942443#4_0" startPos="13.13" endPos="26.13" friendlyPos="true" name="Laleu Les Douanes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.31" lane="303942443#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Aéroport"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.32" lane="303942443#4_0" startPos="51.79" endPos="64.79" friendlyPos="true" name="Laleu Les Douanes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348497.33" lane="-38369678#4_0" startPos="28.65" endPos="41.65" friendlyPos="true" name="Colibri"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348498.31" lane="-303942443#0_0" startPos="18.47" endPos="31.46" friendlyPos="true" name="Aéroport"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348499.25" lane="68254499#1_0" startPos="65.31" endPos="78.31" friendlyPos="true" name="Vaugouin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348499.26" lane="38369627#0_0" startPos="10.07" endPos="23.07" friendlyPos="true" name="Jacques Henry"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348499.27" lane="38369627#3_0" startPos="0.82" endPos="13.82" friendlyPos="true" name="Laleu Sports"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348499.28" lane="304090436#5_0" startPos="42.19" endPos="55.19" friendlyPos="true" name="Montréal"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348499.29" lane="304090436#12_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Chirons Longs"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348499.30" lane="1200858876#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Duquesne"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348499.31" lane="354887452#1_0" startPos="9.35" endPos="22.35" friendlyPos="true" name="Montcalm"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348499.32" lane="304090029#1_0" startPos="99.78" endPos="112.78" friendlyPos="true" name="Port La Pallice"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348499.33" lane="1290291029#5_0" startPos="4.57" endPos="17.57" friendlyPos="true" name="La Sirène"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.1" lane="22998177#4_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Frigo"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.2" lane="-1200858876#0_0" startPos="30.12" endPos="43.12" friendlyPos="true" name="Duquesne"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.3" lane="-304090436#9_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Chirons Longs"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.4" lane="-304090436#5_0" startPos="57.06" endPos="70.06" friendlyPos="true" name="Montréal"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.5" lane="-38369627#3_0" startPos="26.36" endPos="39.36" friendlyPos="true" name="Laleu Sports"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.6" lane="-38369627#0_0" startPos="31.81" endPos="44.81" friendlyPos="true" name="Jacques Henry"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.7" lane="-68254499#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Vaugouin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.8" lane="1363408878#2_0" startPos="19.69" endPos="32.69" friendlyPos="true" name="Rossignolette"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.9" lane="256000779_0" startPos="71.63" endPos="84.63" friendlyPos="true" name="Quatre Fages"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.10" lane="354878246#0_0" startPos="34.22" endPos="47.22" friendlyPos="true" name="Saint-Maurice"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.11" lane="154888167#3_0" startPos="33.12" endPos="46.12" friendlyPos="true" name="Missy"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.12" lane="23062681#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Coligny"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.13" lane="23062681#4_0" startPos="16.29" endPos="29.29" friendlyPos="true" name="Claude Masse"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.14" lane="246490260#0_0" startPos="10.20" endPos="23.20" friendlyPos="true" name="Place de Verdun">
+        <access friendlyPos="true" lane="-303938883_0" pos="29.67" length="22.67"/>
+        <access friendlyPos="true" lane="-304507683#0_0" pos="0.00" length="22.31"/>
+        <access friendlyPos="true" lane="-304507683#1_0" pos="10.74" length="15.96"/>
+        <access friendlyPos="true" lane="1207390121#0_0" pos="0.21" length="25.69"/>
+        <access friendlyPos="true" lane="1207390121#1_0" pos="3.26" length="13.23"/>
+        <access friendlyPos="true" lane="1207390121#2_0" pos="0.00" length="11.82"/>
+        <access friendlyPos="true" lane="1207390121#3_0" pos="0.00" length="26.59"/>
+        <access friendlyPos="true" lane="304507683#0_0" pos="0.47" length="25.96"/>
+        <access friendlyPos="true" lane="304507683#1_0" pos="5.30" length="20.76"/>
+        <access friendlyPos="true" lane="676384840#6_0" pos="5.40" length="24.25"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.15" lane="18891443#1_0" startPos="24.39" endPos="37.39" friendlyPos="true" name="Dupaty"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.16" lane="304762330#1_0" startPos="13.23" endPos="26.23" friendlyPos="true" name="Dames Blanches (Durand)"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.17" lane="676065323#0_0" startPos="8.77" endPos="21.77" friendlyPos="true" name="Hôpital"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.18" lane="1299456786#1_0" startPos="9.18" endPos="22.18" friendlyPos="true" name="Gare La Rochelle - Jean Moulin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.19" lane="39695983#0_0" startPos="11.41" endPos="24.41" friendlyPos="true" name="Gare La Rochelle - Jean Bouche"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.20" lane="-749303403_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Eglise de Tasdon"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.21" lane="40744253#2_0" startPos="31.09" endPos="44.09" friendlyPos="true" name="Octroi"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.22" lane="40744253#9_0" startPos="58.55" endPos="71.55" friendlyPos="true" name="Les Frênes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.23" lane="458963272_0" startPos="2.67" endPos="15.67" friendlyPos="true" name="Normandin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.24" lane="-1082208201#3_0" startPos="21.86" endPos="34.86" friendlyPos="true" name="Salengro"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.25" lane="171537703#1_0" startPos="0.58" endPos="13.58" friendlyPos="true" name="Les Iles"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.26" lane="360579836#1_0" startPos="6.51" endPos="19.51" friendlyPos="true" name="Alstom"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.27" lane="332649982#1_0" startPos="9.44" endPos="22.44" friendlyPos="true" name="Jules Ferry"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.28" lane="360582849#2_0" startPos="1.38" endPos="14.38" friendlyPos="true" name="Jaurès"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.29" lane="332649967#3_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Modigliani"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.30" lane="332649967#8_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Malidor"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348500.31" lane="1291315333_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Belle Aire"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348508.3" lane="-38369678#0_0" startPos="6.22" endPos="19.22" friendlyPos="true" name="Oncor"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348508.4" lane="38369675#0_0" startPos="46.75" endPos="59.75" friendlyPos="true" name="Cité"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348596.0" lane="304054896_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Place de Verdun"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349867.0" lane="-37740154#3_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Les Mouettes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349867.1" lane="-519983774#2_0" startPos="4.36" endPos="17.36" friendlyPos="true" name="Rose des Vents"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349867.2" lane="-519983775#5_0" startPos="13.96" endPos="26.96" friendlyPos="true" name="Bourg de L'Houmeau"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349867.3" lane="-306481032#8_0" startPos="12.68" endPos="25.68" friendlyPos="true" name="Charles Dervau"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349867.4" lane="-306481032#4_0" startPos="12.95" endPos="25.95" friendlyPos="true" name="Victor Hugo"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349867.5" lane="306481035#0_0" startPos="139.07" endPos="152.07" friendlyPos="true" name="Monsidun"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349867.6" lane="306481035#5_0" startPos="22.83" endPos="35.83" friendlyPos="true" name="Mitterrand"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349867.7" lane="-992457223#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Stade La Fontaine"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349867.8" lane="-445645228#0_0" startPos="456.85" endPos="469.85" friendlyPos="true" name="Moulin du Bonheur"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349867.9" lane="445645032#0_0" startPos="14.71" endPos="27.71" friendlyPos="true" name="Le Bonnodeau">
+        <access friendlyPos="true" lane="-1430301686_0" pos="0.00" length="32.31"/>
+        <access friendlyPos="true" lane="-1430301687_0" pos="0.00" length="42.87"/>
+        <access friendlyPos="true" lane="-37917281#0_0" pos="135.54" length="43.08"/>
+        <access friendlyPos="true" lane="1430301685_0" pos="0.00" length="41.44"/>
+        <access friendlyPos="true" lane="1430301686_0" pos="4.31" length="29.35"/>
+        <access friendlyPos="true" lane="1430301687_0" pos="0.20" length="42.68"/>
+        <access friendlyPos="true" lane="303582870_0" pos="0.00" length="47.15"/>
+        <access friendlyPos="true" lane="304054214_0" pos="22.15" length="32.63"/>
+        <access friendlyPos="true" lane="37712089_0" pos="0.00" length="52.08"/>
+        <access friendlyPos="true" lane="37917281#0_0" pos="0.00" length="38.74"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349867.10" lane="218986244#0_0" startPos="23.84" endPos="36.84" friendlyPos="true" name="Clavier"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349867.11" lane="843578508#0_0" startPos="12.58" endPos="25.58" friendlyPos="true" name="Fief Rose"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349867.12" lane="1080851839#2_0" startPos="1.47" endPos="14.47" friendlyPos="true" name="Pas des Laquais"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349867.13" lane="303578306#0_0" startPos="18.55" endPos="31.55" friendlyPos="true" name="La Vallée"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349867.14" lane="1378595521_0" startPos="7.83" endPos="20.83" friendlyPos="true" name="Les Charmilles"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349867.15" lane="37848323#1_0" startPos="83.81" endPos="96.81" friendlyPos="true" name="Moulin de Vendôme"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349867.16" lane="-37848352#0_0" startPos="37.35" endPos="50.35" friendlyPos="true" name="Alizés"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349867.17" lane="116354869#0_0" startPos="5.99" endPos="18.99" friendlyPos="true" name="Lycée Vieljeux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349867.18" lane="116354869#6_0" startPos="25.54" endPos="38.54" friendlyPos="true" name="11 Novembre 1918"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349867.19" lane="39097841#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Piscine"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349867.20" lane="303938885#1_0" startPos="45.72" endPos="58.72" friendlyPos="true" name="Esplanade des Parcs"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349867.21" lane="1084919235#1_0" startPos="12.00" endPos="25.00" friendlyPos="true" name="Delayant"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349867.22" lane="563711902_0" startPos="26.43" endPos="39.43" friendlyPos="true" name="Place de Verdun"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349885.0" lane="303938884#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Place de Verdun">
+        <access friendlyPos="true" lane="119911591#4_0" pos="6.79" length="29.71"/>
+        <access friendlyPos="true" lane="119911594_0" pos="27.15" length="21.02"/>
+        <access friendlyPos="true" lane="119911595#0_0" pos="0.00" length="29.28"/>
+        <access friendlyPos="true" lane="303911509#0_0" pos="0.20" length="23.85"/>
+        <access friendlyPos="true" lane="303911509#1_0" pos="2.19" length="15.30"/>
+        <access friendlyPos="true" lane="303911509#2_0" pos="0.00" length="16.42"/>
+        <access friendlyPos="true" lane="303911509#3_0" pos="0.00" length="24.70"/>
+        <access friendlyPos="true" lane="303911509#4_0" pos="0.00" length="37.43"/>
+        <access friendlyPos="true" lane="676384840#6_0" pos="154.04" length="13.57"/>
+        <access friendlyPos="true" lane="676384841#1_0" pos="38.33" length="32.14"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349885.1" lane="303938884#2_0" startPos="79.35" endPos="92.35" friendlyPos="true" name="Delayant">
+        <access friendlyPos="true" lane="1084919235#0_1" pos="114.78" length="58.60"/>
+        <access friendlyPos="true" lane="1084919235#1_1" pos="32.48" length="12.42"/>
+        <access friendlyPos="true" lane="18902941_0" pos="69.27" length="42.68"/>
+        <access friendlyPos="true" lane="225667537#0_0" pos="0.00" length="61.99"/>
+        <access friendlyPos="true" lane="225667537#1_0" pos="0.00" length="79.65"/>
+        <access friendlyPos="true" lane="280356552_0" pos="81.19" length="42.00"/>
+        <access friendlyPos="true" lane="280356607#3_0" pos="15.51" length="95.72"/>
+        <access friendlyPos="true" lane="31671801_0" pos="0.00" length="48.10"/>
+        <access friendlyPos="true" lane="39089373#3_0" pos="9.03" length="92.16"/>
+        <access friendlyPos="true" lane="39089375#1_0" pos="9.61" length="83.75"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349885.2" lane="-39097848_0" startPos="38.95" endPos="51.95" friendlyPos="true" name="Porte Dauphine"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349885.3" lane="676440782_0" startPos="40.96" endPos="53.96" friendlyPos="true" name="Piscine"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349885.4" lane="23449137#4_0" startPos="14.25" endPos="27.25" friendlyPos="true" name="11 Novembre 1918"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349885.5" lane="1293110783#1_0" startPos="3.03" endPos="16.03" friendlyPos="true" name="Lycée Vieljeux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349885.6" lane="-304085244#3_0" startPos="45.81" endPos="58.81" friendlyPos="true" name="Les Gonthières"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349885.7" lane="37848352#0_0" startPos="19.34" endPos="32.34" friendlyPos="true" name="Alizés"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349885.8" lane="-37848323#1_0" startPos="10.36" endPos="23.36" friendlyPos="true" name="Moulin de Vendôme"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349885.9" lane="-1378595521_0" startPos="18.04" endPos="31.04" friendlyPos="true" name="Les Charmilles"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349885.10" lane="-303578306#0_0" startPos="95.05" endPos="108.05" friendlyPos="true" name="La Vallée"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349885.11" lane="-1080851839#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Pas des Laquais"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349885.12" lane="-843578508#0_0" startPos="50.62" endPos="63.62" friendlyPos="true" name="Fief Rose"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349885.13" lane="-218986244#0_0" startPos="493.82" endPos="506.82" friendlyPos="true" name="Clavier"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349885.14" lane="-37830076#0_0" startPos="133.63" endPos="146.63" friendlyPos="true" name="Le Bonnodeau"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349885.15" lane="303582869#4_0" startPos="223.17" endPos="236.17" friendlyPos="true" name="Moulin du Bonheur"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349885.16" lane="992457223#2_0" startPos="1.98" endPos="14.98" friendlyPos="true" name="Stade La Fontaine"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349885.17" lane="-306481035#8_0" startPos="2.95" endPos="15.95" friendlyPos="true" name="Mitterrand"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349885.18" lane="-306481035#0_0" startPos="1.65" endPos="14.65" friendlyPos="true" name="Monsidun"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349885.19" lane="306481032#3_0" startPos="34.26" endPos="47.26" friendlyPos="true" name="Victor Hugo"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349885.20" lane="306481032#8_0" startPos="63.38" endPos="76.38" friendlyPos="true" name="Charles Dervau"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349885.21" lane="303596573#0_0" startPos="21.75" endPos="34.75" friendlyPos="true" name="Le Cormier"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349885.22" lane="303596573#4_0" startPos="56.08" endPos="69.08" friendlyPos="true" name="Le Clos du Chêne"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349885.23" lane="-332348401_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Les Mouettes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348733.1" lane="1125034729#1_0" startPos="43.56" endPos="56.56" friendlyPos="true" name="Jourdan"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348733.2" lane="39089402#3_0" startPos="10.08" endPos="23.08" friendlyPos="true" name="Colbert"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348733.3" lane="39089402#10_0" startPos="8.88" endPos="21.88" friendlyPos="true" name="La Trompette"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348733.4" lane="39089402#13_0" startPos="50.76" endPos="63.76" friendlyPos="true" name="Franck Espoir"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348733.8" lane="37830045#4_0" startPos="12.52" endPos="25.52" friendlyPos="true" name="Les Néfliers"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348733.9" lane="37830045#12_0" startPos="10.75" endPos="23.75" friendlyPos="true" name="Les Pommiers"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348733.10" lane="-1302055959#4_0" startPos="52.92" endPos="65.92" friendlyPos="true" name="Avenue de Lagord"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348733.11" lane="-1302055959#0_0" startPos="80.18" endPos="93.18" friendlyPos="true" name="Les Vanneaux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348733.12" lane="-1302055972#3_0" startPos="7.25" endPos="20.25" friendlyPos="true" name="André Charier"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348733.13" lane="-91680413#1_0" startPos="16.79" endPos="29.79" friendlyPos="true" name="Fief des Jarries"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348733.14" lane="37789201#3_0" startPos="2.03" endPos="15.03" friendlyPos="true" name="François Viète"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348733.15" lane="218982320#7_0" startPos="49.25" endPos="62.25" friendlyPos="true" name="La Butte"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348733.16" lane="86701285#1_0" startPos="40.35" endPos="53.35" friendlyPos="true" name="Le Rayon d'Or"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348733.17" lane="-758195403#0_0" startPos="95.51" endPos="108.51" friendlyPos="true" name="Moulin Ragot"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348733.18" lane="728283345_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Les Allées Vieljeux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348733.19" lane="303756010#1_0" startPos="7.02" endPos="20.02" friendlyPos="true" name="Nieul Le Gô"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348733.20" lane="-37678103#2_0" startPos="36.03" endPos="49.03" friendlyPos="true" name="Mairie de Nieul-sur-Mer"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348733.21" lane="303735637#0_0" startPos="31.42" endPos="44.42" friendlyPos="true" name="Salle Polyvalente de Nieul"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348733.22" lane="225680520#4_0" startPos="5.41" endPos="18.41" friendlyPos="true" name="Centre Commercial de Nieul"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348733.23" lane="37600232#9_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Les Hauts de Nieul"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348733.24" lane="37602377_0" startPos="241.38" endPos="254.38" friendlyPos="true" name="Lauzières"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348733.25" lane="-304638702_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="L'Ouaille"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348734.0" lane="303907281_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="L'Ouaille"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348734.1" lane="-37602377_0" startPos="22.33" endPos="35.33" friendlyPos="true" name="Lauzières"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348734.2" lane="-37600232#9_0" startPos="147.72" endPos="160.72" friendlyPos="true" name="Les Hauts de Nieul"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348734.3" lane="-225680520#4_0" startPos="27.45" endPos="40.45" friendlyPos="true" name="Centre Commercial de Nieul"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348734.4" lane="-303735637#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Salle Polyvalente de Nieul"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348734.5" lane="37678103#1_0" startPos="7.02" endPos="20.02" friendlyPos="true" name="Mairie de Nieul-sur-Mer"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348734.6" lane="-303756010#1_0" startPos="67.43" endPos="80.43" friendlyPos="true" name="Nieul Le Gô"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348734.7" lane="-37669126#4_0" startPos="2.89" endPos="15.89" friendlyPos="true" name="Les Allées Vieljeux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348734.8" lane="758195403#0_0" startPos="19.81" endPos="32.81" friendlyPos="true" name="Moulin Ragot"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348734.9" lane="294920171#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Le Rayon d'Or"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348734.10" lane="-218982320#7_0" startPos="0.99" endPos="13.99" friendlyPos="true" name="La Butte"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348734.11" lane="-37789201#3_0" startPos="14.71" endPos="27.71" friendlyPos="true" name="François Viète"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348734.12" lane="91680413#1_0" startPos="15.48" endPos="28.48" friendlyPos="true" name="Fief des Jarries"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348734.13" lane="1302055972#3_0" startPos="36.98" endPos="49.98" friendlyPos="true" name="André Charier"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348734.14" lane="1302055959#0_0" startPos="48.77" endPos="61.77" friendlyPos="true" name="Les Vanneaux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348734.15" lane="-37830045#13_0" startPos="20.03" endPos="33.03" friendlyPos="true" name="Les Pommiers"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348734.16" lane="-37830045#5_0" startPos="41.65" endPos="54.65" friendlyPos="true" name="Les Néfliers"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348734.20" lane="1361502331#1_0" startPos="12.19" endPos="25.19" friendlyPos="true" name="Franck Espoir"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348734.21" lane="-39089402#10_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="La Trompette"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348734.22" lane="-39089402#5_0" startPos="16.90" endPos="29.90" friendlyPos="true" name="Colbert"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348734.23" lane="-39089402#1_0" startPos="47.09" endPos="60.09" friendlyPos="true" name="Jéricho"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348734.24" lane="-303577214#0_0" startPos="37.83" endPos="50.83" friendlyPos="true" name="Jourdan"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349426.6" lane="304628619_0" startPos="12.35" endPos="25.35" friendlyPos="true" name="Flandres - Lycée Vieljeux">
+        <access friendlyPos="true" lane="-116354890#0_0" pos="14.35" length="23.02"/>
+        <access friendlyPos="true" lane="-1302273621#1_0" pos="2.46" length="16.73"/>
+        <access friendlyPos="true" lane="-676440710_0" pos="0.00" length="37.61"/>
+        <access friendlyPos="true" lane="-676440717#1_0" pos="20.80" length="19.94"/>
+        <access friendlyPos="true" lane="116354890#0_0" pos="0.00" length="19.81"/>
+        <access friendlyPos="true" lane="1302273621#1_0" pos="17.84" length="11.92"/>
+        <access friendlyPos="true" lane="676440717#0_0" pos="24.11" length="36.37"/>
+        <access friendlyPos="true" lane="676440717#1_0" pos="17.90" length="24.74"/>
+        <access friendlyPos="true" lane="676440720_0" pos="5.26" length="37.49"/>
+        <access friendlyPos="true" lane="926794756_0" pos="0.00" length="37.21"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349426.7" lane="116354890#11_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Blériot"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349426.8" lane="39365431#2_0" startPos="24.42" endPos="37.42" friendlyPos="true" name="Léon Jouhaux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349426.9" lane="-752989679_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Georges Triaud"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349426.10" lane="37885317_0" startPos="91.22" endPos="104.22" friendlyPos="true" name="L'Ebeaupin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349426.11" lane="37885928#1_0" startPos="54.64" endPos="67.64" friendlyPos="true" name="La Mariennée"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349426.12" lane="304259644#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Château d'Huré"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349426.13" lane="-753053751#5_0" startPos="4.30" endPos="17.30" friendlyPos="true" name="Bois d'Huré"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349426.14" lane="-37887673#4_0" startPos="99.00" endPos="112.00" friendlyPos="true" name="Fief des Greffières"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349426.16" lane="1302273614_0" startPos="3.83" endPos="16.83" friendlyPos="true" name="L'Aubreçay"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349426.17" lane="-39442271#3_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Coulonge"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349426.18" lane="727674823_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Eglise de Marsilly"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349426.19" lane="-39442269#3_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Mairie de Marsilly"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349426.20" lane="-39442269#2_0" startPos="5.14" endPos="18.14" friendlyPos="true" name="Place de Nantilly"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349426.21" lane="80665284#0_0" startPos="45.27" endPos="58.27" friendlyPos="true" name="Nantilly Beauvoirs"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349426.22" lane="304258790#1_0" startPos="379.89" endPos="392.89" friendlyPos="true" name="Les Moindreaux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349426.23" lane="304258250#2_0" startPos="1.55" endPos="14.55" friendlyPos="true" name="Les Tamaris"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349426.24" lane="304258250#9_0" startPos="2.91" endPos="15.91" friendlyPos="true" name="Mairie d'Esnandes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349426.25" lane="93061398_0" startPos="5.47" endPos="18.47" friendlyPos="true" name="Salle des Fêtes d'Esnandes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349582.0" lane="-1302273603#0_0" startPos="16.77" endPos="29.77" friendlyPos="true" name="Salle des Fêtes d'Esnandes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349582.1" lane="-304258250#9_0" startPos="48.16" endPos="61.16" friendlyPos="true" name="Mairie d'Esnandes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349582.2" lane="-40148208#3_0" startPos="27.41" endPos="40.41" friendlyPos="true" name="Les Tamaris"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349582.3" lane="442490021#0_0" startPos="45.56" endPos="58.56" friendlyPos="true" name="Nantilly Beauvoirs"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349582.4" lane="-39442331#0_0" startPos="6.87" endPos="19.87" friendlyPos="true" name="Place de Nantilly"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349582.5" lane="812894350#6_0" startPos="17.90" endPos="30.90" friendlyPos="true" name="Mairie de Marsilly"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349582.6" lane="-39442256#2_0" startPos="150.55" endPos="163.55" friendlyPos="true" name="Horizon"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349582.7" lane="-39442253#3_0" startPos="54.26" endPos="67.26" friendlyPos="true" name="Moulin d'Amour de Marsilly"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349582.8" lane="-39442310#0_0" startPos="28.64" endPos="41.64" friendlyPos="true" name="Coulonge"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349582.11" lane="37887673#4_0" startPos="8.02" endPos="21.02" friendlyPos="true" name="Fief des Greffières"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349582.12" lane="753053751#5_0" startPos="13.12" endPos="26.12" friendlyPos="true" name="Bois d'Huré"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349582.13" lane="-304259644#1_0" startPos="103.21" endPos="116.21" friendlyPos="true" name="Château d'Huré"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349582.14" lane="-37885928#3_0" startPos="70.77" endPos="83.77" friendlyPos="true" name="La Mariennée"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349582.15" lane="-37885317_0" startPos="9.27" endPos="22.27" friendlyPos="true" name="L'Ebeaupin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349582.16" lane="752989680_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Georges Triaud"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349582.17" lane="-39365431#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Léon Jouhaux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349582.18" lane="-116354890#3_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Blériot"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349582.19" lane="-116354890#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Flandres - Lycée Vieljeux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352195.0" lane="304385299_0" startPos="0.79" endPos="13.79" friendlyPos="true" name="La Ribotelière"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352195.1" lane="-304384603#4_0" startPos="48.02" endPos="61.02" friendlyPos="true" name="Océan"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352195.2" lane="-80839421#0_0" startPos="4.49" endPos="17.49" friendlyPos="true" name="Salle des Fêtes de Saint-Xandre"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352195.3" lane="-368112592#1_0" startPos="119.81" endPos="132.81" friendlyPos="true" name="Le Paradis"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352195.4" lane="-1430341885_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Les Grands Champs"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352195.5" lane="-1159688661_0" startPos="0.48" endPos="13.48" friendlyPos="true" name="Le Château"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352195.6" lane="-38053946#0_0" startPos="13.14" endPos="26.14" friendlyPos="true" name="Eglise de Puilboreau"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352195.7" lane="-361299490#3_0" startPos="15.84" endPos="28.84" friendlyPos="true" name="Baillac"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352195.8" lane="-688159414#2_0" startPos="7.21" endPos="20.21" friendlyPos="true" name="Les Vignes Pourpres"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352195.9" lane="-1159688659#1_0" startPos="16.65" endPos="29.65" friendlyPos="true" name="Beaulieu - France"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352195.10" lane="24820307_0" startPos="45.39" endPos="58.39" friendlyPos="true" name="Beaulieu - Allemagne"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352195.11" lane="186195228_0" startPos="329.88" endPos="342.88" friendlyPos="true" name="Le Treuil">
+        <access friendlyPos="true" lane="-1148913899#0_0" pos="26.28" length="40.78"/>
+        <access friendlyPos="true" lane="-304374384#0_0" pos="3.87" length="54.91"/>
+        <access friendlyPos="true" lane="-304374384#1_0" pos="3.46" length="60.99"/>
+        <access friendlyPos="true" lane="-39365463#6_0" pos="0.00" length="63.78"/>
+        <access friendlyPos="true" lane="-703475739#1_0" pos="0.00" length="52.95"/>
+        <access friendlyPos="true" lane="1148913899#0_0" pos="31.89" length="45.58"/>
+        <access friendlyPos="true" lane="1149294070_0" pos="37.82" length="27.33"/>
+        <access friendlyPos="true" lane="304374384#0_0" pos="0.00" length="59.52"/>
+        <access friendlyPos="true" lane="39365463#6_0" pos="0.20" length="64.20"/>
+        <access friendlyPos="true" lane="703475739#1_0" pos="71.80" length="57.72"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352195.12" lane="-304507226#2_0" startPos="93.64" endPos="106.64" friendlyPos="true" name="EHPAD du Fief de la Mare"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352195.13" lane="-1302293033#2_0" startPos="174.28" endPos="187.28" friendlyPos="true" name="Maquis"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352195.14" lane="-39327279#2_0" startPos="20.00" endPos="33.00" friendlyPos="true" name="Dufresse"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352195.15" lane="-39327281_0" startPos="11.58" endPos="24.58" friendlyPos="true" name="Mistral"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352195.16" lane="39327264_0" startPos="2.07" endPos="15.07" friendlyPos="true" name="Beauregard"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352195.17" lane="1165428056#1_0" startPos="31.57" endPos="44.57" friendlyPos="true" name="Commissariat"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352195.18" lane="39097846#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Champ de Mars"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352195.22" lane="563711902_0" startPos="46.94" endPos="59.94" friendlyPos="true" name="Place de Verdun"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352223.0" lane="-303938883_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Place de Verdun"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352223.1" lane="218975487#1_0" startPos="9.94" endPos="22.94" friendlyPos="true" name="Museum"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352223.2" lane="692966374_0" startPos="11.91" endPos="24.91" friendlyPos="true" name="Glacière"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352223.3" lane="39097843#1_0" startPos="1.45" endPos="14.45" friendlyPos="true" name="Champ de Mars"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352223.4" lane="343089024#2_0" startPos="10.95" endPos="23.95" friendlyPos="true" name="Commissariat"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352223.5" lane="-39327264_0" startPos="108.86" endPos="121.85" friendlyPos="true" name="Beauregard"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352223.6" lane="39327281_0" startPos="191.94" endPos="204.94" friendlyPos="true" name="Mistral"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352223.7" lane="39327279#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Dufresse"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352223.8" lane="1302293033#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Maquis"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352223.9" lane="304507226#2_0" startPos="61.51" endPos="74.51" friendlyPos="true" name="EHPAD du Fief de la Mare"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352223.10" lane="-186195228_0" startPos="28.10" endPos="41.10" friendlyPos="true" name="Le Treuil">
+        <access friendlyPos="true" lane="-1148913899#0_0" pos="14.63" length="29.98"/>
+        <access friendlyPos="true" lane="-1148913899#1_0" pos="7.54" length="51.07"/>
+        <access friendlyPos="true" lane="-1148913899#2_0" pos="8.31" length="66.96"/>
+        <access friendlyPos="true" lane="-304082025#1_0" pos="0.00" length="50.27"/>
+        <access friendlyPos="true" lane="1148913899#0_0" pos="43.54" length="34.78"/>
+        <access friendlyPos="true" lane="1148913899#1_0" pos="0.00" length="47.64"/>
+        <access friendlyPos="true" lane="1148913899#2_0" pos="0.00" length="64.52"/>
+        <access friendlyPos="true" lane="1149294070_0" pos="26.02" length="16.89"/>
+        <access friendlyPos="true" lane="304082025#1_0" pos="91.86" length="47.12"/>
+        <access friendlyPos="true" lane="884503377_0" pos="74.47" length="65.78"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352223.11" lane="-24820307_0" startPos="27.61" endPos="40.61" friendlyPos="true" name="Beaulieu - Allemagne"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352223.12" lane="1159688659#1_0" startPos="5.41" endPos="18.41" friendlyPos="true" name="Beaulieu - France"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352223.13" lane="688159414#2_0" startPos="211.32" endPos="224.32" friendlyPos="true" name="Les Vignes Pourpres"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352223.14" lane="361299490#2_0" startPos="29.63" endPos="42.63" friendlyPos="true" name="Baillac"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352223.15" lane="1159683047#1_0" startPos="2.27" endPos="15.27" friendlyPos="true" name="Eglise de Puilboreau"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352223.16" lane="1159688661_0" startPos="17.09" endPos="30.09" friendlyPos="true" name="Le Château"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352223.17" lane="38068532#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Les Grands Champs"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352223.18" lane="368112592#1_0" startPos="12.85" endPos="25.85" friendlyPos="true" name="Le Paradis"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352223.19" lane="80839421#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Salle des Fêtes de Saint-Xandre"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352223.20" lane="304384603#4_0" startPos="2.84" endPos="15.84" friendlyPos="true" name="Océan"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352241.21" lane="304385739#3_0" startPos="18.11" endPos="31.11" friendlyPos="true" name="La Ribotelière"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319167.0" lane="564055284#4_0" startPos="42.73" endPos="55.73" friendlyPos="true" name="Belle Croix"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319167.1" lane="122633773#0_0" startPos="6.83" endPos="19.83" friendlyPos="true" name="Les Fortines"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319167.2" lane="122633773#7_0" startPos="63.49" endPos="76.49" friendlyPos="true" name="Pont de la Fumate"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319167.3" lane="-367394850#7_0" startPos="21.48" endPos="34.48" friendlyPos="true" name="Libération"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319167.4" lane="-367394850#2_0" startPos="92.82" endPos="105.82" friendlyPos="true" name="Mairie de Dompierre"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319167.5" lane="-85565408#0_0" startPos="68.35" endPos="81.35" friendlyPos="true" name="Les Grelettes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319167.6" lane="304396901#0_0" startPos="46.78" endPos="59.78" friendlyPos="true" name="Champlain"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319167.7" lane="304396901#8_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Garenne"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319167.8" lane="70847368#1_0" startPos="12.08" endPos="25.08" friendlyPos="true" name="Galland"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319167.9" lane="304647019#11_0" startPos="4.45" endPos="17.45" friendlyPos="true" name="La Fromagère"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319167.10" lane="85565407#2_0" startPos="59.84" endPos="72.84" friendlyPos="true" name="Les Brandes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319167.11" lane="85645121#1_0" startPos="116.01" endPos="129.01" friendlyPos="true" name="La Grelèterie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319167.12" lane="-38002490#1_0" startPos="14.41" endPos="27.41" friendlyPos="true" name="La Cossarderie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319167.13" lane="-38002483#1_0" startPos="44.34" endPos="57.34" friendlyPos="true" name="La Motte"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319167.14" lane="-38002476#5_0" startPos="4.30" endPos="17.30" friendlyPos="true" name="Belle Etoile"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319167.15" lane="-38053942#6_0" startPos="91.03" endPos="104.03" friendlyPos="true" name="Les Fléneaux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319167.19" lane="38073111#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Les Rouillons"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319167.20" lane="-37954858#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Fief de la Mare"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319167.21" lane="37957691_0" startPos="17.33" endPos="30.33" friendlyPos="true" name="La Descenderie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319186.9" lane="-37957691_0" startPos="151.40" endPos="164.40" friendlyPos="true" name="La Descenderie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319186.10" lane="37954858#6_0" startPos="15.33" endPos="28.33" friendlyPos="true" name="Fief de la Mare"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319186.11" lane="85565419_0" startPos="21.55" endPos="34.55" friendlyPos="true" name="Les Rouillons"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319186.15" lane="38053942#6_0" startPos="13.62" endPos="26.62" friendlyPos="true" name="Les Fléneaux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319186.16" lane="38002476#5_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Belle Etoile"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319186.17" lane="38002483#0_0" startPos="31.31" endPos="44.31" friendlyPos="true" name="La Motte"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319186.18" lane="38002490#1_0" startPos="0.86" endPos="13.86" friendlyPos="true" name="La Cossarderie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319186.19" lane="-85645121#1_0" startPos="71.59" endPos="84.59" friendlyPos="true" name="La Grelèterie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319186.20" lane="-85565407#2_0" startPos="10.90" endPos="23.90" friendlyPos="true" name="Les Brandes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319186.21" lane="-304647019#9_0" startPos="9.44" endPos="22.44" friendlyPos="true" name="La Fromagère"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319186.22" lane="-70847368#1_0" startPos="5.82" endPos="18.82" friendlyPos="true" name="Galland"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319186.23" lane="-304396901#7_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Garenne"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319186.24" lane="-304396901#2_0" startPos="6.81" endPos="19.81" friendlyPos="true" name="Champlain"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319186.25" lane="85565408#0_0" startPos="4.83" endPos="17.83" friendlyPos="true" name="Les Grelettes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319186.26" lane="367394850#2_0" startPos="26.42" endPos="39.42" friendlyPos="true" name="Mairie de Dompierre"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319186.27" lane="367394850#7_0" startPos="51.95" endPos="64.95" friendlyPos="true" name="Libération"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319186.28" lane="-122633773#7_0" startPos="112.25" endPos="125.25" friendlyPos="true" name="Pont de la Fumate"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319186.29" lane="-122633773#0_0" startPos="93.90" endPos="106.90" friendlyPos="true" name="Les Fortines"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3319186.30" lane="-1302499267_0" startPos="19.37" endPos="32.37" friendlyPos="true" name="Belle Croix"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352401.0" lane="564055290#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Les Gués"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352401.1" lane="1303090335#1_0" startPos="21.08" endPos="34.08" friendlyPos="true" name="Fontpatour"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352401.2" lane="-126369161#2_0" startPos="28.29" endPos="41.28" friendlyPos="true" name="Mairie de Vérines"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352401.3" lane="-126369153#5_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Eglise de Vérines"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352401.4" lane="-126369159#2_0" startPos="115.94" endPos="128.94" friendlyPos="true" name="Stade de Vérines"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352401.5" lane="509160983#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Pas de l'Ane"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352401.6" lane="-304948578#13_0" startPos="68.64" endPos="81.64" friendlyPos="true" name="Eglise de Sainte-Soulle"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352401.7" lane="-304948578#3_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Mairie de Sainte-Soulle"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352401.8" lane="-1303090336#2_0" startPos="28.95" endPos="41.95" friendlyPos="true" name="La Renaudrie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352401.9" lane="-304770683#6_0" startPos="26.68" endPos="39.68" friendlyPos="true" name="La Laiterie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352401.10" lane="-795916534#1_0" startPos="124.49" endPos="137.49" friendlyPos="true" name="Chavagne"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352401.11" lane="122639453#1_0" startPos="30.15" endPos="43.15" friendlyPos="true" name="Usseau Ecole"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352401.12" lane="-154569253#0_0" startPos="8.08" endPos="21.08" friendlyPos="true" name="Pont de Grolleau"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352401.19" lane="266023982#1_0" startPos="90.35" endPos="103.35" friendlyPos="true" name="Moulin des Justices"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352401.20" lane="266023982#7_0" startPos="50.29" endPos="63.29" friendlyPos="true" name="Primevères"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352401.21" lane="266023982#12_0" startPos="6.55" endPos="19.55" friendlyPos="true" name="Iris"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352401.22" lane="266023982#16_0" startPos="21.28" endPos="34.28" friendlyPos="true" name="Patte d'Oie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352421.6" lane="675793050#1_0" startPos="13.90" endPos="26.90" friendlyPos="true" name="Patte d'Oie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352421.7" lane="675793050#5_0" startPos="16.93" endPos="29.93" friendlyPos="true" name="Iris"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352421.8" lane="675793050#18_0" startPos="7.44" endPos="20.44" friendlyPos="true" name="Moulin des Justices"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352421.9" lane="70847366#5_0" startPos="26.77" endPos="39.77" friendlyPos="true" name="Les Fleurs"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352421.15" lane="154569253#1_0" startPos="0.30" endPos="13.30" friendlyPos="true" name="Pont de Grolleau"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352421.16" lane="80307467#1_0" startPos="47.81" endPos="60.81" friendlyPos="true" name="Usseau Ecole"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352421.17" lane="795916534#1_0" startPos="1.35" endPos="14.35" friendlyPos="true" name="Chavagne"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352421.18" lane="304770683#6_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="La Laiterie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352421.19" lane="1303090336#2_0" startPos="48.73" endPos="61.73" friendlyPos="true" name="La Renaudrie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352421.20" lane="304948578#3_0" startPos="0.18" endPos="13.18" friendlyPos="true" name="Mairie de Sainte-Soulle"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352421.21" lane="304948578#13_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Eglise de Sainte-Soulle"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352421.22" lane="-509160983#1_0" startPos="12.15" endPos="25.15" friendlyPos="true" name="Pas de l'Ane"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352421.23" lane="126369159#2_0" startPos="20.74" endPos="33.74" friendlyPos="true" name="Stade de Vérines"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352421.24" lane="715183764_0" startPos="31.79" endPos="44.79" friendlyPos="true" name="Eglise de Vérines"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352421.25" lane="717928592#0_0" startPos="122.08" endPos="135.08" friendlyPos="true" name="Mairie de Vérines"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352421.26" lane="-116350915#0_0" startPos="37.55" endPos="50.55" friendlyPos="true" name="Fontpatour"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352421.27" lane="-1302528187_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Les Gués"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349065.4" lane="22998371#4_0" startPos="87.85" endPos="100.85" friendlyPos="true" name="Lycée Valin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349065.5" lane="459042389#1_0" startPos="26.68" endPos="39.68" friendlyPos="true" name="Petit Brouage"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349065.6" lane="304961953#2_0" startPos="26.33" endPos="39.33" friendlyPos="true" name="Schoelcher"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349065.7" lane="304961953#7_0" startPos="9.81" endPos="22.81" friendlyPos="true" name="Robespierre"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349065.8" lane="304961953#9_0" startPos="20.15" endPos="33.15" friendlyPos="true" name="Clos Margat"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349065.9" lane="949395555#3_0" startPos="65.56" endPos="78.56" friendlyPos="true" name="Jean-Paul Sartre"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349065.10" lane="46914739#2_0" startPos="88.71" endPos="101.71" friendlyPos="true" name="P+R Périgny"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349065.11" lane="305135892#3_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Blaise Pascal"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349065.12" lane="98518598_0" startPos="18.63" endPos="31.63" friendlyPos="true" name="Frédéric Sauvage"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349065.13" lane="-305136476#3_0" startPos="46.94" endPos="59.94" friendlyPos="true" name="Claude Chappé"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349065.14" lane="98518588#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Vaucanson"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349065.15" lane="98518588#8_0" startPos="2.64" endPos="15.64" friendlyPos="true" name="Aristide Bergès"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349065.16" lane="430601649#1_0" startPos="110.99" endPos="123.99" friendlyPos="true" name="Passy"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349065.17" lane="1303236627#1_0" startPos="8.46" endPos="21.45" friendlyPos="true" name="La Bourgne"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349071.0" lane="46913770#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="La Bourgne"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349071.1" lane="430601650#4_0" startPos="44.04" endPos="57.04" friendlyPos="true" name="Passy"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349071.2" lane="-98518588#6_0" startPos="7.70" endPos="20.70" friendlyPos="true" name="Aristide Bergès"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349071.3" lane="-98518588#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Vaucanson"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349071.4" lane="305136476#3_0" startPos="33.05" endPos="46.05" friendlyPos="true" name="Claude Chappé"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349071.5" lane="-98518598_0" startPos="210.91" endPos="223.91" friendlyPos="true" name="Frédéric Sauvage"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349071.6" lane="-305135892#3_0" startPos="68.92" endPos="81.92" friendlyPos="true" name="Blaise Pascal"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349071.7" lane="46914740#0_0" startPos="16.70" endPos="29.70" friendlyPos="true" name="P+R Périgny"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349071.8" lane="-949395555#3_0" startPos="22.13" endPos="35.13" friendlyPos="true" name="Jean-Paul Sartre"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349071.9" lane="-304961953#3_0" startPos="21.32" endPos="34.32" friendlyPos="true" name="Robespierre"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349071.10" lane="-395607255#0_0" startPos="21.54" endPos="34.54" friendlyPos="true" name="Schoelcher"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349071.11" lane="-22998371#6_0" startPos="12.02" endPos="25.02" friendlyPos="true" name="Petit Brouage"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349071.12" lane="-22998371#0_0" startPos="34.46" endPos="47.46" friendlyPos="true" name="Lycée Valin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352583.0" lane="1303289207_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Stade de Saint-Christophe"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352583.1" lane="304644120#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Eglise de Saint-Christophe"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352583.2" lane="119765584#1_0" startPos="39.02" endPos="52.02" friendlyPos="true" name="Le Verger"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352583.3" lane="119765584#11_0" startPos="21.47" endPos="34.47" friendlyPos="true" name="Val Pastour"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352583.4" lane="121297368#2_0" startPos="34.63" endPos="47.63" friendlyPos="true" name="L'Aubertière"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352583.5" lane="-215356727#5_0" startPos="2.52" endPos="15.52" friendlyPos="true" name="Mairie de Montroy"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352583.6" lane="-86217850#5_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Les Gacheteries"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352583.7" lane="-86217846#7_0" startPos="5.86" endPos="18.86" friendlyPos="true" name="Centre-Bourg"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352583.8" lane="-1303289206#3_0" startPos="23.95" endPos="36.95" friendlyPos="true" name="Chartrie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352583.9" lane="-700625162#3_0" startPos="38.49" endPos="51.49" friendlyPos="true" name="La Gabardelière"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352583.10" lane="-25991408#0_0" startPos="5.69" endPos="18.69" friendlyPos="true" name="Belle Croix"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352583.11" lane="-397251831#2_0" startPos="9.31" endPos="22.31" friendlyPos="true" name="Corne Neuve"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352583.22" lane="670514939_0" startPos="12.79" endPos="25.79" friendlyPos="true" name="Dames Blanches (St-Sauveur)"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352583.23" lane="169238460_0" startPos="37.77" endPos="50.77" friendlyPos="true" name="Office de Tourisme - Gabut"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352583.24" lane="1303289215_0" startPos="14.98" endPos="27.98" friendlyPos="true" name="Gare La Rochelle (De Gaulle)">
+        <access friendlyPos="true" lane="-1082210802_0" pos="0.00" length="55.59"/>
+        <access friendlyPos="true" lane="-1164554938#3_0" pos="56.18" length="13.96"/>
+        <access friendlyPos="true" lane="-1293110782_0" pos="0.21" length="54.85"/>
+        <access friendlyPos="true" lane="1014293155_0" pos="45.94" length="6.86"/>
+        <access friendlyPos="true" lane="1014293156_0" pos="26.32" length="15.38"/>
+        <access friendlyPos="true" lane="1082210802_0" pos="0.21" length="49.69"/>
+        <access friendlyPos="true" lane="1082210803#0_0" pos="0.00" length="52.16"/>
+        <access friendlyPos="true" lane="1164554938#3_0" pos="34.05" length="10.96"/>
+        <access friendlyPos="true" lane="1176936732_0" pos="28.45" length="52.31"/>
+        <access friendlyPos="true" lane="1293110782_0" pos="0.00" length="48.87"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352590.0" lane="1014293156_0" startPos="41.87" endPos="54.87" friendlyPos="true" name="Gare La Rochelle (De Gaulle)"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352590.1" lane="-169238460_0" startPos="41.61" endPos="54.61" friendlyPos="true" name="Office de Tourisme - Gabut"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352590.2" lane="354579288_0" startPos="6.93" endPos="19.92" friendlyPos="true" name="Dames Blanches (St-Nicolas)"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352590.13" lane="305137343#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="La Bourgne"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352590.14" lane="228211557_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Corne Neuve"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352590.15" lane="25991408#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Belle Croix"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352590.16" lane="700625162#3_0" startPos="5.24" endPos="18.24" friendlyPos="true" name="La Gabardelière"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352590.17" lane="1303289206#2_0" startPos="7.83" endPos="20.83" friendlyPos="true" name="Chartrie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352590.18" lane="86217846#2_0" startPos="14.50" endPos="27.50" friendlyPos="true" name="Centre-Bourg"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352590.19" lane="86217850#5_0" startPos="51.15" endPos="64.15" friendlyPos="true" name="Les Gacheteries"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352590.20" lane="215356727#7_0" startPos="6.95" endPos="19.95" friendlyPos="true" name="Mairie de Montroy"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352590.21" lane="-121297368#2_0" startPos="11.99" endPos="24.99" friendlyPos="true" name="L'Aubertière"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352590.22" lane="-119765584#11_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Val Pastour"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352590.23" lane="-119765584#1_0" startPos="22.95" endPos="35.95" friendlyPos="true" name="Le Verger"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352590.24" lane="-564055281#7_0" startPos="7.84" endPos="20.84" friendlyPos="true" name="Eglise de Saint-Christophe"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352590.25" lane="-1303289208_0" startPos="18.69" endPos="31.69" friendlyPos="true" name="Stade de Saint-Christophe"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352602.0" lane="400425709#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Gare de La Jarrie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352602.1" lane="305550184#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Grande Rue"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352602.2" lane="305550184#10_0" startPos="16.73" endPos="29.73" friendlyPos="true" name="Le Puits"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352602.3" lane="333091359#7_0" startPos="2.05" endPos="15.05" friendlyPos="true" name="Rue du Chat"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352602.4" lane="1175464662#0_0" startPos="12.33" endPos="25.33" friendlyPos="true" name="Mairie de Croix-Chapeau"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352602.5" lane="-257566050#1_0" startPos="18.13" endPos="31.13" friendlyPos="true" name="Fief Retaillé"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352602.6" lane="-106568763#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Fief Jaulin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352602.7" lane="305735378_0" startPos="5.31" endPos="18.31" friendlyPos="true" name="Gymnase Jacky Héraud"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352602.8" lane="46898758#1_0" startPos="281.51" endPos="294.51" friendlyPos="true" name="Croix Fort"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352602.9" lane="79813552#7_0" startPos="33.02" endPos="46.01" friendlyPos="true" name="Mairie de Clavette"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352602.10" lane="79813552#15_0" startPos="22.17" endPos="35.17" friendlyPos="true" name="Les Massardes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352609.14" lane="-79813552#16_0" startPos="0.29" endPos="13.29" friendlyPos="true" name="Les Massardes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352609.15" lane="-79813552#8_0" startPos="25.12" endPos="38.12" friendlyPos="true" name="Mairie de Clavette"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352609.16" lane="-46898758#1_0" startPos="80.24" endPos="93.24" friendlyPos="true" name="Croix Fort"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352609.18" lane="106568763#5_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Fief Jaulin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352609.19" lane="257566050#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Fief Retaillé"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352609.20" lane="1191168816#0_0" startPos="52.58" endPos="65.58" friendlyPos="true" name="Mairie de Croix-Chapeau"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352609.21" lane="-333091359#7_0" startPos="109.42" endPos="122.41" friendlyPos="true" name="Rue du Chat"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352609.22" lane="-305550184#8_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Le Puits"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352609.23" lane="-305550184#1_0" startPos="124.24" endPos="137.24" friendlyPos="true" name="Grande Rue"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352609.24" lane="-1303499461#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Gare de La Jarrie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352621.4" lane="1425342926#0_0" startPos="29.75" endPos="42.75" friendlyPos="true" name="La Petite Courbe">
+        <access friendlyPos="true" lane="-1012796820_0" pos="40.81" length="16.10"/>
+        <access friendlyPos="true" lane="-1012796825_0" pos="37.65" length="20.32"/>
+        <access friendlyPos="true" lane="-1137620332#4_0" pos="1.50" length="5.85"/>
+        <access friendlyPos="true" lane="-1137620332#5_0" pos="533.63" length="14.32"/>
+        <access friendlyPos="true" lane="-72046244#3_0" pos="50.58" length="31.02"/>
+        <access friendlyPos="true" lane="1012796820_0" pos="0.00" length="13.96"/>
+        <access friendlyPos="true" lane="1012796825_0" pos="654.61" length="25.11"/>
+        <access friendlyPos="true" lane="1137620332#4_0" pos="42.65" length="8.84"/>
+        <access friendlyPos="true" lane="1137620332#5_0" pos="0.00" length="15.80"/>
+        <access friendlyPos="true" lane="72046244#3_0" pos="274.87" length="34.02"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352621.5" lane="1425342926#0_0" startPos="731.02" endPos="744.02" friendlyPos="true" name="P+R Simone Veil">
+        <access friendlyPos="true" lane="-1034231049#0_0" pos="0.00" length="33.07"/>
+        <access friendlyPos="true" lane="-1034231049#1_0" pos="149.91" length="15.62"/>
+        <access friendlyPos="true" lane="1034231049#1_0" pos="14.44" length="12.61"/>
+        <access friendlyPos="true" lane="1137615550#3_0" pos="39.88" length="27.60"/>
+        <access friendlyPos="true" lane="1194427533#0_0" pos="11.55" length="28.14"/>
+        <access friendlyPos="true" lane="1194427533#1_0" pos="0.20" length="26.10"/>
+        <access friendlyPos="true" lane="1194427533#2_0" pos="0.00" length="25.72"/>
+        <access friendlyPos="true" lane="1194427533#3_0" pos="0.00" length="27.10"/>
+        <access friendlyPos="true" lane="1425342922_0" pos="0.00" length="29.88"/>
+        <access friendlyPos="true" lane="1425342923_0" pos="0.00" length="30.35"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352621.7" lane="305536494#0_0" startPos="29.12" endPos="42.12" friendlyPos="true" name="Le Givrand"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352621.8" lane="-305546817#2_0" startPos="36.76" endPos="49.76" friendlyPos="true" name="La Pierre Levée"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352621.9" lane="305819052#4_0" startPos="34.12" endPos="47.12" friendlyPos="true" name="Le Moulin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352621.10" lane="1216125641#1_0" startPos="28.37" endPos="41.37" friendlyPos="true" name="Gymnase des Quatre Chevaliers"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352621.11" lane="-305571864#1_0" startPos="37.22" endPos="50.22" friendlyPos="true" name="Le Pigeonnier"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352621.12" lane="-1313534470#0_0" startPos="6.45" endPos="19.45" friendlyPos="true" name="Carrefour de Vuhé"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352621.13" lane="72451043#4_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Cramahé"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352621.14" lane="79690213#9_0" startPos="27.06" endPos="40.06" friendlyPos="true" name="Les Monrois"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352621.15" lane="120239028#1_0" startPos="6.88" endPos="19.88" friendlyPos="true" name="Bourg de Salles-sur-Mer"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352621.16" lane="120239017#1_0" startPos="21.84" endPos="34.84" friendlyPos="true" name="Eglise de Salles-sur-Mer"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352621.17" lane="333461339#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Le Collet"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352621.18" lane="-123596940#6_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="La Frênée"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352621.19" lane="305704086#9_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Mortagne La Jeune"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352621.20" lane="-119968830#1_0" startPos="13.92" endPos="26.92" friendlyPos="true" name="La Ragoterie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352621.21" lane="-1303693474_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Les Bonneveaux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352622.0" lane="831267958#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Les Bonneveaux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352622.2" lane="-305704086#9_0" startPos="8.58" endPos="21.58" friendlyPos="true" name="Mortagne La Jeune"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352622.3" lane="123596940#7_0" startPos="26.21" endPos="39.21" friendlyPos="true" name="La Frênée"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352622.4" lane="-333461339#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Le Collet"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352622.5" lane="-120239017#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Eglise de Salles-sur-Mer"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352622.6" lane="-120239028#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Bourg de Salles-sur-Mer"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352622.7" lane="-79690213#9_0" startPos="27.30" endPos="40.30" friendlyPos="true" name="Les Monrois"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352622.8" lane="-72451043#4_0" startPos="175.31" endPos="188.30" friendlyPos="true" name="Cramahé"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352622.9" lane="1313534470#0_0" startPos="89.18" endPos="102.18" friendlyPos="true" name="Carrefour de Vuhé"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352622.10" lane="71244155#1_0" startPos="31.88" endPos="44.88" friendlyPos="true" name="Le Pigeonnier"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352622.11" lane="-1216125641#1_0" startPos="14.18" endPos="27.18" friendlyPos="true" name="Gymnase des Quatre Chevaliers"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352622.12" lane="-305819052#3_0" startPos="15.51" endPos="28.51" friendlyPos="true" name="Le Moulin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352622.13" lane="305546817#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="La Pierre Levée"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352622.14" lane="305571868#1_0" startPos="21.37" endPos="34.37" friendlyPos="true" name="Le Givrand"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352622.16" lane="-1425342926#0_0" startPos="17.94" endPos="30.94" friendlyPos="true" name="P+R Simone Veil">
+        <access friendlyPos="true" lane="-1034231049#1_0" pos="133.28" length="27.19"/>
+        <access friendlyPos="true" lane="-1137615550#3_0" pos="13.58" length="22.59"/>
+        <access friendlyPos="true" lane="-1137615550#4_0" pos="11.40" length="47.40"/>
+        <access friendlyPos="true" lane="-1137615554#1_0" pos="0.00" length="45.76"/>
+        <access friendlyPos="true" lane="1034231049#1_0" pos="31.07" length="24.19"/>
+        <access friendlyPos="true" lane="1137615550#3_0" pos="25.27" length="16.66"/>
+        <access friendlyPos="true" lane="1137615550#4_0" pos="0.00" length="45.45"/>
+        <access friendlyPos="true" lane="1137615554#1_0" pos="19.16" length="41.85"/>
+        <access friendlyPos="true" lane="1194427533#0_0" pos="11.55" length="50.24"/>
+        <access friendlyPos="true" lane="1425342923_0" pos="0.00" length="54.10"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3352622.17" lane="-1425342926#0_0" startPos="720.53" endPos="733.53" friendlyPos="true" name="La Petite Courbe">
+        <access friendlyPos="true" lane="-1012796825_0" pos="20.26" length="4.44"/>
+        <access friendlyPos="true" lane="-1137620332#4_0" pos="19.10" length="21.21"/>
+        <access friendlyPos="true" lane="-1137620332#5_0" pos="533.63" length="44.81"/>
+        <access friendlyPos="true" lane="-72046244#3_0" pos="32.77" length="17.12"/>
+        <access friendlyPos="true" lane="1012796825_0" pos="672.01" length="9.24"/>
+        <access friendlyPos="true" lane="1137620332#4_0" pos="25.05" length="24.21"/>
+        <access friendlyPos="true" lane="1137620332#5_0" pos="0.00" length="46.32"/>
+        <access friendlyPos="true" lane="72046244#3_0" pos="292.63" length="20.12"/>
+        <access friendlyPos="true" lane="961032212#0_0" pos="0.00" length="37.35"/>
+        <access friendlyPos="true" lane="961032213#2_0" pos="6.06" length="38.13"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351391.0" lane="-33845884#21_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Fabre d'Eglantine"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351391.1" lane="-33845884#17_0" startPos="9.38" endPos="22.38" friendlyPos="true" name="Convention"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351391.2" lane="-33845884#6_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Billaud Varenne"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351391.3" lane="39741374#2_0" startPos="18.72" endPos="31.72" friendlyPos="true" name="14 Juillet"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351391.4" lane="39741374#9_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Lavoisier"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351391.5" lane="39741374#18_0" startPos="24.55" endPos="37.55" friendlyPos="true" name="Proudhon"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351391.15" lane="-91385133#1_0" startPos="42.69" endPos="55.69" friendlyPos="true" name="Coligny"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351391.16" lane="-304099404#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Bel Air"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351391.17" lane="-354316989#4_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Tribunal d'Instance"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351391.18" lane="-225695247#4_0" startPos="4.10" endPos="17.10" friendlyPos="true" name="La Chope"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351391.19" lane="-37848337#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Les Corsaires"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351391.20" lane="-38547883#2_0" startPos="61.76" endPos="74.76" friendlyPos="true" name="Racine"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351391.21" lane="-939450337#2_0" startPos="4.64" endPos="17.64" friendlyPos="true" name="Dame Hilaire"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351391.22" lane="-354315021#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Kennedy"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351391.23" lane="-38505882#3_0" startPos="148.58" endPos="161.58" friendlyPos="true" name="B. Giraudeau - Archives"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351391.24" lane="225651159#1_0" startPos="54.82" endPos="67.82" friendlyPos="true" name="Olga de Saint-Affrique"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351391.25" lane="38417686#2_0" startPos="3.45" endPos="16.45" friendlyPos="true" name="Louis Guillet"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351391.26" lane="225651761#2_0" startPos="37.07" endPos="50.07" friendlyPos="true" name="Résistance"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351391.27" lane="304098943#0_0" startPos="39.73" endPos="52.73" friendlyPos="true" name="Guiardes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351391.28" lane="38097882_0" startPos="35.24" endPos="48.24" friendlyPos="true" name="Cimetière Paysager"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351392.0" lane="-38097882_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Cimetière Paysager"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351392.1" lane="-1193526667#2_0" startPos="0.01" endPos="13.01" friendlyPos="true" name="Guiardes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351392.2" lane="-225651761#1_0" startPos="4.38" endPos="17.38" friendlyPos="true" name="Résistance"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351392.3" lane="-38417686#2_0" startPos="4.10" endPos="17.10" friendlyPos="true" name="Louis Guillet"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351392.4" lane="-38417683#1_0" startPos="90.45" endPos="103.45" friendlyPos="true" name="Olga de Saint-Affrique"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351392.5" lane="38505882#3_0" startPos="15.53" endPos="28.53" friendlyPos="true" name="B. Giraudeau - Archives"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351392.6" lane="354315021#4_0" startPos="4.56" endPos="17.56" friendlyPos="true" name="Kennedy"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351392.7" lane="38547883#0_0" startPos="27.78" endPos="40.78" friendlyPos="true" name="Dame Hilaire"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351392.8" lane="38547883#1_0" startPos="95.76" endPos="108.76" friendlyPos="true" name="Racine"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351392.9" lane="-525466088_0" startPos="34.19" endPos="47.19" friendlyPos="true" name="Les Corsaires"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351392.10" lane="225695247#4_0" startPos="10.02" endPos="23.02" friendlyPos="true" name="La Chope"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351392.11" lane="225695248#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Tribunal d'Instance"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351392.12" lane="304099404#1_0" startPos="34.26" endPos="47.26" friendlyPos="true" name="Bel Air"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351392.21" lane="-225552373#5_0" startPos="3.47" endPos="16.47" friendlyPos="true" name="Petit Brouage"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351392.22" lane="-39741374#18_0" startPos="34.88" endPos="47.88" friendlyPos="true" name="Proudhon"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351392.23" lane="-39741374#8_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Lavoisier"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351392.24" lane="33845884#1_0" startPos="3.36" endPos="16.36" friendlyPos="true" name="14 Juillet"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351392.25" lane="33845884#6_0" startPos="57.30" endPos="70.30" friendlyPos="true" name="Billaud Varenne"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351392.26" lane="33845884#17_0" startPos="1.76" endPos="14.76" friendlyPos="true" name="Convention"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351392.27" lane="39814298#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Fabre d'Eglantine"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360783.0" lane="-51853958_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Gare de Châtelaillon-Plage"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360783.1" lane="-51853958_0" startPos="62.04" endPos="75.04" friendlyPos="true" name="Beauséjour"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360783.2" lane="-436930203#2_0" startPos="4.04" endPos="17.04" friendlyPos="true" name="Casino"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360783.3" lane="51856283_0" startPos="45.32" endPos="58.32" friendlyPos="true" name="Saint-Marsault"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360783.4" lane="-776191490#9_0" startPos="36.36" endPos="49.36" friendlyPos="true" name="Aristide Briand"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360783.5" lane="-1125873614#1_0" startPos="18.32" endPos="31.32" friendlyPos="true" name="Surcouf"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360783.6" lane="-28279784#20_0" startPos="17.52" endPos="30.52" friendlyPos="true" name="Les Sables"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360783.7" lane="-28279784#11_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Sècheboue"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360783.8" lane="-28279784#4_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Ball-Trap"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360783.9" lane="-28443167#5_0" startPos="3.87" endPos="16.87" friendlyPos="true" name="Saint-Jean-des-Sables"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360783.10" lane="-28443167#5_0" startPos="435.35" endPos="448.35" friendlyPos="true" name="Maison Carrée"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360783.11" lane="-28443167#2_0" startPos="211.12" endPos="224.12" friendlyPos="true" name="Les Veaux Verts"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360783.12" lane="-164387743#2_0" startPos="38.72" endPos="51.72" friendlyPos="true" name="Mille Fleurs"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360783.13" lane="32011606#0_0" startPos="43.01" endPos="56.01" friendlyPos="true" name="Mairie d'Angoulins"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360783.14" lane="32011606#9_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Gare d'Angoulins-sur-Mer"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360783.15" lane="-46894254#0_0" startPos="45.29" endPos="58.29" friendlyPos="true" name="Les Russons"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360783.16" lane="305860706#3_0" startPos="13.72" endPos="26.72" friendlyPos="true" name="Stade d'Angoulins"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360783.17" lane="305860706#7_0" startPos="71.87" endPos="84.86" friendlyPos="true" name="Cimetière d'Angoulins"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360783.18" lane="51910473#4_0" startPos="0.31" endPos="13.31" friendlyPos="true" name="Centre Commercial d'Angoulins"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360783.19" lane="-725199808_0" startPos="11.47" endPos="24.47" friendlyPos="true" name="Blockhaus"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360783.20" lane="305860995_0" startPos="1.20" endPos="14.20" friendlyPos="true" name="Les Tertres"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360783.21" lane="51890542_0" startPos="12.32" endPos="25.32" friendlyPos="true" name="Nationale"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360783.22" lane="369531611_0" startPos="31.09" endPos="44.09" friendlyPos="true" name="Les Cèdres"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360783.23" lane="369531613#3_0" startPos="134.80" endPos="147.80" friendlyPos="true" name="Barbedette"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360783.28" lane="291296644#1_0" startPos="97.01" endPos="110.01" friendlyPos="true" name="Les Peupliers"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360805.0" lane="93138962#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Les Bouchôleurs"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360805.1" lane="93138962#7_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Dulin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360805.2" lane="401015007_0" startPos="60.48" endPos="73.48" friendlyPos="true" name="Port Punay"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360805.3" lane="93138973#3_0" startPos="55.61" endPos="68.61" friendlyPos="true" name="Angoute"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360805.4" lane="51889265#5_0" startPos="8.00" endPos="21.00" friendlyPos="true" name="Thalasso"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360805.5" lane="51889265#11_0" startPos="94.23" endPos="107.23" friendlyPos="true" name="Centre Aquatique de Châtelaillon"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360805.6" lane="51856260#2_0" startPos="48.29" endPos="61.29" friendlyPos="true" name="Alon"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360805.7" lane="-51856253#3_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="La Rosière"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360805.8" lane="-226886092#5_0" startPos="7.08" endPos="20.08" friendlyPos="true" name="Jonchery"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360805.9" lane="226886093#1_0" startPos="13.05" endPos="26.05" friendlyPos="true" name="Mairie de Châtelaillon-Plage"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360805.10" lane="170414683#2_0" startPos="5.65" endPos="18.65" friendlyPos="true" name="Gare de Châtelaillon-Plage"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360827.5" lane="1083356926#4_0" startPos="5.72" endPos="18.72" friendlyPos="true" name="Normandin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360827.10" lane="172763620#0_0" startPos="6.51" endPos="19.51" friendlyPos="true" name="Barbedette"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360827.11" lane="505089091_0" startPos="3.21" endPos="16.21" friendlyPos="true" name="Les Cèdres"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360827.12" lane="-725199832#0_0" startPos="27.61" endPos="40.61" friendlyPos="true" name="Les Tertres"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360827.13" lane="725199808_0" startPos="24.42" endPos="37.42" friendlyPos="true" name="Blockhaus"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360827.15" lane="-305860706#7_0" startPos="6.01" endPos="19.01" friendlyPos="true" name="Cimetière d'Angoulins"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360827.16" lane="-305860706#3_0" startPos="12.32" endPos="25.32" friendlyPos="true" name="Stade d'Angoulins"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360827.17" lane="46894254#0_0" startPos="20.55" endPos="33.55" friendlyPos="true" name="Les Russons"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360827.18" lane="-51910483#1_0" startPos="3.15" endPos="16.15" friendlyPos="true" name="Gare d'Angoulins-sur-Mer"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360827.19" lane="-32011606#0_0" startPos="6.86" endPos="19.86" friendlyPos="true" name="Mairie d'Angoulins"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360827.20" lane="164387743#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Mille Fleurs"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360827.21" lane="1230876614#0_0" startPos="0.26" endPos="13.26" friendlyPos="true" name="Les Veaux Verts"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360827.22" lane="28443167#5_0" startPos="71.65" endPos="84.65" friendlyPos="true" name="Maison Carrée"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360827.23" lane="164387733_0" startPos="3.04" endPos="16.04" friendlyPos="true" name="Saint-Jean-des-Sables"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360827.24" lane="28279784#4_0" startPos="65.39" endPos="78.39" friendlyPos="true" name="Ball-Trap"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360827.25" lane="28279784#11_0" startPos="55.82" endPos="68.82" friendlyPos="true" name="Sècheboue"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360827.26" lane="28279784#20_0" startPos="24.83" endPos="37.83" friendlyPos="true" name="Les Sables"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360827.27" lane="1125873614#1_0" startPos="29.03" endPos="42.03" friendlyPos="true" name="Surcouf"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360827.28" lane="776191490#9_0" startPos="44.46" endPos="57.46" friendlyPos="true" name="Aristide Briand"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360827.32" lane="-226886093#1_0" startPos="11.49" endPos="24.49" friendlyPos="true" name="Mairie de Châtelaillon-Plage"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360827.33" lane="226886092#5_0" startPos="41.04" endPos="54.04" friendlyPos="true" name="Jonchery"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360827.34" lane="51856253#3_0" startPos="23.49" endPos="36.49" friendlyPos="true" name="La Rosière"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360827.35" lane="-51856260#2_0" startPos="14.82" endPos="27.82" friendlyPos="true" name="Alon"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360827.36" lane="-51889265#11_0" startPos="26.66" endPos="39.66" friendlyPos="true" name="Centre Aquatique de Châtelaillon"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360827.37" lane="-51889265#5_0" startPos="21.58" endPos="34.58" friendlyPos="true" name="Thalasso"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360827.38" lane="28443349#2_0" startPos="27.91" endPos="40.91" friendlyPos="true" name="Bellevue"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360827.39" lane="1303926425#1_0" startPos="18.83" endPos="31.83" friendlyPos="true" name="Les Bouchôleurs"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3164871.10" lane="37848345#2_0" startPos="82.87" endPos="95.87" friendlyPos="true" name="Collège Jean Guiton"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3164876.0" lane="-37848345#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Collège Jean Guiton"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3164876.3" lane="1342468501#1_0" startPos="8.19" endPos="21.19" friendlyPos="true" name="Fief Nouveau"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3164876.4" lane="-757975838#5_0" startPos="2.23" endPos="15.23" friendlyPos="true" name="Jean Perrin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3164876.5" lane="-37789216_0" startPos="31.71" endPos="44.71" friendlyPos="true" name="Mairie de Lagord"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3164876.16" lane="-116354890#6_0" startPos="3.14" endPos="16.14" friendlyPos="true" name="Blériot"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364133.2" lane="391145882#11_0" startPos="31.51" endPos="44.51" friendlyPos="true" name="Le Chêne"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364133.3" lane="391145882#13_0" startPos="350.87" endPos="363.86" friendlyPos="true" name="Fief Cotteret"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364133.4" lane="-37741403_0" startPos="12.77" endPos="25.77" friendlyPos="true" name="La Genillière"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364133.8" lane="-785623752#1_0" startPos="9.45" endPos="22.45" friendlyPos="true" name="J. Toussaint"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364134.1" lane="-254331245#4_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Place des Poètes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364134.2" lane="-303595121#3_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Mitterrand"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364138.3" lane="785623752#0_0" startPos="11.34" endPos="24.34" friendlyPos="true" name="J. Toussaint"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364148.0" lane="38069006#1_0" startPos="50.37" endPos="63.37" friendlyPos="true" name="Le Payaud"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364148.1" lane="294919486_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="L'Aubreçay"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364148.2" lane="85479277#5_0" startPos="25.74" endPos="38.74" friendlyPos="true" name="Jardins du Gô"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364148.5" lane="304638702_0" startPos="9.33" endPos="22.33" friendlyPos="true" name="L'Ouaille"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364148.8" lane="-37669118#5_0" startPos="31.67" endPos="44.67" friendlyPos="true" name="Grand Large"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364148.9" lane="-37669118#2_0" startPos="8.39" endPos="21.39" friendlyPos="true" name="Le Grimaud"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364148.10" lane="-37669118#0_0" startPos="137.72" endPos="150.72" friendlyPos="true" name="Le Nalbret"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364148.12" lane="37796844#4_0" startPos="60.25" endPos="73.25" friendlyPos="true" name="La Plouzière"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3164878.4" lane="-37796854#1_0" startPos="44.54" endPos="57.54" friendlyPos="true" name="La Plouzière"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3164884.4" lane="37669118#0_0" startPos="33.70" endPos="46.70" friendlyPos="true" name="Le Nalbret"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364149.3" lane="1422267435#1_0" startPos="8.78" endPos="21.78" friendlyPos="true" name="Moulin Neuf de Marsilly"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364149.4" lane="-368262366#0_0" startPos="10.56" endPos="23.56" friendlyPos="true" name="Val Hureau"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364151.1" lane="-85479277#5_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Jardins du Gô"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364151.3" lane="39442269#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Place de Nantilly"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364153.1" lane="-38069006#1_0" startPos="24.42" endPos="37.42" friendlyPos="true" name="Le Payaud"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364153.2" lane="-367615995#1_0" startPos="1.79" endPos="14.79" friendlyPos="true" name="Collège Jean Guiton"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3164889.1" lane="-37796844#4_0" startPos="1.61" endPos="14.61" friendlyPos="true" name="La Plouzière"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3164889.2" lane="38069006#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Le Payaud"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360986.0" lane="-1303926415#0_0" startPos="51.92" endPos="64.92" friendlyPos="true" name="Georges Musset"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360986.1" lane="305821103#1_0" startPos="29.93" endPos="42.93" friendlyPos="true" name="Mortagne de Thairé"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360986.2" lane="119968829#0_0" startPos="5.70" endPos="18.70" friendlyPos="true" name="Mairie de Saint-Vivien">
+        <access friendlyPos="true" lane="-1177263337_0" pos="60.33" length="45.67"/>
+        <access friendlyPos="true" lane="-124023507_0" pos="13.43" length="33.29"/>
+        <access friendlyPos="true" lane="-1300683447#0_0" pos="0.21" length="38.86"/>
+        <access friendlyPos="true" lane="-1300683447#1_0" pos="0.00" length="40.48"/>
+        <access friendlyPos="true" lane="-1303926414_0" pos="0.00" length="38.54"/>
+        <access friendlyPos="true" lane="124023507_0" pos="7.97" length="28.50"/>
+        <access friendlyPos="true" lane="1300683447#0_0" pos="0.00" length="43.67"/>
+        <access friendlyPos="true" lane="1303926414_0" pos="0.20" length="36.39"/>
+        <access friendlyPos="true" lane="305686331_0" pos="8.67" length="16.04"/>
+        <access friendlyPos="true" lane="785043845_0" pos="19.81" length="22.04"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360986.3" lane="-122899587#3_0" startPos="28.27" endPos="41.27" friendlyPos="true" name="Loin du Bruit"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360986.4" lane="-170421391#1_0" startPos="4.76" endPos="17.76" friendlyPos="true" name="La Petite Borde"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360986.5" lane="-170421389#4_0" startPos="75.66" endPos="88.66" friendlyPos="true" name="Chêne Vert"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360986.6" lane="-170421389#0_0" startPos="12.01" endPos="25.01" friendlyPos="true" name="Office de Tourisme de Châtelaillon"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360990.4" lane="170421389#0_0" startPos="11.84" endPos="24.84" friendlyPos="true" name="Office de Tourisme de Châtelaillon"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360990.5" lane="170421389#4_0" startPos="85.85" endPos="98.85" friendlyPos="true" name="Chêne Vert"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360990.6" lane="170421391#2_0" startPos="15.08" endPos="28.08" friendlyPos="true" name="La Petite Borde"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360990.7" lane="122899587#3_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Loin du Bruit"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360990.9" lane="-305821103#2_0" startPos="5.46" endPos="18.46" friendlyPos="true" name="Mortagne de Thairé"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3360990.10" lane="-360166542#1_0" startPos="35.11" endPos="48.11" friendlyPos="true" name="Georges Musset"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361711.0" lane="-765360646#3_0" startPos="2.66" endPos="15.66" friendlyPos="true" name="Collège de Beauregard"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361642.0" lane="515945792#5_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Alsace Lorraine"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361642.1" lane="-304390120#3_0" startPos="91.02" endPos="104.02" friendlyPos="true" name="Grammont"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361643.0" lane="-1126452722#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="L'Abbaye"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361643.6" lane="85565412#1_0" startPos="87.00" endPos="100.00" friendlyPos="true" name="CIL"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361643.7" lane="38069916_0" startPos="135.13" endPos="148.13" friendlyPos="true" name="Le Pressoir"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361645.2" lane="-38069916_0" startPos="43.40" endPos="56.40" friendlyPos="true" name="Le Pressoir"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361645.3" lane="-85565412#2_0" startPos="17.07" endPos="30.07" friendlyPos="true" name="CIL"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361645.7" lane="304390120#3_0" startPos="108.74" endPos="121.74" friendlyPos="true" name="Grammont"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361645.8" lane="-515945792#5_0" startPos="25.01" endPos="38.01" friendlyPos="true" name="Alsace Lorraine"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364180.1" lane="38068538#3_0" startPos="46.37" endPos="59.37" friendlyPos="true" name="Les Grands Champs"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364192.0" lane="-26969621#1_0" startPos="68.48" endPos="81.48" friendlyPos="true" name="La Godinerie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364192.1" lane="-85390804#6_0" startPos="104.46" endPos="117.46" friendlyPos="true" name="La Sauzaie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364192.2" lane="-85390801#0_0" startPos="273.61" endPos="286.61" friendlyPos="true" name="Trente Vents"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364192.3" lane="-85392641#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Champ de Foire"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364195.3" lane="85392641#1_0" startPos="11.40" endPos="24.40" friendlyPos="true" name="Champ de Foire"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364195.4" lane="86692619#0_0" startPos="96.61" endPos="109.61" friendlyPos="true" name="Trente Vents"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364195.5" lane="85390804#6_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="La Sauzaie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364195.6" lane="26969621#1_0" startPos="143.33" endPos="156.33" friendlyPos="true" name="La Godinerie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3164891.1" lane="60183813_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="L'Aubreçay"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3164891.2" lane="304209317_0" startPos="8.82" endPos="21.82" friendlyPos="true" name="L'Aubreçay"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3164892.2" lane="38068545#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="L'Abbaye"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3164892.6" lane="60184387#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Fief Dompierre"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3164892.7" lane="750684667#5_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Marie Curie - Plumier"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3164892.8" lane="-519986639#3_0" startPos="3.05" endPos="16.05" friendlyPos="true" name="Marie Curie - Sports"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3164893.5" lane="-38069006#1_0" startPos="82.49" endPos="95.49" friendlyPos="true" name="Le Payaud"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3164896.0" lane="519986639#3_0" startPos="17.43" endPos="30.43" friendlyPos="true" name="Marie Curie - Sports"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3164896.1" lane="-750684667#4_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Marie Curie - Plumier"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3164896.2" lane="-1393353545#8_0" startPos="10.30" endPos="23.30" friendlyPos="true" name="Fief Dompierre"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364174.0" lane="71165534#0_0" startPos="16.06" endPos="29.06" friendlyPos="true" name="Les Charmes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364174.1" lane="367403397#3_0" startPos="72.56" endPos="85.56" friendlyPos="true" name="Les Tausières"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364174.2" lane="1154767643#2_0" startPos="1.63" endPos="14.63" friendlyPos="true" name="Rompsay"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364174.3" lane="-304780665#6_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Maison de Retraite"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364174.4" lane="304780667_0" startPos="12.20" endPos="25.20" friendlyPos="true" name="Chemin des Rossignols"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364174.5" lane="-234422956#0_0" startPos="229.92" endPos="242.92" friendlyPos="true" name="Géraniums"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364174.6" lane="24841891#2_0" startPos="9.71" endPos="22.71" friendlyPos="true" name="Jacques Charles"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364174.7" lane="24841891#3_0" startPos="49.24" endPos="62.24" friendlyPos="true" name="André Garnerin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364176.1" lane="24841632#3_0" startPos="7.44" endPos="20.44" friendlyPos="true" name="André Garnerin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364176.2" lane="-24841891#2_0" startPos="94.94" endPos="107.94" friendlyPos="true" name="Jacques Charles"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364176.3" lane="234422956#0_0" startPos="84.44" endPos="97.44" friendlyPos="true" name="Géraniums"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364176.4" lane="842672873_0" startPos="13.96" endPos="26.96" friendlyPos="true" name="Chemin des Rossignols"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364176.5" lane="304780665#6_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Maison de Retraite"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364176.6" lane="-1154767643#0_0" startPos="18.11" endPos="31.11" friendlyPos="true" name="Rompsay"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364176.7" lane="-367403397#5_0" startPos="116.94" endPos="129.93" friendlyPos="true" name="Les Tausières"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364176.8" lane="-367403397#0_0" startPos="51.32" endPos="64.32" friendlyPos="true" name="Les Acacias"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364176.9" lane="-71165534#0_0" startPos="46.00" endPos="59.00" friendlyPos="true" name="Les Charmes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349758.5" lane="305950534#5_0" startPos="82.14" endPos="95.14" friendlyPos="true" name="Les Dunes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349758.8" lane="-93138973#3_0" startPos="23.67" endPos="36.67" friendlyPos="true" name="Angoute"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349758.9" lane="-401015007_0" startPos="134.12" endPos="147.12" friendlyPos="true" name="Port Punay"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349758.10" lane="305950362#3_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="La Cabane des Sables"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349758.11" lane="-93138974#8_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Les Trois Canons"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349758.12" lane="-1088017685#11_0" startPos="0.37" endPos="13.37" friendlyPos="true" name="La Chapelle"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349758.13" lane="-42704435#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Salle Polyvalente de Yves"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349758.14" lane="-1303926418_0" startPos="56.24" endPos="69.24" friendlyPos="true" name="Eglise d'Yves"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361043.0" lane="-164387796#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Eglise d'Yves"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361043.1" lane="42704435#1_0" startPos="12.90" endPos="25.90" friendlyPos="true" name="Salle Polyvalente de Yves"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361043.2" lane="1088017685#11_0" startPos="4.37" endPos="17.37" friendlyPos="true" name="La Chapelle"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361043.3" lane="93138974#8_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Les Trois Canons"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361043.4" lane="-305950362#2_0" startPos="38.43" endPos="51.43" friendlyPos="true" name="La Cabane des Sables"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361043.9" lane="-305950534#5_0" startPos="8.24" endPos="21.24" friendlyPos="true" name="Les Dunes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361714.0" lane="1296058755_0" startPos="64.04" endPos="77.04" friendlyPos="true" name="P+R Saint-Rogatien"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361714.1" lane="-754204754#17_0" startPos="9.66" endPos="22.66" friendlyPos="true" name="Néchalier"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361714.2" lane="-754204754#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Mairie de Saint-Rogatien"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361714.3" lane="228214399#1_0" startPos="16.25" endPos="29.25" friendlyPos="true" name="Les Palombes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361714.4" lane="1304672440#0_0" startPos="5.71" endPos="18.70" friendlyPos="true" name="Centre Aquatique Palmilud"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361714.5" lane="305135729#1_0" startPos="30.42" endPos="41.82" friendlyPos="true" name="Collège Fabre d'Eglantine"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364124.0" lane="305527855_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Collège Fabre d'Eglantine"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364124.1" lane="236418834#0_0" startPos="26.00" endPos="39.00" friendlyPos="true" name="Centre Aquatique Palmilud"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364124.2" lane="-228214399#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Les Palombes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364124.3" lane="754204754#1_0" startPos="6.14" endPos="19.14" friendlyPos="true" name="Mairie de Saint-Rogatien"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364124.4" lane="754204754#17_0" startPos="6.59" endPos="19.59" friendlyPos="true" name="Néchalier"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361339.0" lane="304798251#4_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Salle Omnisports"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361339.1" lane="-109565462#6_0" startPos="8.33" endPos="21.33" friendlyPos="true" name="La Coie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361339.2" lane="60558399#5_0" startPos="195.32" endPos="208.32" friendlyPos="true" name="Les Tourterelles"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361339.3" lane="1154800694_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="La Vaurie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361339.4" lane="-46914823#28_0" startPos="70.56" endPos="83.56" friendlyPos="true" name="Les Lilas"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361339.5" lane="-46914823#13_0" startPos="3.21" endPos="16.21" friendlyPos="true" name="La Moulinette"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361339.6" lane="-46914823#4_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Eglise de Périgny"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361342.1" lane="46914823#6_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Eglise de Périgny"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361342.2" lane="46914823#16_0" startPos="12.03" endPos="25.03" friendlyPos="true" name="La Moulinette"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361342.3" lane="46914823#26_0" startPos="30.14" endPos="43.14" friendlyPos="true" name="Les Lilas"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361342.7" lane="-128516194#1_0" startPos="7.90" endPos="20.90" friendlyPos="true" name="La Vaurie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364218.0" lane="305521208_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Stade de Périgny"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364218.1" lane="305525830#0_0" startPos="32.85" endPos="45.85" friendlyPos="true" name="La Caillaude"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364218.2" lane="1154989268#1_0" startPos="39.69" endPos="52.69" friendlyPos="true" name="Les Aigrettes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364218.3" lane="86348217#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Les Coureilles"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364218.4" lane="-304798252#1_0" startPos="7.84" endPos="20.84" friendlyPos="true" name="La Pommeraie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364221.1" lane="304798252#1_0" startPos="14.56" endPos="27.56" friendlyPos="true" name="La Pommeraie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364221.2" lane="-86348217#0_0" startPos="22.96" endPos="35.96" friendlyPos="true" name="Les Coureilles"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364221.3" lane="-183877147#1_0" startPos="76.63" endPos="89.63" friendlyPos="true" name="Les Aigrettes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364221.4" lane="-305525830#0_0" startPos="85.88" endPos="98.88" friendlyPos="true" name="La Caillaude"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364221.5" lane="305521205_0" startPos="18.72" endPos="31.71" friendlyPos="true" name="Stade de Périgny"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361344.0" lane="39741373#10_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Ecole Lavoisier"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361344.4" lane="40744253#1_0" startPos="38.40" endPos="51.40" friendlyPos="true" name="Octroi"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361346.4" lane="-39741373#6_0" startPos="16.82" endPos="29.81" friendlyPos="true" name="Ecole Lavoisier"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361348.0" lane="38088047#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Port des Minimes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361348.1" lane="1293454956#2_0" startPos="33.36" endPos="46.36" friendlyPos="true" name="Plage des Minimes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361348.2" lane="42350932#9_0" startPos="24.10" endPos="37.10" friendlyPos="true" name="Cité des Minimes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361348.3" lane="354327712#0_0" startPos="49.38" endPos="62.38" friendlyPos="true" name="La Sauvagère"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361348.4" lane="354327712#3_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Rond-Point de l'Europe"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361348.5" lane="-169241227#1_0" startPos="15.27" endPos="28.27" friendlyPos="true" name="Europe">
+        <access friendlyPos="true" lane="-303944301#0_0" pos="0.00" length="25.61"/>
+        <access friendlyPos="true" lane="-303944301#1_0" pos="0.40" length="21.59"/>
+        <access friendlyPos="true" lane="-303944301#2_0" pos="10.94" length="27.60"/>
+        <access friendlyPos="true" lane="1221064246_0" pos="14.62" length="24.09"/>
+        <access friendlyPos="true" lane="303944301#0_0" pos="53.94" length="24.34"/>
+        <access friendlyPos="true" lane="303944301#1_0" pos="4.67" length="20.09"/>
+        <access friendlyPos="true" lane="303944301#2_0" pos="0.00" length="26.44"/>
+        <access friendlyPos="true" lane="370187850#0_0" pos="0.29" length="15.16"/>
+        <access friendlyPos="true" lane="370187850#1_0" pos="0.00" length="9.97"/>
+        <access friendlyPos="true" lane="370187850#2_0" pos="0.00" length="24.78"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361348.6" lane="1347034419#1_0" startPos="9.35" endPos="22.35" friendlyPos="true" name="EIGSI"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361348.7" lane="32011597#2_0" startPos="0.67" endPos="13.67" friendlyPos="true" name="Maison de la Charente-Maritime"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361348.8" lane="40823364#1_0" startPos="74.44" endPos="87.44" friendlyPos="true" name="Le Rail"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361348.9" lane="39988766#1_0" startPos="28.19" endPos="41.18" friendlyPos="true" name="Vautreuil"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361348.10" lane="40746233#1_0" startPos="25.06" endPos="38.06" friendlyPos="true" name="République"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361350.1" lane="-40746233#0_0" startPos="12.68" endPos="25.68" friendlyPos="true" name="République"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361350.2" lane="40746234_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Vautreuil"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361350.3" lane="-40823364#1_0" startPos="70.40" endPos="83.40" friendlyPos="true" name="Le Rail"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361350.4" lane="-32011597#2_0" startPos="25.90" endPos="38.90" friendlyPos="true" name="Maison de la Charente-Maritime"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361350.5" lane="228420546#6_0" startPos="47.52" endPos="60.52" friendlyPos="true" name="EIGSI">
+        <access friendlyPos="true" lane="-1347034419#0_0" pos="0.00" length="40.21"/>
+        <access friendlyPos="true" lane="-1347034419#1_0" pos="15.25" length="18.88"/>
+        <access friendlyPos="true" lane="1347034419#0_0" pos="62.06" length="42.85"/>
+        <access friendlyPos="true" lane="1347034419#1_0" pos="18.63" length="23.69"/>
+        <access friendlyPos="true" lane="170122974#6_0" pos="59.77" length="28.90"/>
+        <access friendlyPos="true" lane="303944302#0_0" pos="17.15" length="27.04"/>
+        <access friendlyPos="true" lane="303944302#1_0" pos="0.00" length="32.83"/>
+        <access friendlyPos="true" lane="303944302#2_0" pos="0.00" length="41.06"/>
+        <access friendlyPos="true" lane="338607451#0_0" pos="0.00" length="37.50"/>
+        <access friendlyPos="true" lane="40823414#1_0" pos="40.19" length="33.98"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361350.6" lane="169241227#1_0" startPos="8.01" endPos="21.01" friendlyPos="true" name="Europe">
+        <access friendlyPos="true" lane="-303944301#2_0" pos="5.30" length="31.04"/>
+        <access friendlyPos="true" lane="-370187849#0_0" pos="0.00" length="32.68"/>
+        <access friendlyPos="true" lane="-370187849#1_0" pos="0.55" length="32.05"/>
+        <access friendlyPos="true" lane="-370187849#2_0" pos="9.00" length="38.92"/>
+        <access friendlyPos="true" lane="1221064246_0" pos="5.90" length="24.45"/>
+        <access friendlyPos="true" lane="303944301#2_0" pos="5.65" length="29.54"/>
+        <access friendlyPos="true" lane="370187849#0_0" pos="33.37" length="30.59"/>
+        <access friendlyPos="true" lane="370187849#1_0" pos="0.00" length="29.60"/>
+        <access friendlyPos="true" lane="370187849#2_0" pos="0.00" length="36.91"/>
+        <access friendlyPos="true" lane="370187850#0_0" pos="0.29" length="36.48"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361350.7" lane="505089012#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Rond-Point de l'Europe"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361350.8" lane="505089012#2_0" startPos="25.08" endPos="38.08" friendlyPos="true" name="La Sauvagère"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361383.0" lane="1295872614_0" startPos="18.55" endPos="31.55" friendlyPos="true" name="Chagnolet Rompsay"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361383.1" lane="304764766#3_0" startPos="80.25" endPos="93.25" friendlyPos="true" name="Chagnolet les Frênes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361383.2" lane="1295872611#0_0" startPos="11.84" endPos="24.84" friendlyPos="true" name="Chagnolet"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361383.6" lane="981699160#2_0" startPos="19.14" endPos="32.14" friendlyPos="true" name="Collège Marc Chagall"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361384.6" lane="302230346_0" startPos="37.89" endPos="50.89" friendlyPos="true" name="Mouillepieds"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361384.7" lane="-215269965#15_0" startPos="59.66" endPos="72.66" friendlyPos="true" name="La Grimenaudière"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361384.8" lane="-215269965#7_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Les Petites Rivières"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361387.0" lane="981699160#5_0" startPos="17.82" endPos="30.82" friendlyPos="true" name="Collège Marc Chagall"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361387.2" lane="215269965#7_0" startPos="73.78" endPos="86.78" friendlyPos="true" name="Les Petites Rivières"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361387.3" lane="215269965#15_0" startPos="40.34" endPos="53.34" friendlyPos="true" name="La Grimenaudière"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361387.4" lane="-302230346_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Mouillepieds"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361387.8" lane="-1295872611#0_0" startPos="19.85" endPos="32.85" friendlyPos="true" name="Chagnolet"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361387.9" lane="-304764766#3_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Chagnolet les Frênes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361387.10" lane="1295872616_0" startPos="4.54" endPos="17.54" friendlyPos="true" name="Chagnolet Rompsay"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318394.3" lane="121298289#3_0" startPos="79.96" endPos="92.96" friendlyPos="true" name="Les Guillaudes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318395.0" lane="126367604#3_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Saint-Coux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318395.1" lane="-227492390#2_0" startPos="40.75" endPos="53.75" friendlyPos="true" name="Les Vallées"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318395.2" lane="122625425#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Les Frigauderies"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318395.5" lane="-122632133#8_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="La Roche Bertin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318398.3" lane="-121298289#3_0" startPos="154.01" endPos="167.01" friendlyPos="true" name="Les Guillaudes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318398.4" lane="122632133#8_0" startPos="15.83" endPos="28.83" friendlyPos="true" name="La Roche Bertin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318398.6" lane="-169992629#4_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Les Frigauderies"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318398.7" lane="227492390#3_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Les Vallées"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318398.8" lane="-126367604#2_0" startPos="54.74" endPos="67.73" friendlyPos="true" name="Saint-Coux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318400.1" lane="126367604#2_0" startPos="55.02" endPos="68.02" friendlyPos="true" name="Saint-Coux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318401.2" lane="228211549_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Four à Chaux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361402.0" lane="1251574503#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Fief des Prises"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361402.2" lane="304770683#2_0" startPos="7.10" endPos="20.10" friendlyPos="true" name="La Laiterie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361402.4" lane="-228211549_0" startPos="65.02" endPos="78.02" friendlyPos="true" name="Four à Chaux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361404.0" lane="-73538358#5_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Villa Laurius"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361404.2" lane="-33619389#2_0" startPos="279.99" endPos="292.99" friendlyPos="true" name="Loiré Le Moulin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361375.0" lane="116350915#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Fontpatour"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361412.0" lane="25991356#1_0" startPos="0.65" endPos="13.65" friendlyPos="true" name="Treuil Arnaudeau"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361412.1" lane="-126367257#3_0" startPos="67.90" endPos="80.90" friendlyPos="true" name="Le Pontreau"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361412.2" lane="-748625516#0_0" startPos="53.48" endPos="66.48" friendlyPos="true" name="Les Touches"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361412.3" lane="-192244701#5_0" startPos="121.36" endPos="134.35" friendlyPos="true" name="Moulin Neuf de Saint-Médard"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361412.4" lane="-76648525_0" startPos="28.32" endPos="41.32" friendlyPos="true" name="La Martinière"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361412.5" lane="-1303289209#2_0" startPos="39.97" endPos="52.97" friendlyPos="true" name="La Mazurie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361412.6" lane="-76231313#3_0" startPos="19.20" endPos="32.20" friendlyPos="true" name="Belle d'Oie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361412.7" lane="-76231316#1_0" startPos="151.72" endPos="164.72" friendlyPos="true" name="Cugné"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361412.8" lane="-1359532863_0" startPos="82.94" endPos="95.94" friendlyPos="true" name="Collège Françoise Dolto"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361419.2" lane="-215356729#3_0" startPos="17.34" endPos="30.34" friendlyPos="true" name="Sud Commanderie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361422.4" lane="121297870_0" startPos="499.21" endPos="512.21" friendlyPos="true" name="Sud Commanderie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361426.0" lane="-564069590#12_0" startPos="69.90" endPos="82.90" friendlyPos="true" name="La Trigalle"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361426.5" lane="-227879614#4_0" startPos="18.51" endPos="31.51" friendlyPos="true" name="Chassagné"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361429.0" lane="1359532863_0" startPos="122.10" endPos="135.10" friendlyPos="true" name="Collège Françoise Dolto"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361429.1" lane="227879614#4_0" startPos="23.23" endPos="36.23" friendlyPos="true" name="Chassagné"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361429.6" lane="564069590#12_0" startPos="42.23" endPos="55.23" friendlyPos="true" name="La Trigalle"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361431.2" lane="25991379#3_0" startPos="60.72" endPos="73.71" friendlyPos="true" name="Calvaire"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361431.5" lane="713000431#1_0" startPos="115.54" endPos="128.54" friendlyPos="true" name="Les Ormeaux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361434.1" lane="-713000431#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Les Ormeaux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361436.0" lane="76615526#0_0" startPos="73.59" endPos="86.59" friendlyPos="true" name="La Panonnière"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361436.3" lane="-148180686#2_0" startPos="3.63" endPos="16.63" friendlyPos="true" name="La Navisselière"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361436.4" lane="-1443645885#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="La Couronne de Cugné"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361436.5" lane="107422871#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Puyvineux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361439.1" lane="-119763472#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Puyvineux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361439.3" lane="148180686#2_0" startPos="267.96" endPos="280.96" friendlyPos="true" name="La Navisselière"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361439.6" lane="-792243342#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="La Panonnière"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318406.7" lane="305540151_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Gymnase des Quatre Chevaliers"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318406.9" lane="305571866#2_0" startPos="108.93" endPos="121.93" friendlyPos="true" name="Carrefour de Buzay"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318406.11" lane="45899281#2_0" startPos="7.55" endPos="20.55" friendlyPos="true" name="Collège de l'Atlantique"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318408.0" lane="-45899281#3_0" startPos="14.95" endPos="27.95" friendlyPos="true" name="Collège de l'Atlantique"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318408.2" lane="-305571866#2_0" startPos="1.81" endPos="14.81" friendlyPos="true" name="Carrefour de Buzay"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361444.0" lane="305537687#4_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Place de la Liberté"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361444.2" lane="-305541701#0_0" startPos="31.42" endPos="44.42" friendlyPos="true" name="Pluviers Dorés"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361445.3" lane="305537687#0_0" startPos="51.14" endPos="64.14" friendlyPos="true" name="Place de la Liberté"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361447.4" lane="305546814#2_0" startPos="3.41" endPos="16.41" friendlyPos="true" name="La Pierre Levée"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318410.11" lane="-703956261#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Muscat"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318410.12" lane="-72093036#0_0" startPos="2.59" endPos="15.59" friendlyPos="true" name="Ancien Cimetière d'Aytré"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318410.13" lane="-332650013#1_0" startPos="34.87" endPos="47.87" friendlyPos="true" name="Courteras"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318411.5" lane="-72077881#0_0" startPos="29.69" endPos="42.69" friendlyPos="true" name="Muscat"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318413.1" lane="399121834#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Bourg d'Aytré"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318413.2" lane="72093036#0_0" startPos="5.66" endPos="18.66" friendlyPos="true" name="Ancien Cimetière d'Aytré"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318413.3" lane="72077881#0_0" startPos="40.84" endPos="53.84" friendlyPos="true" name="Muscat"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361458.0" lane="-113984175#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Champs Maillard"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361458.8" lane="51857621_0" startPos="3.92" endPos="16.92" friendlyPos="true" name="Collège André Malraux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361462.0" lane="229675962_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Collège André Malraux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361462.8" lane="113984175#2_0" startPos="369.99" endPos="382.99" friendlyPos="true" name="Champs Maillard"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361464.0" lane="119513483#1_0" startPos="15.85" endPos="28.85" friendlyPos="true" name="La Fondelay"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361464.1" lane="226360823#5_0" startPos="36.09" endPos="49.09" friendlyPos="true" name="La Gravelle"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361464.2" lane="-755175098#7_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Stade de Thairé"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361468.4" lane="-226360823#5_0" startPos="17.87" endPos="30.87" friendlyPos="true" name="La Gravelle"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361468.5" lane="-119513483#1_0" startPos="2.90" endPos="15.90" friendlyPos="true" name="La Fondelay"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361468.6" lane="-1085450595#0_0" startPos="10.20" endPos="23.20" friendlyPos="true" name="Moulin de la Pierre"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361476.0" lane="-72451019#4_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Le Moulin de Plaisance"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361476.1" lane="-72451019#3_0" startPos="224.46" endPos="237.46" friendlyPos="true" name="La Richarderie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361476.2" lane="120236460#0_0" startPos="67.70" endPos="80.70" friendlyPos="true" name="L'Aumonerie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361476.6" lane="51856254#7_0" startPos="32.42" endPos="45.42" friendlyPos="true" name="Les Ecuyers"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361480.2" lane="51889262#5_0" startPos="64.99" endPos="77.99" friendlyPos="true" name="Les Ecuyers"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318388.0" lane="1083358578#1_0" startPos="78.38" endPos="91.38" friendlyPos="true" name="Voutron"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318388.1" lane="1303926415#1_0" startPos="17.48" endPos="30.48" friendlyPos="true" name="Georges Musset"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318392.3" lane="-1083358578#1_0" startPos="40.37" endPos="53.37" friendlyPos="true" name="Voutron"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351843.0" lane="-218981916#1_0" startPos="14.99" endPos="27.99" friendlyPos="true" name="P+R Les Greffières"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351843.2" lane="37796831#2_0" startPos="13.64" endPos="26.64" friendlyPos="true" name="Les Greffières"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351843.3" lane="37796831#8_0" startPos="8.50" endPos="21.50" friendlyPos="true" name="Atlantech"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351843.4" lane="37796831#12_0" startPos="41.55" endPos="54.55" friendlyPos="true" name="8 Mai 1945"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351843.15" lane="306106133#3_0" startPos="32.57" endPos="45.57" friendlyPos="true" name="Aquarium">
+        <access friendlyPos="true" lane="-1231383599#1_0" pos="65.59" length="72.88"/>
+        <access friendlyPos="true" lane="121035232#4_0" pos="96.51" length="46.52"/>
+        <access friendlyPos="true" lane="121035233#0_0" pos="15.37" length="35.09"/>
+        <access friendlyPos="true" lane="121035233#1_0" pos="0.00" length="71.95"/>
+        <access friendlyPos="true" lane="306106423#0_0" pos="0.00" length="61.82"/>
+        <access friendlyPos="true" lane="306106423#1_0" pos="0.00" length="74.11"/>
+        <access friendlyPos="true" lane="306106544#0_0" pos="74.39" length="1.70"/>
+        <access friendlyPos="true" lane="306106544#1_0" pos="54.05" length="45.70"/>
+        <access friendlyPos="true" lane="766676173#1_0" pos="45.50" length="3.40"/>
+        <access friendlyPos="true" lane="766676174_0" pos="31.39" length="35.48"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351843.16" lane="675167004_0" startPos="23.11" endPos="36.11" friendlyPos="true" name="Musée Maritime">
+        <access friendlyPos="true" lane="-1429277287#0_0" pos="19.48" length="34.87"/>
+        <access friendlyPos="true" lane="-1429277288#0_0" pos="16.37" length="26.18"/>
+        <access friendlyPos="true" lane="-1429277289#0_0" pos="11.09" length="28.90"/>
+        <access friendlyPos="true" lane="1429277288#0_0" pos="0.00" length="29.53"/>
+        <access friendlyPos="true" lane="1429277289#0_0" pos="0.00" length="27.98"/>
+        <access friendlyPos="true" lane="1429277290#4_0" pos="7.46" length="27.31"/>
+        <access friendlyPos="true" lane="1429277290#5_0" pos="3.42" length="18.91"/>
+        <access friendlyPos="true" lane="1429277290#6_0" pos="0.00" length="28.10"/>
+        <access friendlyPos="true" lane="1429277290#7_0" pos="0.00" length="41.79"/>
+        <access friendlyPos="true" lane="750210110#7_0" pos="124.43" length="2.02"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351843.17" lane="370191878#2_0" startPos="12.60" endPos="25.60" friendlyPos="true" name="Technoforum">
+        <access friendlyPos="true" lane="-171045310#0_0" pos="23.56" length="28.85"/>
+        <access friendlyPos="true" lane="-31767890#1_0" pos="0.00" length="40.84"/>
+        <access friendlyPos="true" lane="-31767890#2_0" pos="26.67" length="4.87"/>
+        <access friendlyPos="true" lane="-31767890#3_0" pos="9.16" length="47.71"/>
+        <access friendlyPos="true" lane="171045310#0_0" pos="33.60" length="24.05"/>
+        <access friendlyPos="true" lane="235652652#0_0" pos="0.00" length="43.83"/>
+        <access friendlyPos="true" lane="31767890#1_0" pos="0.20" length="41.68"/>
+        <access friendlyPos="true" lane="31767890#2_0" pos="27.10" length="9.68"/>
+        <access friendlyPos="true" lane="31767890#3_0" pos="0.00" length="48.33"/>
+        <access friendlyPos="true" lane="750210110#3_0" pos="0.36" length="44.19"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351843.18" lane="370191878#10_0" startPos="7.81" endPos="20.81" friendlyPos="true" name="Le Lac">
+        <access friendlyPos="true" lane="-171768199#4_0" pos="0.00" length="38.98"/>
+        <access friendlyPos="true" lane="-25553756#5_0" pos="19.77" length="6.51"/>
+        <access friendlyPos="true" lane="169240381#2_0" pos="132.22" length="35.50"/>
+        <access friendlyPos="true" lane="169240381#3_0" pos="4.56" length="31.85"/>
+        <access friendlyPos="true" lane="169240382#0_0" pos="32.09" length="15.46"/>
+        <access friendlyPos="true" lane="169240382#1_0" pos="0.00" length="21.62"/>
+        <access friendlyPos="true" lane="169240382#2_0" pos="0.00" length="34.36"/>
+        <access friendlyPos="true" lane="25553756#5_0" pos="18.40" length="11.31"/>
+        <access friendlyPos="true" lane="305394167#1_0" pos="38.11" length="37.07"/>
+        <access friendlyPos="true" lane="477765102_0" pos="3.73" length="23.89"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351843.19" lane="370191878#14_0" startPos="4.09" endPos="17.09" friendlyPos="true" name="La Sole">
+        <access friendlyPos="true" lane="-170077422#2_0" pos="11.79" length="31.88"/>
+        <access friendlyPos="true" lane="-170077422#3_0" pos="89.79" length="40.63"/>
+        <access friendlyPos="true" lane="-40871834#4_0" pos="0.00" length="34.18"/>
+        <access friendlyPos="true" lane="170077422#2_0" pos="16.78" length="28.88"/>
+        <access friendlyPos="true" lane="170077422#3_0" pos="0.00" length="38.28"/>
+        <access friendlyPos="true" lane="304632662_0" pos="9.15" length="24.42"/>
+        <access friendlyPos="true" lane="304632900#0_0" pos="5.84" length="24.75"/>
+        <access friendlyPos="true" lane="304632930_0" pos="0.00" length="31.50"/>
+        <access friendlyPos="true" lane="370191876_0" pos="0.00" length="22.07"/>
+        <access friendlyPos="true" lane="40871834#4_0" pos="34.96" length="37.20"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351843.26" lane="1293110780_0" startPos="13.12" endPos="26.12" friendlyPos="true" name="Normandin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351845.9" lane="-370191878#14_0" startPos="5.03" endPos="18.03" friendlyPos="true" name="La Sole">
+        <access friendlyPos="true" lane="-170077422#1_0" pos="0.00" length="32.90"/>
+        <access friendlyPos="true" lane="-170077422#2_0" pos="17.89" length="22.99"/>
+        <access friendlyPos="true" lane="-170077422#3_0" pos="89.79" length="41.35"/>
+        <access friendlyPos="true" lane="170077422#1_0" pos="65.05" length="30.87"/>
+        <access friendlyPos="true" lane="170077422#2_0" pos="10.68" length="19.99"/>
+        <access friendlyPos="true" lane="170077422#3_0" pos="0.00" length="39.71"/>
+        <access friendlyPos="true" lane="304632662_0" pos="9.15" length="30.87"/>
+        <access friendlyPos="true" lane="304632900#0_0" pos="5.84" length="36.33"/>
+        <access friendlyPos="true" lane="304632930_0" pos="0.00" length="20.32"/>
+        <access friendlyPos="true" lane="370191876_0" pos="0.00" length="33.17"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351845.10" lane="-370191878#10_0" startPos="288.68" endPos="301.68" friendlyPos="true" name="Le Lac">
+        <access friendlyPos="true" lane="-171768199#2_0" pos="0.00" length="31.90"/>
+        <access friendlyPos="true" lane="-171768199#3_0" pos="0.00" length="32.46"/>
+        <access friendlyPos="true" lane="-171768199#4_0" pos="0.20" length="31.07"/>
+        <access friendlyPos="true" lane="-25553756#5_0" pos="27.36" length="19.85"/>
+        <access friendlyPos="true" lane="169240381#2_0" pos="131.02" length="31.94"/>
+        <access friendlyPos="true" lane="169240381#3_0" pos="0.00" length="33.69"/>
+        <access friendlyPos="true" lane="169240382#0_0" pos="25.02" length="1.49"/>
+        <access friendlyPos="true" lane="169240382#1_0" pos="0.00" length="27.60"/>
+        <access friendlyPos="true" lane="25553756#5_0" pos="10.81" length="24.65"/>
+        <access friendlyPos="true" lane="477765102_0" pos="3.73" length="26.61"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351845.11" lane="-370191878#2_0" startPos="23.00" endPos="36.00" friendlyPos="true" name="Technoforum">
+        <access friendlyPos="true" lane="-171045310#0_0" pos="34.42" length="16.11"/>
+        <access friendlyPos="true" lane="-31767890#0_0" pos="0.00" length="36.46"/>
+        <access friendlyPos="true" lane="-31767890#1_0" pos="0.00" length="32.19"/>
+        <access friendlyPos="true" lane="-31767890#2_0" pos="36.80" length="19.85"/>
+        <access friendlyPos="true" lane="171045310#0_0" pos="22.64" length="11.31"/>
+        <access friendlyPos="true" lane="31767890#0_0" pos="0.20" length="39.44"/>
+        <access friendlyPos="true" lane="31767890#1_0" pos="0.20" length="35.35"/>
+        <access friendlyPos="true" lane="31767890#2_0" pos="16.97" length="24.65"/>
+        <access friendlyPos="true" lane="750210110#2_0" pos="4.52" length="29.03"/>
+        <access friendlyPos="true" lane="750210110#3_0" pos="0.00" length="32.47"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351845.12" lane="-536860958#0_0" startPos="0.82" endPos="13.82" friendlyPos="true" name="Musée Maritime">
+        <access friendlyPos="true" lane="1429277290#1_0" pos="10.47" length="21.76"/>
+        <access friendlyPos="true" lane="1429277290#2_0" pos="6.78" length="12.55"/>
+        <access friendlyPos="true" lane="536862821#0_0" pos="0.00" length="25.17"/>
+        <access friendlyPos="true" lane="536862823#0_0" pos="2.68" length="16.93"/>
+        <access friendlyPos="true" lane="536862823#1_0" pos="0.00" length="14.04"/>
+        <access friendlyPos="true" lane="536862823#2_0" pos="0.00" length="22.33"/>
+        <access friendlyPos="true" lane="563857869#0_0" pos="0.00" length="26.90"/>
+        <access friendlyPos="true" lane="750210110#10_0" pos="0.00" length="25.38"/>
+        <access friendlyPos="true" lane="750210110#9_0" pos="13.87" length="18.23"/>
+        <access friendlyPos="true" lane="750210111_0" pos="0.00" length="26.52"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351845.13" lane="-306106133#3_0" startPos="64.94" endPos="77.94" friendlyPos="true" name="Aquarium">
+        <access friendlyPos="true" lane="-1231383599#0_0" pos="0.20" length="17.91"/>
+        <access friendlyPos="true" lane="1231383599#0_0" pos="0.00" length="21.19"/>
+        <access friendlyPos="true" lane="1421713575_0" pos="0.00" length="31.48"/>
+        <access friendlyPos="true" lane="31347102_0" pos="0.00" length="17.24"/>
+        <access friendlyPos="true" lane="436920893#0_0" pos="0.00" length="22.45"/>
+        <access friendlyPos="true" lane="72280634#0_0" pos="0.20" length="17.20"/>
+        <access friendlyPos="true" lane="72280634#1_0" pos="0.00" length="17.99"/>
+        <access friendlyPos="true" lane="766676173#0_0" pos="0.20" length="25.31"/>
+        <access friendlyPos="true" lane="766676173#1_0" pos="4.15" length="17.67"/>
+        <access friendlyPos="true" lane="766676174_0" pos="8.92" length="0.35"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351845.16" lane="31964799#3_0" startPos="23.80" endPos="36.80" friendlyPos="true" name="Dames Blanches (Valin)"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351845.19" lane="18890627#1_0" startPos="101.51" endPos="114.51" friendlyPos="true" name="Place de Verdun"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351845.25" lane="37796830_0" startPos="43.20" endPos="56.20" friendlyPos="true" name="8 Mai 1945"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351845.26" lane="304260233#4_0" startPos="24.37" endPos="37.37" friendlyPos="true" name="Atlantech"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351845.27" lane="304260233#4_0" startPos="464.96" endPos="477.96" friendlyPos="true" name="Les Greffières"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361717.0" lane="18895064#3_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Place de Verdun"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361717.1" lane="18891442_0" startPos="125.79" endPos="138.79" friendlyPos="true" name="Banque de France"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361717.2" lane="-303453794#6_0" startPos="11.22" endPos="24.22" friendlyPos="true" name="Lycée Saint-Exupéry"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361718.0" lane="303453794#5_0" startPos="37.39" endPos="50.39" friendlyPos="true" name="Lycée Saint-Exupéry"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364115.0" lane="256000780_0" startPos="84.25" endPos="97.25" friendlyPos="true" name="Athènes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364115.2" lane="304098948#5_0" startPos="5.53" endPos="18.53" friendlyPos="true" name="La Tour"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364115.3" lane="38547833#5_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Le Brun"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364115.5" lane="304099061#1_0" startPos="5.51" endPos="18.51" friendlyPos="true" name="Ludothèque"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364115.6" lane="-361422358_0" startPos="40.99" endPos="53.99" friendlyPos="true" name="Luxembourg"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364115.7" lane="38551116#6_0" startPos="6.94" endPos="19.94" friendlyPos="true" name="Schuman"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364115.8" lane="-225695246#2_0" startPos="15.75" endPos="28.75" friendlyPos="true" name="Fromentin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364115.9" lane="-397092956_0" startPos="40.58" endPos="53.58" friendlyPos="true" name="Pierre Loti"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364118.0" lane="-303453794#5_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Lycée Saint-Exupéry"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364118.1" lane="397092955_0" startPos="72.68" endPos="85.68" friendlyPos="true" name="Pierre Loti"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364118.2" lane="225695246#2_0" startPos="27.94" endPos="40.94" friendlyPos="true" name="Fromentin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364118.3" lane="-38551117#1_0" startPos="17.65" endPos="30.65" friendlyPos="true" name="Schuman"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364118.4" lane="304099060#2_0" startPos="141.97" endPos="154.97" friendlyPos="true" name="Grandes Varennes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364118.5" lane="-304099061#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Ludothèque"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364118.7" lane="-38547833#0_0" startPos="6.53" endPos="19.53" friendlyPos="true" name="Le Brun"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364118.8" lane="-304098948#5_0" startPos="48.72" endPos="61.72" friendlyPos="true" name="La Tour"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364118.10" lane="-303931881#0_0" startPos="3.28" endPos="16.28" friendlyPos="true" name="Athènes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3164898.0" lane="-22998371#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Lycée Valin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361725.0" lane="391202777#1_0" startPos="40.41" endPos="53.41" friendlyPos="true" name="Place de Verdun">
+        <access friendlyPos="true" lane="-1196317902#0_0" pos="24.92" length="28.15"/>
+        <access friendlyPos="true" lane="-1292960400_0" pos="0.20" length="45.13"/>
+        <access friendlyPos="true" lane="-1295735942_0" pos="1.26" length="49.72"/>
+        <access friendlyPos="true" lane="-303938883_0" pos="1.91" length="41.54"/>
+        <access friendlyPos="true" lane="1196317902#0_0" pos="0.00" length="29.79"/>
+        <access friendlyPos="true" lane="1292960400_0" pos="0.00" length="49.60"/>
+        <access friendlyPos="true" lane="18895104_0" pos="0.00" length="22.08"/>
+        <access friendlyPos="true" lane="303938883_0" pos="27.75" length="46.34"/>
+        <access friendlyPos="true" lane="626880943#1_0" pos="23.16" length="31.61"/>
+        <access friendlyPos="true" lane="847452260_0" pos="0.00" length="16.30"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361725.2" lane="1080849837#5_0" startPos="8.36" endPos="21.36" friendlyPos="true" name="LEP Rompsay"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361723.1" lane="1304677259#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Gare La Rochelle (Joffre)">
+        <access friendlyPos="true" lane="-128271672#0_0" pos="72.88" length="27.26"/>
+        <access friendlyPos="true" lane="1014180573#0_0" pos="0.00" length="22.08"/>
+        <access friendlyPos="true" lane="1014180573#1_0" pos="0.00" length="26.52"/>
+        <access friendlyPos="true" lane="1014180575#5_0" pos="74.41" length="16.96"/>
+        <access friendlyPos="true" lane="1014180575#6_0" pos="0.00" length="26.60"/>
+        <access friendlyPos="true" lane="1167978709#2_0" pos="68.21" length="25.13"/>
+        <access friendlyPos="true" lane="1190135185#0_0" pos="0.00" length="16.34"/>
+        <access friendlyPos="true" lane="1190135185#1_0" pos="0.00" length="17.75"/>
+        <access friendlyPos="true" lane="39546317#0_0" pos="0.20" length="21.77"/>
+        <access friendlyPos="true" lane="39546317#1_0" pos="8.34" length="12.10"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361724.2" lane="1304677258_0" startPos="3.77" endPos="16.77" friendlyPos="true" name="Gare La Rochelle (Joffre)"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361726.1" lane="1290517379_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Gare La Rochelle (Joffre)"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3160786.0" lane="22998371#4_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Lycée Valin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361392.1" lane="-22998371#4_0" startPos="134.19" endPos="147.18" friendlyPos="true" name="Lycée Valin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3164900.1" lane="22998371#0_0" startPos="409.47" endPos="422.47" friendlyPos="true" name="Lycée Valin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361731.14" lane="305521202#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Stade de Périgny"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364123.4" lane="-304798251#4_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Salle Omnisports"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364205.0" lane="76648525_0" startPos="20.16" endPos="33.16" friendlyPos="true" name="La Martinière"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364205.1" lane="192244701#4_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Moulin Neuf de Saint-Médard"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364205.2" lane="-119772222#0_0" startPos="20.91" endPos="33.91" friendlyPos="true" name="Les Touches"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364205.3" lane="126367257#3_0" startPos="34.39" endPos="47.39" friendlyPos="true" name="Le Pontreau"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364205.4" lane="-215356728#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Treuil Arnaudeau"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364208.1" lane="215356729#3_0" startPos="19.27" endPos="32.26" friendlyPos="true" name="Sud Commanderie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364211.3" lane="25991381#6_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Stade de Bourgneuf"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361363.7" lane="1443645885#0_0" startPos="10.70" endPos="23.70" friendlyPos="true" name="La Couronne de Cugné"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364232.4" lane="76231316#1_0" startPos="134.34" endPos="147.34" friendlyPos="true" name="Cugné"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364232.5" lane="76231313#2_0" startPos="3.48" endPos="16.48" friendlyPos="true" name="Belle d'Oie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364162.0" lane="257566048#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Moulin d'Amour de La Jarrie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364162.1" lane="-305844824#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Puyvineux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364162.3" lane="750223007#1_0" startPos="8.26" endPos="21.26" friendlyPos="true" name="Fief Chapitre"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364162.4" lane="107422867#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Les Deux Moulins"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364166.2" lane="-107422867#2_0" startPos="8.03" endPos="21.03" friendlyPos="true" name="Les Deux Moulins"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364166.3" lane="-750223007#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Fief Chapitre"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364166.6" lane="-257566048#2_0" startPos="6.34" endPos="19.34" friendlyPos="true" name="Moulin d'Amour de La Jarrie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364168.4" lane="113741404_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Les Deux Moulins"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364168.6" lane="-305844824#3_0" startPos="11.56" endPos="24.56" friendlyPos="true" name="Puyvineux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364212.5" lane="-458265612_0" startPos="199.56" endPos="212.56" friendlyPos="true" name="L'Aubépin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364212.6" lane="-71244162#4_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="La Girardière"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364216.3" lane="71244162#7_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="La Girardière"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364216.4" lane="458265612_0" startPos="187.00" endPos="200.00" friendlyPos="true" name="L'Aubépin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3323571.2" lane="755175098#7_0" startPos="10.20" endPos="23.20" friendlyPos="true" name="Stade de Thairé"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3323571.3" lane="-119510843#5_0" startPos="86.51" endPos="99.51" friendlyPos="true" name="Aunis"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3364197.9" lane="51856286#0_0" startPos="20.89" endPos="33.89" friendlyPos="true" name="Saint-Marsault"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361358.3" lane="124324392#2_0" startPos="8.18" endPos="21.18" friendlyPos="true" name="Les Platanes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361360.7" lane="-124324392#1_0" startPos="18.89" endPos="31.89" friendlyPos="true" name="Les Platanes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361504.12" lane="37796870#2_0" startPos="3.64" endPos="16.64" friendlyPos="true" name="Avenue de Lagord"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361504.13" lane="37796870#7_0" startPos="29.02" endPos="42.02" friendlyPos="true" name="Les Abricotiers"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361504.14" lane="-779598244#3_0" startPos="45.39" endPos="58.39" friendlyPos="true" name="Grand Mur"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361504.15" lane="-68237656#2_0" startPos="28.47" endPos="41.47" friendlyPos="true" name="Le Bassin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361507.5" lane="779598244#2_0" startPos="111.96" endPos="124.96" friendlyPos="true" name="Grand Mur"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361507.6" lane="-37796870#7_0" startPos="28.54" endPos="41.54" friendlyPos="true" name="Les Abricotiers"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361507.13" lane="37669118#2_0" startPos="90.48" endPos="103.48" friendlyPos="true" name="Le Grimaud"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361507.17" lane="368262366#0_0" startPos="5.64" endPos="18.64" friendlyPos="true" name="Val Hureau"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361507.18" lane="-1422267435#1_0" startPos="10.68" endPos="23.68" friendlyPos="true" name="Moulin Neuf de Marsilly"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3323582.8" lane="80664137_0" startPos="73.45" endPos="86.45" friendlyPos="true" name="Le Payaud"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3323582.10" lane="1393353545#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Salle des Fêtes de Saint-Xandre"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3323585.10" lane="1417615964#0_0" startPos="260.71" endPos="273.71" friendlyPos="true" name="Treuil Gras"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3318415.3" lane="304417418_0" startPos="6.95" endPos="19.95" friendlyPos="true" name="Chemin de la Ville"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361493.0" lane="-86217846#4_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Centre-Bourg"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3361493.2" lane="-25991381#6_0" startPos="39.03" endPos="52.03" friendlyPos="true" name="Stade de Bourgneuf"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351727.0" lane="72051446_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="P+R Beaulieu"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351727.1" lane="688146034#2_0" startPos="16.56" endPos="29.56" friendlyPos="true" name="Beaulieu Centre">
+        <access friendlyPos="true" lane="-1080849886#5_0" pos="10.11" length="22.13"/>
+        <access friendlyPos="true" lane="-1080849886#6_0" pos="10.15" length="36.69"/>
+        <access friendlyPos="true" lane="-688146910_0" pos="0.00" length="28.11"/>
+        <access friendlyPos="true" lane="1080849886#5_0" pos="17.59" length="17.33"/>
+        <access friendlyPos="true" lane="1080849886#6_0" pos="0.00" length="34.02"/>
+        <access friendlyPos="true" lane="688145057#3_0" pos="9.91" length="30.91"/>
+        <access friendlyPos="true" lane="688145057#4_0" pos="10.35" length="9.22"/>
+        <access friendlyPos="true" lane="688145059#4_1" pos="17.84" length="9.36"/>
+        <access friendlyPos="true" lane="688146902#2_0" pos="17.61" length="4.17"/>
+        <access friendlyPos="true" lane="688146910_0" pos="0.21" length="23.86"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351727.2" lane="1080849877#3_0" startPos="32.27" endPos="45.27" friendlyPos="true" name="Beaulieu Plus">
+        <access friendlyPos="true" lane="-257534066#0_0" pos="1.82" length="24.58"/>
+        <access friendlyPos="true" lane="-257534066#1_0" pos="24.78" length="29.86"/>
+        <access friendlyPos="true" lane="-257534086_0" pos="1.25" length="21.86"/>
+        <access friendlyPos="true" lane="257534066#0_0" pos="47.73" length="29.38"/>
+        <access friendlyPos="true" lane="257534066#1_0" pos="0.00" length="33.91"/>
+        <access friendlyPos="true" lane="257534086_0" pos="0.00" length="19.45"/>
+        <access friendlyPos="true" lane="38000955#14_1" pos="45.00" length="8.15"/>
+        <access friendlyPos="true" lane="38000955#15_1" pos="0.00" length="18.35"/>
+        <access friendlyPos="true" lane="38000958#3_0" pos="45.24" length="11.10"/>
+        <access friendlyPos="true" lane="688181591#1_0" pos="45.41" length="6.43"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351727.3" lane="1080849877#13_0" startPos="51.74" endPos="64.74" friendlyPos="true" name="Beaulieu - 18 Juin">
+        <access friendlyPos="true" lane="1159683048#0_0" pos="28.00" length="7.81"/>
+        <access friendlyPos="true" lane="1159683048#1_0" pos="0.00" length="20.16"/>
+        <access friendlyPos="true" lane="38000955#2_1" pos="13.57" length="19.95"/>
+        <access friendlyPos="true" lane="38000955#3_1" pos="6.95" length="8.74"/>
+        <access friendlyPos="true" lane="688146918#0_0" pos="43.07" length="21.09"/>
+        <access friendlyPos="true" lane="688146919#0_0" pos="2.63" length="19.34"/>
+        <access friendlyPos="true" lane="688146919#1_0" pos="0.20" length="15.34"/>
+        <access friendlyPos="true" lane="688146919#2_0" pos="0.20" length="14.66"/>
+        <access friendlyPos="true" lane="688146919#3_0" pos="0.00" length="15.46"/>
+        <access friendlyPos="true" lane="688181591#7_0" pos="64.97" length="2.88"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351727.4" lane="1080849858#15_0" startPos="42.96" endPos="55.96" friendlyPos="true" name="Centre Commercial Beaulieu">
+        <access friendlyPos="true" lane="-516320946#1_0" pos="0.00" length="31.99"/>
+        <access friendlyPos="true" lane="-516320947#12_0" pos="0.00" length="30.46"/>
+        <access friendlyPos="true" lane="-516320947#13_0" pos="0.00" length="27.17"/>
+        <access friendlyPos="true" lane="-516320947#14_0" pos="6.93" length="26.95"/>
+        <access friendlyPos="true" lane="516320947#12_0" pos="6.83" length="26.31"/>
+        <access friendlyPos="true" lane="516320947#13_0" pos="0.20" length="22.43"/>
+        <access friendlyPos="true" lane="516320947#14_0" pos="0.00" length="22.15"/>
+        <access friendlyPos="true" lane="688153064#8_0" pos="20.85" length="12.22"/>
+        <access friendlyPos="true" lane="688159388_0" pos="0.00" length="13.31"/>
+        <access friendlyPos="true" lane="688159392#1_0" pos="21.42" length="3.95"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351727.5" lane="186356739#1_0" startPos="96.65" endPos="109.65" friendlyPos="true" name="Beaulieu Sud"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351727.8" lane="304374384#3_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Clinique de l'Atlantique"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351727.9" lane="304374384#6_0" startPos="105.79" endPos="118.79" friendlyPos="true" name="Bourgogne"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351727.14" lane="39502615#1_0" startPos="2.82" endPos="15.82" friendlyPos="true" name="Cognehors"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351727.15" lane="18902935#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Cordeliers"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351727.16" lane="671795354#2_0" startPos="30.68" endPos="43.68" friendlyPos="true" name="Porte de Cougnes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351727.17" lane="842716358#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Saint-Louis"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351756.12" lane="18897265#3_0" startPos="11.96" endPos="24.96" friendlyPos="true" name="Arsenal"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351756.13" lane="18901043_0" startPos="10.99" endPos="23.99" friendlyPos="true" name="Porte de Cougnes">
+        <access friendlyPos="true" lane="-1125222458#0_0" pos="9.47" length="30.92"/>
+        <access friendlyPos="true" lane="-521295208_0" pos="0.00" length="23.22"/>
+        <access friendlyPos="true" lane="-671795354#3_0" pos="0.00" length="26.95"/>
+        <access friendlyPos="true" lane="1125222458#0_0" pos="0.00" length="28.88"/>
+        <access friendlyPos="true" lane="154718786#0_0" pos="32.67" length="11.55"/>
+        <access friendlyPos="true" lane="154718786#1_0" pos="0.20" length="11.62"/>
+        <access friendlyPos="true" lane="521295208_0" pos="0.19" length="19.66"/>
+        <access friendlyPos="true" lane="521295209_0" pos="17.94" length="19.58"/>
+        <access friendlyPos="true" lane="521295213#0_0" pos="0.00" length="26.21"/>
+        <access friendlyPos="true" lane="671795354#3_0" pos="0.20" length="25.22"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351756.14" lane="-39502615#4_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Cordeliers"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351756.15" lane="-39365479#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Cognehors"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351756.19" lane="-304374384#6_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Bourgogne"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351756.20" lane="-304374384#3_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Clinique de l'Atlantique"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351756.23" lane="-186356739#1_0" startPos="6.65" endPos="19.65" friendlyPos="true" name="Beaulieu Sud"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351756.24" lane="-1080849858#15_0" startPos="54.42" endPos="67.42" friendlyPos="true" name="Centre Commercial Beaulieu">
+        <access friendlyPos="true" lane="-516320947#10_0" pos="0.00" length="22.60"/>
+        <access friendlyPos="true" lane="-516320947#11_0" pos="0.00" length="17.52"/>
+        <access friendlyPos="true" lane="-516320947#12_0" pos="6.83" length="17.08"/>
+        <access friendlyPos="true" lane="-516320958#0_0" pos="21.84" length="24.00"/>
+        <access friendlyPos="true" lane="516320947#11_0" pos="0.21" length="12.89"/>
+        <access friendlyPos="true" lane="516320947#12_0" pos="0.00" length="12.28"/>
+        <access friendlyPos="true" lane="688153064#8_0" pos="37.20" length="2.47"/>
+        <access friendlyPos="true" lane="688153064#9_0" pos="0.00" length="8.13"/>
+        <access friendlyPos="true" lane="688159389_0" pos="0.00" length="7.39"/>
+        <access friendlyPos="true" lane="688159392#1_0" pos="37.93" length="13.14"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351756.25" lane="-1080849877#16_0" startPos="10.01" endPos="23.01" friendlyPos="true" name="Beaulieu - 18 Juin">
+        <access friendlyPos="true" lane="-1221077751_0" pos="3.76" length="17.69"/>
+        <access friendlyPos="true" lane="-516332311#1_0" pos="0.00" length="28.85"/>
+        <access friendlyPos="true" lane="-688159407_0" pos="0.00" length="28.56"/>
+        <access friendlyPos="true" lane="1080849868#0_0" pos="0.00" length="35.95"/>
+        <access friendlyPos="true" lane="1159683048#1_0" pos="17.58" length="8.84"/>
+        <access friendlyPos="true" lane="1221077751_0" pos="0.00" length="17.78"/>
+        <access friendlyPos="true" lane="38000955#1_1" pos="18.93" length="11.07"/>
+        <access friendlyPos="true" lane="38000955#2_1" pos="0.00" length="10.40"/>
+        <access friendlyPos="true" lane="688146918#1_0" pos="17.43" length="21.97"/>
+        <access friendlyPos="true" lane="688159407_0" pos="2.20" length="32.97"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351756.26" lane="-1080849877#3_0" startPos="18.01" endPos="31.01" friendlyPos="true" name="Beaulieu Plus">
+        <access friendlyPos="true" lane="-257534066#0_0" pos="0.00" length="30.46"/>
+        <access friendlyPos="true" lane="-257534066#1_0" pos="22.48" length="24.80"/>
+        <access friendlyPos="true" lane="-257534086_0" pos="1.25" length="19.96"/>
+        <access friendlyPos="true" lane="257534066#1_0" pos="2.30" length="29.61"/>
+        <access friendlyPos="true" lane="257534086_0" pos="0.00" length="22.30"/>
+        <access friendlyPos="true" lane="38000955#14_1" pos="47.48" length="19.30"/>
+        <access friendlyPos="true" lane="38000955#15_1" pos="3.25" length="7.84"/>
+        <access friendlyPos="true" lane="38000958#3_0" pos="31.45" length="11.12"/>
+        <access friendlyPos="true" lane="688145058#1_0" pos="30.96" length="28.27"/>
+        <access friendlyPos="true" lane="688181591#1_0" pos="31.63" length="6.18"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351756.27" lane="-688146034#2_0" startPos="19.62" endPos="32.62" friendlyPos="true" name="Beaulieu Centre">
+        <access friendlyPos="true" lane="-1080849886#5_0" pos="0.00" length="24.18"/>
+        <access friendlyPos="true" lane="-1080849886#6_0" pos="10.15" length="23.89"/>
+        <access friendlyPos="true" lane="-688146910_0" pos="0.00" length="14.40"/>
+        <access friendlyPos="true" lane="1080849886#5_0" pos="27.70" length="19.68"/>
+        <access friendlyPos="true" lane="1080849886#6_0" pos="0.00" length="19.32"/>
+        <access friendlyPos="true" lane="688145057#3_0" pos="9.91" length="12.22"/>
+        <access friendlyPos="true" lane="688145057#4_0" pos="0.00" length="12.67"/>
+        <access friendlyPos="true" lane="688145059#4_1" pos="32.98" length="8.74"/>
+        <access friendlyPos="true" lane="688146902#2_0" pos="32.74" length="4.97"/>
+        <access friendlyPos="true" lane="688146910_0" pos="0.21" length="14.27"/>
+    </busStop>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3351756.28" lane="-72051441#0_0" startPos="0.75" endPos="13.75" friendlyPos="true" name="P+R Beaulieu"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349295.0" lane="23160886#2_0" startPos="4.95" endPos="17.95" friendlyPos="true" name="Bâtiment 23"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349295.1" lane="-257685309#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Stade M. Deflandre"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349295.2" lane="-257686176#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="La Couronne"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349295.3" lane="68254500_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Annette Epaud"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349295.4" lane="38425665#2_0" startPos="11.40" endPos="24.40" friendlyPos="true" name="Point du Jour"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349295.5" lane="257687724#5_0" startPos="82.48" endPos="95.48" friendlyPos="true" name="Eglise de La Genette"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349295.6" lane="397110121#3_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Voltaire"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349295.7" lane="38425674#3_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Coligny Guiton"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349295.8" lane="38425674#9_0" startPos="0.46" endPos="13.46" friendlyPos="true" name="Renaudot"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349295.11" lane="18895062#0_0" startPos="70.47" endPos="83.47" friendlyPos="true" name="Orbigny"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349295.12" lane="521295209_0" startPos="4.94" endPos="17.94" friendlyPos="true" name="Porte de Cougnes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.0" lane="1290291026#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Gare d'Aytré"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.1" lane="1080848441#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Marais Doux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.2" lane="1080848443#3_0" startPos="36.26" endPos="49.26" friendlyPos="true" name="Les Embruns"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.3" lane="1304662097#0_0" startPos="2.92" endPos="15.92" friendlyPos="true" name="Place des Grands Prés"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.4" lane="-332650010#0_0" startPos="13.75" endPos="26.75" friendlyPos="true" name="Jules Ferry"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.7" lane="-72050337#9_0" startPos="15.83" endPos="28.83" friendlyPos="true" name="Anville"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.8" lane="-72050337#2_0" startPos="15.14" endPos="28.14" friendlyPos="true" name="Les Vignes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.9" lane="1303693478#3_0" startPos="2.80" endPos="15.80" friendlyPos="true" name="Les Treilles"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.10" lane="-791283893#0_0" startPos="370.85" endPos="383.85" friendlyPos="true" name="Cottes Mailles"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.11" lane="-279587797#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Rue d'Yves"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.18" lane="-18895062#0_0" startPos="87.41" endPos="100.41" friendlyPos="true" name="Orbigny"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.19" lane="303938883_0" startPos="16.67" endPos="29.67" friendlyPos="true" name="Place de Verdun"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.21" lane="293018008#2_0" startPos="50.88" endPos="63.88" friendlyPos="true" name="Remparts"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.22" lane="-38425674#9_0" startPos="36.73" endPos="49.73" friendlyPos="true" name="Renaudot"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.23" lane="-38425674#2_0" startPos="13.10" endPos="26.10" friendlyPos="true" name="Coligny Guiton"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.24" lane="-397110121#3_0" startPos="28.53" endPos="41.53" friendlyPos="true" name="Voltaire"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.25" lane="-257687724#5_0" startPos="33.53" endPos="46.53" friendlyPos="true" name="Eglise de La Genette"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.26" lane="38425661#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Point du Jour"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.27" lane="68254505_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Annette Epaud"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.28" lane="257686176#3_0" startPos="4.27" endPos="17.27" friendlyPos="true" name="La Couronne"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.29" lane="257685309#1_0" startPos="20.87" endPos="33.87" friendlyPos="true" name="Stade M. Deflandre"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.30" lane="-38336727#2_0" startPos="7.91" endPos="20.91" friendlyPos="true" name="Bâtiment 23"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.31" lane="303936226#2_0" startPos="11.43" endPos="24.43" friendlyPos="true" name="Savoie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.32" lane="303936226#9_0" startPos="5.04" endPos="18.03" friendlyPos="true" name="Baie de Port-Neuf"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.33" lane="-23015838#5_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Lac de Port-Neuf"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.34" lane="-23015837_0" startPos="64.99" endPos="77.99" friendlyPos="true" name="Plaine des Jeux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.35" lane="-23015837_0" startPos="605.79" endPos="618.79" friendlyPos="true" name="Wilson"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3349297.36" lane="-38335484#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Parc d'Activités des Trois Frères"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3350279.37" lane="38162999#0_0" startPos="52.36" endPos="65.36" friendlyPos="true" name="Jacques Cartier"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3350279.38" lane="304046414#4_0" startPos="52.39" endPos="65.39" friendlyPos="true" name="Québec"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3350279.39" lane="304046414#9_0" startPos="168.73" endPos="181.73" friendlyPos="true" name="Plage Chef de Baie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3350279.40" lane="38250726_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Agrocéan"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3350279.41" lane="-304094912#0_0" startPos="71.48" endPos="84.48" friendlyPos="true" name="Port de Pêche"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3350295.0" lane="304094912#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Port de Pêche"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3350295.1" lane="38250720#1_0" startPos="4.15" endPos="17.15" friendlyPos="true" name="Agrocéan"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3350295.2" lane="-304046414#9_0" startPos="52.00" endPos="65.00" friendlyPos="true" name="Plage Chef de Baie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3350295.3" lane="-304046414#5_0" startPos="91.22" endPos="104.22" friendlyPos="true" name="Québec"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3350295.4" lane="-38162999#0_0" startPos="21.48" endPos="34.48" friendlyPos="true" name="Jacques Cartier"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3350295.5" lane="38335484#3_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Parc d'Activités des Trois Frères"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3350295.6" lane="38335484#5_0" startPos="294.68" endPos="307.68" friendlyPos="true" name="Wilson"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3350295.7" lane="23015837_0" startPos="635.10" endPos="648.10" friendlyPos="true" name="Plaine des Jeux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3350295.8" lane="23015838#5_0" startPos="65.67" endPos="78.67" friendlyPos="true" name="Lac de Port-Neuf"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3350295.9" lane="-303936226#9_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Baie de Port-Neuf"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3350295.10" lane="-303936226#2_0" startPos="12.31" endPos="25.31" friendlyPos="true" name="Savoie"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3350295.29" lane="279587797#3_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Rue d'Yves"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3350295.30" lane="791283893#0_0" startPos="2.90" endPos="15.90" friendlyPos="true" name="Cottes Mailles"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3350295.31" lane="1303693479#1_0" startPos="0.45" endPos="13.45" friendlyPos="true" name="Les Treilles"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3350295.32" lane="72050337#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Les Vignes"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3350295.33" lane="72050337#9_0" startPos="11.83" endPos="24.83" friendlyPos="true" name="Anville"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3350295.37" lane="332650010#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Jules Ferry"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3350295.38" lane="-1304662098#1_0" startPos="9.80" endPos="22.80" friendlyPos="true" name="Place des Grands Prés"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3350295.39" lane="-1080848443#3_0" startPos="26.35" endPos="39.35" friendlyPos="true" name="Les Embruns"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3350295.40" lane="46891051#1_0" startPos="31.32" endPos="44.32" friendlyPos="true" name="Marais Doux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348520.0" lane="304085319#0_0" startPos="15.02" endPos="28.02" friendlyPos="true" name="Lycée Vieljeux"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348520.1" lane="-564069588#5_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="La Tramontane"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348520.7" lane="37848345#1_0" startPos="13.89" endPos="26.89" friendlyPos="true" name="Centre Commercial du Fief Rose"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348520.8" lane="367615995#1_0" startPos="0.23" endPos="13.23" friendlyPos="true" name="Collège Jean Guiton"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348520.9" lane="-38547876#3_0" startPos="8.13" endPos="21.13" friendlyPos="true" name="Prague"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348520.17" lane="304956347#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="La Grenouillère"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348520.18" lane="762862102#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Bretagne"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348520.19" lane="762862102#9_0" startPos="15.94" endPos="28.94" friendlyPos="true" name="Bourbonnais"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348520.21" lane="303936227#6_0" startPos="7.66" endPos="20.66" friendlyPos="true" name="Lycée Maritime"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348520.22" lane="23062972#3_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="La Corniche"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348520.23" lane="304095450#6_0" startPos="48.39" endPos="61.39" friendlyPos="true" name="Philippe Vincent"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348520.24" lane="188540552#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Parc Franck Delmas"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348520.25" lane="188540552#3_0" startPos="72.15" endPos="85.15" friendlyPos="true" name="Le Mail Casino"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348520.26" lane="188620730#8_0" startPos="13.38" endPos="26.38" friendlyPos="true" name="Plage de la Concurrence"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348586.3" lane="-23166434#0_0" startPos="8.72" endPos="21.72" friendlyPos="true" name="Plage de la Concurrence"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348586.4" lane="188618215#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Le Mail Casino"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348586.5" lane="188618215#3_0" startPos="47.59" endPos="60.59" friendlyPos="true" name="Parc Franck Delmas"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348586.6" lane="-304095450#6_0" startPos="21.77" endPos="34.77" friendlyPos="true" name="Philippe Vincent"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348586.7" lane="-23062972#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="La Corniche"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348586.8" lane="-303936227#4_0" startPos="22.96" endPos="35.96" friendlyPos="true" name="Lycée Maritime"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348586.10" lane="-762862102#9_0" startPos="21.36" endPos="34.36" friendlyPos="true" name="Bourbonnais"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348586.11" lane="-762862102#0_0" startPos="7.84" endPos="20.84" friendlyPos="true" name="Bretagne"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348586.12" lane="-304956347#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="La Grenouillère"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348586.18" lane="361422358_0" startPos="126.37" endPos="139.37" friendlyPos="true" name="Luxembourg"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348586.20" lane="38547876#3_0" startPos="27.10" endPos="40.10" friendlyPos="true" name="Prague"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348586.22" lane="-37848345#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Centre Commercial du Fief Rose"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3348586.29" lane="304085244#3_0" startPos="120.18" endPos="133.18" friendlyPos="true" name="Les Gonthières"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3321981.9" lane="-515361071#5_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Ravel"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3321981.10" lane="24821900#1_0" startPos="10.97" endPos="23.96" friendlyPos="true" name="Cimetière de Saint-Eloi"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3321981.11" lane="-304797596_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Lully"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3321981.12" lane="-39502624#7_0" startPos="44.60" endPos="57.60" friendlyPos="true" name="Saint-Saëns"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3321981.13" lane="-39502624#0_0" startPos="10.59" endPos="23.59" friendlyPos="true" name="Les Sauniers"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3321981.14" lane="39502642#0_0" startPos="20.63" endPos="33.63" friendlyPos="true" name="Porte Royale"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3321981.15" lane="18895092#1_0" startPos="1.11" endPos="14.11" friendlyPos="true" name="Gambetta"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3321986.3" lane="232112563#2_0" startPos="108.12" endPos="121.12" friendlyPos="true" name="ZI de Périgny"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3321986.4" lane="46914635#1_0" startPos="62.27" endPos="75.27" friendlyPos="true" name="Paul Langevin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3321986.5" lane="46914635#1_0" startPos="367.90" endPos="380.90" friendlyPos="true" name="Louis Lumière"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3321986.6" lane="244007941#2_0" startPos="5.12" endPos="18.12" friendlyPos="true" name="Canal de Rompsay"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3322119.3" lane="-39502642#0_0" startPos="22.13" endPos="35.13" friendlyPos="true" name="Porte Royale"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3322119.4" lane="39502624#0_0" startPos="64.32" endPos="77.32" friendlyPos="true" name="Les Sauniers"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3322119.5" lane="39502624#7_0" startPos="48.87" endPos="61.87" friendlyPos="true" name="Saint-Saëns"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3322119.7" lane="-24821900#1_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Cimetière de Saint-Eloi"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3322119.8" lane="39502632_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Ravel"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3322119.13" lane="71165857#0_0" startPos="95.43" endPos="108.43" friendlyPos="true" name="Canal de Rompsay"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3322119.14" lane="-244007943#4_0" startPos="88.96" endPos="101.96" friendlyPos="true" name="Rue du Poteau"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3322119.15" lane="-46914635#1_0" startPos="57.90" endPos="70.90" friendlyPos="true" name="Louis Lumière"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3322119.16" lane="-46914635#1_0" startPos="373.57" endPos="386.57" friendlyPos="true" name="Paul Langevin"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3322119.17" lane="-232112563#2_0" startPos="94.04" endPos="107.04" friendlyPos="true" name="ZI de Périgny"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3322119.18" lane="-1304672440#0_0" startPos="5.70" endPos="18.70" friendlyPos="true" name="Centre Aquatique Palmilud"/>
+    <busStop id="CA_LA_ROCHELLE:VehicleJourney:C3322119.20" lane="-1154800694_0" startPos="9.90" endPos="22.90" friendlyPos="true" name="La Vaurie"/>
+</additional>

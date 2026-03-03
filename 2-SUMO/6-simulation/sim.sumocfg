@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+    <input>
+        <!-- Road network -->
+        <net-file value="../1-network/cda_la_rochelle.net.xml"/>
+
+        <!-- Routes (persons/vehicles) -->
+        <route-files value="../5-vehicules/population_all_with_vtypes.rou.xml"/>
+
+        <!-- Additional elements (POIs, PT stops, PT vehicles) -->
+        <additional-files value="../2-POI's/activities_poi_lonlat.add.xml,
+        ../3-public_transport/vtypes.xml, 
+        ../3-public_transport/gtfs_pt_stops.add.xml,
+        ../3-public_transport/gtfs_pt_vehicles_colored.add.xml"/>
+    </input>
+
+    <gui_only>
+    <!-- Load GUI view settings at startup -->
+        <gui-settings-file value="viewsettings.xml"/>
+
+    <!-- Optional: start the simulation automatically -->
+        <!-- <start value="true"/> -->
+    </gui_only>
+
+    <processing>
+        <!-- Keep running even if some routes/person plans are invalid -->
+        <ignore-route-errors value="true"/>
+
+        <!-- Enable emissions device for 100% of vehicles -->
+        <device.emissions.probability value="1.0"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="108000"/>
+    </time>
+
+    <output>
+        <!-- Tripinfo output -->
+        <tripinfo-output value="tripinfo.xml"/>
+    </output>
+
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+        <log value="sumo_run.log"/>
+    </report>
+</configuration>
+
