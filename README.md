@@ -1,9 +1,15 @@
 <a id="english-version"></a>
 
+<p align="center">
+  <img src="assets/sumo-demand2traffic-banner.png" alt="SUMO-demand2traffic — from synthetic travel demand to microscopic traffic simulation" width="100%">
+</p>
+
 > **Languages:** The English version is presented first.
 > [La version française est disponible plus bas.](#version-francaise)
 
 # SUMO-demand2traffic
+
+[![Software DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21680614.svg)](https://doi.org/10.5281/zenodo.21680614)
 
 `SUMO-demand2traffic` is a reproducible workflow for converting a synthetic
 population and its daily activity chains into a multimodal microscopic traffic
@@ -102,6 +108,8 @@ SUMO-demand2traffic/
 |-- LICENSES/
 |   `-- GPL-2.0-only.txt
 |-- CITATION.cff
+|-- assets/
+|   `-- sumo-demand2traffic-banner.png
 |-- 1-Eqasim/
 |   |-- data/
 |   |-- code/
@@ -257,8 +265,12 @@ The methodology and its application are described in:
 
 If you use this software, please cite both the software and the associated
 publication where appropriate. Machine-readable citation metadata are
-provided in [`CITATION.cff`](CITATION.cff). The software repository DOI will
-be added to that file after the dedicated Zenodo release is published.
+provided in [`CITATION.cff`](CITATION.cff).
+
+- Software version `v1.0.0`:
+  [10.5281/zenodo.21680615](https://doi.org/10.5281/zenodo.21680615)
+- All software versions:
+  [10.5281/zenodo.21680614](https://doi.org/10.5281/zenodo.21680614)
 
 ## Licence
 
@@ -274,17 +286,22 @@ scope, attribution, and accompanying licence text are documented in
 [`THIRD_PARTY_LICENSES.md`](THIRD_PARTY_LICENSES.md) and [`LICENSES/`](LICENSES/).
 Input datasets are not covered by the software licence.
 
-## Origin and authorship
+## Project origin and supervision
 
-This software was originally designed and developed by **Alix NGARI LENDOYE**,
+This research workflow was designed and implemented by **Alix NGARI LENDOYE**,
 affiliated with **EIGSI – École d'ingénieurs en génie des systèmes
 industriels** and **La Rochelle Université – Laboratoire Informatique, Image
 et Interaction (L3i)**, as part of his doctoral research on autonomous
 demand-responsive transport.
 
-The repository integrates and adapts upstream open-source components,
-particularly Eqasim, MATSim, and Eclipse SUMO. Authorship of those components
-remains with their respective projects and contributors.
+The doctoral research is supervised by **Tatiana Graindorge**,
+**Corwin Fèvre**, and **Alain Bouju**. Their scientific guidance contributes
+to the research framework, methodological choices, and development of this
+project.
+
+The workflow builds on and adapts open-source components, particularly Eqasim,
+MATSim, and Eclipse SUMO. These components remain credited to their respective
+projects and contributors.
 
 ## Official resources and acknowledgements
 
@@ -313,6 +330,8 @@ producers. Consult the notices in each component and data source before reuse.
 > [The English version is available above.](#english-version)
 
 # SUMO-demand2traffic
+
+[![DOI du logiciel](https://zenodo.org/badge/DOI/10.5281/zenodo.21680614.svg)](https://doi.org/10.5281/zenodo.21680614)
 
 `SUMO-demand2traffic` est une chaîne de traitement reproductible permettant de
 convertir une population synthétique et ses chaînes d'activités quotidiennes
@@ -418,6 +437,8 @@ SUMO-demand2traffic/
 |-- LICENSES/
 |   `-- GPL-2.0-only.txt
 |-- CITATION.cff
+|-- assets/
+|   `-- sumo-demand2traffic-banner.png
 |-- 1-Eqasim/
 |   |-- data/
 |   |-- code/
@@ -582,9 +603,12 @@ La méthode et son application sont décrites dans :
 
 Si vous utilisez ce logiciel, veuillez citer le logiciel et la publication
 associée lorsque cela est pertinent. Les métadonnées de citation lisibles par
-machine se trouvent dans [`CITATION.cff`](CITATION.cff). Le DOI du dépôt
-logiciel sera ajouté à ce fichier après la publication de la livraison Zenodo
-dédiée.
+machine se trouvent dans [`CITATION.cff`](CITATION.cff).
+
+- Version `v1.0.0` du logiciel :
+  [10.5281/zenodo.21680615](https://doi.org/10.5281/zenodo.21680615)
+- Ensemble des versions du logiciel :
+  [10.5281/zenodo.21680614](https://doi.org/10.5281/zenodo.21680614)
 
 ## Licence
 
@@ -601,17 +625,22 @@ de licence associés sont documentés dans
 [`THIRD_PARTY_LICENSES.md`](THIRD_PARTY_LICENSES.md) et [`LICENSES/`](LICENSES/).
 Les données d'entrée ne sont pas couvertes par la licence du logiciel.
 
-## Origine et paternité du logiciel
+## Origine et encadrement du projet
 
-Ce logiciel a été initialement conçu et développé par **Alix NGARI LENDOYE**,
-affilié à **l'EIGSI – École d'ingénieurs en génie des systèmes industriels**
-et à **La Rochelle Université – Laboratoire Informatique, Image et Interaction
-(L3i)**, dans le cadre de ses recherches doctorales sur le transport autonome
-à la demande.
+Cette chaîne de traitement scientifique a été conçue et mise en œuvre par
+**Alix NGARI LENDOYE**, affilié à **l'EIGSI – École d'ingénieurs en génie des
+systèmes industriels** et à **La Rochelle Université – Laboratoire
+Informatique, Image et Interaction (L3i)**, dans le cadre de ses recherches
+doctorales sur le transport autonome à la demande.
 
-Le dépôt intègre et adapte des composants open source existants, notamment
-Eqasim, MATSim et Eclipse SUMO. La paternité de ces composants reste attribuée
-à leurs projets et contributeurs respectifs.
+Ces travaux de doctorat sont encadrés par **Tatiana Graindorge**,
+**Corwin Fèvre** et **Alain Bouju**. Leur accompagnement scientifique contribue
+au cadre de recherche, aux choix méthodologiques et au développement de ce
+projet.
+
+La chaîne de traitement s'appuie sur et adapte des composants open source,
+notamment Eqasim, MATSim et Eclipse SUMO. Ces composants restent attribués à
+leurs projets et contributeurs respectifs.
 
 ## Ressources officielles et remerciements
 

@@ -12,12 +12,11 @@ authors:
     orcid: "https://orcid.org/0009-0007-0555-1740"
     affiliation: "EIGSI - École d'ingénieurs en génie des systèmes industriels; La Rochelle Université - Laboratoire Informatique, Image et Interaction (L3i), La Rochelle, France"
 version: "1.0.0"
+date-released: "2026-07-29"
 license: "GPL-3.0-only"
 repository-code: "https://github.com/NGALENAL1004/SUMO-demand2traffic"
 url: "https://github.com/NGALENAL1004/SUMO-demand2traffic"
-
-# Add and uncomment the software repository DOI after publishing its Zenodo record:
-# doi: "10.5281/zenodo.REPLACE_WITH_SOFTWARE_DOI"
+doi: "10.5281/zenodo.21680615"
 
 preferred-citation:
   type: article
