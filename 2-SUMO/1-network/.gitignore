@@ -1,0 +1,6 @@
+# Keep only the notebook, documentation, and the documented input folder
+*
+!.gitignore
+!README.md
+!network.ipynb
+!input/

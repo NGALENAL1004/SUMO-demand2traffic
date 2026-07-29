@@ -1,0 +1,4 @@
+# Keep only documentation for this local staging directory
+*
+!.gitignore
+!README.md

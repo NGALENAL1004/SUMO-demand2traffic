@@ -1,0 +1,4 @@
+# Keep only documentation; controller logs and traces are generated
+*
+!.gitignore
+!README.md

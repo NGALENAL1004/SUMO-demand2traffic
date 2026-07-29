@@ -1,0 +1,4 @@
+# Keep only input documentation; datasets and PDFs remain local
+*
+!.gitignore
+!README.md

@@ -1,0 +1,9 @@
+# Keep source code, launchers, configuration, documentation, and the documented input folder
+*
+!.gitignore
+!README.md
+!*.py
+!*.bat
+!*.ipynb
+!pt.sumocfg
+!input/

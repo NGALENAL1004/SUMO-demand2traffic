@@ -1,0 +1,6 @@
+# Keep only reproducible source and documentation
+*
+!.gitignore
+!README.md
+!trips.ipynb
+!output_tools/

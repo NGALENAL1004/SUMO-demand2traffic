@@ -1,0 +1,5 @@
+# Keep only the reproducible notebook and documentation
+*
+!.gitignore
+!README.md
+!activity.ipynb

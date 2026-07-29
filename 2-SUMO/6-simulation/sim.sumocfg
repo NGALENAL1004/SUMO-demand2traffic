@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+    <input>
+        <!-- Road network -->
+        <net-file value="../1-network/cda_la_rochelle.net.xml"/>
+
+        <!-- Routes (persons/vehicles) -->
+        <route-files value="../5-vehicles/population_all_with_vtypes.rou.xml"/>
+
+        <!-- Additional elements (POIs, PT stops, PT vehicles) -->
+        <additional-files value="../2-POI's/activities_poi_lonlat.add.xml,
+        ../3-public_transport/vtypes.xml, 
+        ../3-public_transport/gtfs_pt_stops.add.xml,
+        ../3-public_transport/gtfs_pt_vehicles_colored.add.xml,
+        ./edge_outputs_s0.add.xml"/>
+    </input>
+
+    <gui_only>
+    <!-- Load GUI view settings at startup -->
+        <gui-settings-file value="viewsettings.xml"/>
+
+    <!-- Optional: start the simulation automatically -->
+        <!-- <start value="true"/> -->
+    </gui_only>
+
+    <processing>
+        <!-- Keep running even if some routes/person plans are invalid -->
+        <ignore-route-errors value="true"/>
+
+        <!-- Enable emissions device for 100% of vehicles -->
+        <device.emissions.probability value="1.0"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="108000"/>
+    </time>
+
+    <output>
+
+        <!-- Per-vehicle individual info: duration, distance, delay, timeLoss, waitingTime, etc. -->
+        <tripinfo-output value="./outputs/tripinfo_s0.xml"/>
+        <tripinfo-output.write-unfinished value="true"/>
+        <tripinfo-output.write-undeparted value="true"/>
+
+        <!-- Per-person individual info: useful for walk, ride, personTrip, PT, etc. -->
+        <personinfo-output value="./outputs/personinfo_s0.xml"/>
+
+        <!-- Routes actually travelled by the vehicles -->
+        <vehroute-output value="./outputs/vehroute_s0.xml"/>
+        <vehroute-output.route-length value="true"/>
+        <vehroute-output.write-unfinished value="true"/>
+
+        <!-- Person routes / stages -->
+        <personroute-output value="./outputs/personroute_s0.xml"/>
+
+        <!-- Global simulation summary over time -->
+        <summary-output value="./outputs/summary_s0.xml"/>
+        <summary-output.period value="60"/>
+
+        <!-- Final global statistics -->
+        <statistic-output value="./outputs/statistics_s0.xml"/>
+
+        <!-- Deadlocks / blockages -->
+        <deadlock-output value="./outputs/deadlocks_s0.xml"/>
+
+        <!-- Vehicle stops: bus, taxi, DRT, passenger boarding/alighting -->
+        <stop-output value="./outputs/stops_s0.xml"/>
+        <stop-output.write-unfinished value="true"/>
+
+        <!-- Possible vehicle-vehicle or vehicle-pedestrian collisions -->
+        <collision-output value="./outputs/collisions_s0.xml"/>
+    
+    </output>
+
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+        <log value="sumo_run.log"/>
+    </report>
+</configuration>
+

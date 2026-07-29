@@ -1,0 +1,4 @@
+# Keep only input documentation; the GTFS archive remains local
+*
+!.gitignore
+!README.md

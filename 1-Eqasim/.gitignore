@@ -1,0 +1,37 @@
+# Local eqasim working tree and generated artifacts
+eqasim-france/
+cache/
+
+# Generated outputs: keep only their documentation and the filtering notebook
+output/*
+!output/README.md
+
+!output/analysis_population/
+output/analysis_population/*
+!output/analysis_population/README.md
+
+!output/simulation_output/
+output/simulation_output/*
+!output/simulation_output/README.md
+
+!output/eqasim_output_filtered/
+output/eqasim_output_filtered/*
+!output/eqasim_output_filtered/README.md
+!output/eqasim_output_filtered/create_output_filtered.ipynb
+
+# Keep only the project-specific eqasim overlays
+code/*
+!code/README.md
+!code/config_17.yml
+
+!code/matsim/
+code/matsim/*
+!code/matsim/simulation/
+code/matsim/simulation/*
+!code/matsim/simulation/full_run.py
+
+!code/synthesis/
+code/synthesis/*
+!code/synthesis/population/
+code/synthesis/population/*
+!code/synthesis/population/matched.py

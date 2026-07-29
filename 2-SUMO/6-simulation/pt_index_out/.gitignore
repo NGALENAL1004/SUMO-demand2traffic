@@ -1,0 +1,4 @@
+# Keep only documentation; PT indexes and audits are generated
+*
+!.gitignore
+!README.md

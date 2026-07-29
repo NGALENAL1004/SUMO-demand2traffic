@@ -1,0 +1,4 @@
+# Keep only documentation; SUMO outputs and archives are generated
+*
+!.gitignore
+!README.md

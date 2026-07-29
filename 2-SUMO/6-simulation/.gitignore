@@ -1,0 +1,12 @@
+# Keep simulation source, configuration, documentation, and documented output folders
+*
+!.gitignore
+!README.md
+!sim.sumocfg
+!edge_outputs_s0.add.xml
+!viewsettings.xml
+!traci.ipynb
+!traci_controller_strategy.py
+!pt_index_out/
+!outputs/
+!traci_strategy_event/

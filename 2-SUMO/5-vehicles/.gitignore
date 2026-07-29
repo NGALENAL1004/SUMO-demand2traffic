@@ -1,0 +1,7 @@
+# Keep reproducible notebook, documentation, and documented subfolders
+*
+!.gitignore
+!README.md
+!vehicles.ipynb
+!input/
+!output_tools/

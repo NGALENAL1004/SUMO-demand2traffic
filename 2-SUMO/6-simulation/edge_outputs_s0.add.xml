@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional>
+    <!-- Trafic agrégé par edge toutes les 60 secondes -->
+    <edgeData id="traffic_edges_s0"
+              period="60"
+              file="./outputs/edgedata_s0.xml"
+              excludeEmpty="true"/>
+
+    <!-- Émissions agrégées par edge toutes les 60 secondes -->
+    <edgeData id="emissions_edges_s0"
+              type="emissions"
+              period="60"
+              file="./outputs/edge_emissions_s0.xml"
+              excludeEmpty="true"/>
+
+    <!-- Émissions agrégées par lane toutes les 60 secondes -->
+    <laneData id="emissions_lanes_s0"
+              type="emissions"
+              period="60"
+              file="./outputs/lane_emissions_s0.xml"
+              excludeEmpty="true"/>
+</additional>

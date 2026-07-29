@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+type: software
+title: "SUMO-demand2traffic"
+abstract: >-
+  A reproducible workflow for transforming synthetic population and
+  activity-chain data generated with Eqasim and MATSim into a multimodal
+  microscopic SUMO scenario for traffic and individual emission assessment.
+authors:
+  - family-names: "Ngari Lendoye"
+    given-names: "Alix"
+    orcid: "https://orcid.org/0009-0007-0555-1740"
+    affiliation: "EIGSI - École d'ingénieurs en génie des systèmes industriels; La Rochelle Université - Laboratoire Informatique, Image et Interaction (L3i), La Rochelle, France"
+version: "1.0.0"
+license: "GPL-3.0-only"
+repository-code: "https://github.com/NGALENAL1004/SUMO-demand2traffic"
+url: "https://github.com/NGALENAL1004/SUMO-demand2traffic"
+
+# Add and uncomment the software repository DOI after publishing its Zenodo record:
+# doi: "10.5281/zenodo.REPLACE_WITH_SOFTWARE_DOI"
+
+preferred-citation:
+  type: article
+  title: "Integrating Synthetic Populations and Activity Chains for Individual Emission Assessment in SUMO"
+  authors:
+    - family-names: "Ngari Lendoye"
+      given-names: "Alix"
+      orcid: "https://orcid.org/0009-0007-0555-1740"
+    - family-names: "Graindorge"
+      given-names: "Tatiana"
+    - family-names: "Fèvre"
+      given-names: "Corwin"
+      orcid: "https://orcid.org/0000-0003-3922-336X"
+    - family-names: "Bouju"
+      given-names: "Alain"
+      orcid: "https://orcid.org/0000-0002-1599-9326"
+  year: 2026
+  doi: "10.5281/zenodo.21676913"
+  url: "https://zenodo.org/records/21676913"

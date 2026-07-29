@@ -1,0 +1,4 @@
+# Raw OpenStreetMap extracts must be downloaded locally
+*
+!.gitignore
+!README.md

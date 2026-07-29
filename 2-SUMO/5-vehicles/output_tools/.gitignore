@@ -1,0 +1,4 @@
+# Keep only documentation; person-level assignments are generated
+*
+!.gitignore
+!README.md

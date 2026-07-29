@@ -1,0 +1,4 @@
+# Keep only documentation; all mapping and log files are generated
+*
+!.gitignore
+!README.md
