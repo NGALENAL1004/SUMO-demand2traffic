@@ -6,8 +6,9 @@
 # From Eqasim travel demand to a SUMO simulation
 
 This directory contains the reproducible workflow used to transform the
-filtered Eqasim demand for the La Rochelle case study into a multimodal SUMO
-scenario. The workflow builds the network, locates activities, imports the
+filtered Eqasim demand for the **Communauté d'Agglomération de La Rochelle
+(CdA)** case study, defined in the context of **Yélo DETA**, into a multimodal
+SUMO scenario. The workflow builds the network, locates activities, imports the
 Yélo public transport timetable, converts daily plans, assigns vehicle
 emission classes, and runs the final simulation.
 
@@ -112,10 +113,10 @@ methodology or code, please cite:
 ## Scope and interpretation
 
 This directory documents a reusable Eqasim-to-SUMO conversion workflow, with
-La Rochelle as its application case. Paths, municipality codes, the GTFS
-feed, matching rules, vehicle-fleet proportions, and simulation parameters
-are case-study settings and must be adapted before applying the code to
-another territory or scenario.
+the Communauté d'Agglomération de La Rochelle as its application case. Paths,
+municipality codes, the GTFS feed, matching rules, vehicle-fleet proportions,
+and simulation parameters are case-study settings and must be adapted before
+applying the code to another territory or scenario.
 
 <a id="version-francaise"></a>
 
@@ -127,7 +128,8 @@ another territory or scenario.
 # De la demande Eqasim à une simulation SUMO
 
 Ce dossier contient la chaîne reproductible utilisée pour transformer la
-demande Eqasim filtrée du cas d’étude de La Rochelle en un scénario SUMO
+demande Eqasim filtrée du cas d'étude de la **Communauté d'Agglomération de La
+Rochelle (CdA)**, défini dans le contexte de **Yélo DETA**, en un scénario SUMO
 multimodal. Elle construit le réseau, localise les activités, importe les
 horaires du réseau Yélo, convertit les plans journaliers, attribue les classes
 d’émissions des véhicules et exécute la simulation finale.
@@ -232,8 +234,9 @@ la méthode ou du code, merci de citer :
 
 ## Portée et interprétation
 
-Ce dossier documente une méthode réutilisable de conversion d’Eqasim vers
-SUMO, appliquée ici à La Rochelle. Les chemins, codes de communes, données
-GTFS, règles d’appariement, proportions du parc automobile et paramètres de
-simulation sont propres au cas d’étude. Ils doivent être adaptés avant
-d’utiliser le code sur un autre territoire ou pour un autre scénario.
+Ce dossier documente une méthode réutilisable de conversion d'Eqasim vers
+SUMO, appliquée ici à la Communauté d'Agglomération de La Rochelle. Les
+chemins, codes de communes, données GTFS, règles d'appariement, proportions du
+parc automobile et paramètres de simulation sont propres au cas d'étude. Ils
+doivent être adaptés avant d'utiliser le code sur un autre territoire ou pour
+un autre scénario.

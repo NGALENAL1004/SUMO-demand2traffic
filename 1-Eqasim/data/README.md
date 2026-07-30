@@ -3,7 +3,7 @@
 > **Languages:** The English version is presented first.
 > [The French version is available below.](#version-francaise)
 
-# Eqasim input data — La Rochelle case study
+# Eqasim input data — Communauté d'Agglomération de La Rochelle case study
 
 This folder documents the raw data required for the **Eqasim–MATSim** part of
 the SUMO demand-generation workflow.
@@ -14,12 +14,15 @@ the SUMO demand-generation workflow.
 
 The general method can be transferred to other French territories, but the
 files and data vintages specified in this guide correspond to its application
-to the **La Rochelle case study and surrounding area**.
+to the **Communauté d'Agglomération de La Rochelle (CdA) and its surrounding
+area**.
 
 The synthetic population is first built at the scale of the
 **Charente-Maritime department (department 17)**. The area required for the
-SUMO scenario is filtered in downstream steps. This choice preserves trips
-that cross the boundaries of the La Rochelle urban community.
+SUMO scenario is filtered in downstream steps according to the needs of the
+**Yélo DETA** project. This preserves complete daily mobility chains before
+combining residents of the eight project municipalities with people whose
+simulated daily travel takes place within the CdA.
 
 This folder corresponds to the following parameter in
 [`config_17.yml`](../code/config_17.yml):
@@ -60,7 +63,7 @@ The upstream code comes from
 designed to build synthetic populations for multiple French territories. The
 present repository is not yet a generic ready-to-use tool for any city: its
 configuration, territorial data, and some filtering steps are adapted to the
-La Rochelle case study.
+Communauté d'Agglomération de La Rochelle case study.
 
 To transfer the workflow elsewhere, at minimum replace the departmental data,
 OSM network, GTFS supply, and territorial parameters, then adapt the specific
@@ -83,7 +86,7 @@ filters and mappings used before importing the demand into SUMO.
 | `bdtopo_17` | `BDTOPO_3-3_TOUSTHEMES_GPKG_LAMB93_D017_2024-03-15.7z` | Charente-Maritime | Buildings and topographic features used for the spatial location of activities. |
 | `ban_17` | `adresses-17.csv.gz` | Charente-Maritime | Addresses used to locate homes (`home_location_source: addresses`). |
 | `osm_17` | `poitou-charentes-260317.osm.pbf` | Poitou-Charentes | OpenStreetMap extract used to build the MATSim road network. The pipeline cuts it to the scenario area. |
-| `gtfs_17` | `ca_la_rochelle-aggregated-gtfs.zip` | La Rochelle urban community | Scheduled public transport supply used to build the MATSim schedule and vehicles. |
+| `gtfs_17` | `ca_la_rochelle-aggregated-gtfs.zip` | Communauté d'Agglomération de La Rochelle | Scheduled public transport supply used to build the MATSim schedule and vehicles. |
 
 ## Data provenance
 
@@ -145,8 +148,8 @@ The local `ca_la_rochelle-aggregated-gtfs.zip` archive contains 24 services:
 - validity end: 30 June 2026;
 - latest calendar exceptions: 12 April 2026.
 
-This archive represents only the Yélo urban network of the La Rochelle urban
-community. It does not constitute a complete public transport supply for the
+This archive represents only the Yélo urban network of the Communauté
+d'Agglomération de La Rochelle. It does not constitute a complete public transport supply for the
 whole Charente-Maritime department: other urban and interurban networks and
 rail services are not included in this folder.
 
@@ -186,7 +189,7 @@ from being accidentally added to the repository:
 > **Langues :** [La version anglaise se trouve en haut de ce document.](#english-version)
 > La version française commence ci-dessous.
 
-# Données d'entrée eqasim — cas d'étude de La Rochelle
+# Données d'entrée eqasim — Communauté d'Agglomération de La Rochelle
 
 Ce dossier documente les données brutes nécessaires à la partie
 **eqasim–MATSim** du workflow de génération de demande pour SUMO.
@@ -198,13 +201,14 @@ Ce dossier documente les données brutes nécessaires à la partie
 
 La méthode générale est transférable à d'autres territoires français, mais les
 fichiers et millésimes indiqués dans ce guide correspondent à son application
-au cas d'étude de **La Rochelle et de ses alentours**.
+à la **Communauté d'Agglomération de La Rochelle (CdA) et à ses alentours**.
 
 La population synthétique est d'abord construite à l'échelle de la
 **Charente-Maritime (département 17)**. Le périmètre utile au scénario SUMO est
-filtré dans les étapes situées en aval. Ce choix permet de conserver les
-déplacements qui franchissent les limites de la Communauté d'agglomération de
-La Rochelle.
+filtré dans les étapes situées en aval selon les besoins du projet
+**Yélo DETA**. Ce choix conserve les chaînes complètes de mobilité quotidienne
+avant de réunir les habitants des huit communes du projet et les personnes
+dont les déplacements simulés s'effectuent dans la CdA.
 
 Le dossier correspond au paramètre suivant de
 [`config_17.yml`](../code/config_17.yml) :
@@ -246,7 +250,7 @@ un pipeline conçu pour construire des populations synthétiques dans plusieurs
 territoires français. Le présent dépôt n'est toutefois pas encore un outil
 générique prêt à l'emploi pour n'importe quelle ville : sa configuration, ses
 données territoriales et certaines étapes de filtrage sont adaptées au cas de
-La Rochelle.
+la Communauté d'Agglomération de La Rochelle.
 
 Pour transposer le workflow, il faut au minimum remplacer les données
 départementales, le réseau OSM, l'offre GTFS et les paramètres territoriaux,

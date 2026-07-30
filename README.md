@@ -26,7 +26,8 @@ The project connects three complementary modelling environments:
 The workflow is intended to be reusable for other territories when suitable
 demographic, geographic, mobility, public-transport, and road-network data are
 available. The configuration and reference results supplied here correspond to
-an application to **Charente-Maritime and the La Rochelle urban area, France**.
+an application to **Charente-Maritime and the Communauté d'Agglomération de La
+Rochelle (CdA), France**.
 
 > This repository documents a research workflow and adaptations of upstream
 > open-source projects. It is not an official Eqasim, MATSim, or SUMO
@@ -62,7 +63,7 @@ transport.
 | 1 | Download and prepare demographic, geographic, mobility, and transport data | Reproducible local input dataset |
 | 2 | Generate persons, households, activities, and locations with Eqasim | Spatial synthetic population |
 | 3 | Run the Eqasim–MATSim scenario | Simulated daily mobility plans |
-| 4 | Filter the La Rochelle study population after simulation | Persons, households, activities, and trips required by SUMO |
+| 4 | Filter the CdA study population after simulation | Persons, households, activities, and trips required by SUMO |
 | 5 | Convert OpenStreetMap data and position activities | SUMO multimodal network and network-linked facilities |
 | 6 | Import the Yélo GTFS service | SUMO public-transport stops, routes, and vehicles |
 | 7 | Convert individual plans and assign HBEFA4 vehicle types | SUMO population and vehicle demand |
@@ -75,13 +76,22 @@ The two major parts of this chain are documented independently:
 2. [`2-SUMO/`](2-SUMO/README.md): network construction, activity placement,
    public transport, trip conversion, vehicles, and microscopic simulation.
 
-## Reference application: La Rochelle
+## Reference application: Communauté d'Agglomération de La Rochelle
 
-The current case study first generates the synthetic population of
-**Charente-Maritime (department 17)**. The reference configuration uses an
-**11% population sample** and the 2019 French mobility survey used by the
-project. The study population is filtered only after the MATSim simulation so
-that trips interacting with the La Rochelle area are not prematurely removed.
+The reference territory is the **Communauté d'Agglomération de La Rochelle
+(CdA)**. The synthetic population
+is first generated for **Charente-Maritime (department 17)** using an
+**11% population sample** and the 2019 French mobility survey selected for the
+project. Filtering is performed only after the MATSim simulation so that
+complete daily mobility chains are available before the study population is
+selected.
+
+The selection was designed for the **Yélo DETA** research project. It combines
+residents of the eight peri-urban and rural municipalities targeted by the
+project with people whose simulated daily travel takes place within the
+28 municipalities of the CdA. In the filtering notebook, the second group is
+identified by requiring all known activities of a person to be located inside
+the CdA.
 
 The filtered reference dataset contains:
 
@@ -316,6 +326,8 @@ projects and contributors.
 - SUMO documentation: <https://sumo.dlr.de/docs/>
 - OpenStreetMap: <https://www.openstreetmap.org/>
 - Geofabrik downloads: <https://download.geofabrik.de/>
+- Yélo DETA / Yélo'Flex project:
+  <https://www.agglo-larochelle.fr/-/yelo-deta-le-transport-automatise>
 
 Project-specific adaptations of upstream files remain subject to their
 original licences. OpenStreetMap data are distributed under the ODbL, and
@@ -351,7 +363,8 @@ La méthode est conçue pour être réutilisable sur d'autres territoires lorsqu
 les données démographiques, géographiques, de mobilité, de transport public et
 de réseau routier nécessaires sont disponibles. La configuration et les
 résultats de référence fournis ici correspondent à une application à la
-**Charente-Maritime et à l'agglomération de La Rochelle, en France**.
+**Charente-Maritime et à la Communauté d'Agglomération de La Rochelle (CdA),
+en France**.
 
 > Ce dépôt documente une chaîne de traitement scientifique et des adaptations
 > de projets open source existants. Il ne constitue pas une distribution
@@ -388,7 +401,7 @@ autonome à la demande.
 | 1 | Télécharger et préparer les données démographiques, géographiques, de mobilité et de transport | Jeu local de données d'entrée reproductible |
 | 2 | Générer les personnes, ménages, activités et localisations avec Eqasim | Population synthétique spatialisée |
 | 3 | Exécuter le scénario Eqasim–MATSim | Plans de mobilité quotidiens simulés |
-| 4 | Filtrer la population d'étude de La Rochelle après la simulation | Personnes, ménages, activités et déplacements nécessaires à SUMO |
+| 4 | Filtrer la population d'étude de la CdA après la simulation | Personnes, ménages, activités et déplacements nécessaires à SUMO |
 | 5 | Convertir OpenStreetMap et positionner les activités | Réseau SUMO multimodal et équipements rattachés au réseau |
 | 6 | Importer l'offre GTFS Yélo | Arrêts, lignes et véhicules de transport public dans SUMO |
 | 7 | Convertir les plans individuels et attribuer les types de véhicules HBEFA4 | Population et demande automobile SUMO |
@@ -402,14 +415,22 @@ Les deux grandes parties de cette chaîne sont documentées séparément :
    activités, transport public, conversion des déplacements, véhicules et
    simulation microscopique.
 
-## Application de référence : La Rochelle
+## Application de référence : Communauté d'Agglomération de La Rochelle
 
-Le cas d'étude actuel génère d'abord la population synthétique de la
-**Charente-Maritime (département 17)**. La configuration de référence utilise
-un **échantillon de population de 11 %** et l'enquête française de mobilité
-2019 retenue par le projet. La population d'étude n'est filtrée qu'après la
-simulation MATSim afin de ne pas supprimer prématurément les déplacements qui
-interagissent avec le territoire rochelais.
+Le territoire de référence est la **Communauté d'Agglomération de La Rochelle
+(CdA)**, et non la seule commune de La Rochelle. La population synthétique est
+d'abord générée pour la **Charente-Maritime (département 17)**, avec un
+**échantillon de population de 11 %** et l'enquête française de mobilité 2019
+retenue pour le projet. Le filtrage intervient seulement après la simulation
+MATSim afin de disposer des chaînes complètes de mobilité quotidienne avant de
+sélectionner la population d'étude.
+
+Cette sélection a été définie pour le projet de recherche **Yélo DETA**. Elle
+réunit les habitants des huit communes périurbaines et rurales visées par le
+projet et les personnes dont les déplacements quotidiens simulés s'effectuent
+dans les 28 communes de la CdA. Dans le notebook de filtrage, ce second groupe
+est identifié en vérifiant que toutes les activités connues d'une personne
+sont localisées dans la CdA.
 
 Le jeu de données filtré de référence contient :
 
@@ -655,6 +676,8 @@ leurs projets et contributeurs respectifs.
 - Documentation SUMO : <https://sumo.dlr.de/docs/>
 - OpenStreetMap : <https://www.openstreetmap.org/>
 - Téléchargements Geofabrik : <https://download.geofabrik.de/>
+- Projet Yélo DETA / Yélo'Flex :
+  <https://www.agglo-larochelle.fr/-/yelo-deta-le-transport-automatise>
 
 Les adaptations de fichiers amont propres au projet restent soumises à leurs
 licences d'origine. Les données OpenStreetMap sont distribuées sous licence

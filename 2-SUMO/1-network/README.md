@@ -3,10 +3,11 @@
 > **Languages:** The English version is presented first.
 > [The French version is available below.](#version-francaise)
 
-# Building the SUMO network for La Rochelle
+# Building the SUMO network for the Communauté d'Agglomération de La Rochelle
 
 This folder contains the reproducible workflow used to create the SUMO road
-and pedestrian network for the La Rochelle case study from OpenStreetMap data.
+and pedestrian network for the Communauté d'Agglomération de La Rochelle
+(CdA) case study from OpenStreetMap data.
 
 The workflow is implemented in `network.ipynb`. The regional OpenStreetMap
 extract and all generated network files remain local because of their size.
@@ -112,7 +113,7 @@ the bounding box when they are needed to preserve complete OSM ways or
 relations.
 
 The bounding box is a processing extent, not the exact administrative boundary
-of the La Rochelle urban community.
+of the Communauté d'Agglomération de La Rochelle.
 
 ## Step 2 — Convert the OSM extract into a SUMO network
 
@@ -242,11 +243,11 @@ and comply with the applicable licence conditions.
 > **Langues :** [La version anglaise se trouve en haut de ce document.](#english-version)
 > La version française commence ci-dessous.
 
-# Construction du réseau SUMO de La Rochelle
+# Construction du réseau SUMO de la Communauté d'Agglomération de La Rochelle
 
 Ce dossier contient le workflow reproductible utilisé pour construire le
-réseau routier et piéton SUMO du cas d'étude de La Rochelle à partir des
-données OpenStreetMap.
+réseau routier et piéton SUMO du cas d'étude de la Communauté d'Agglomération
+de La Rochelle (CdA) à partir des données OpenStreetMap.
 
 Le traitement est implémenté dans `network.ipynb`. L'extrait régional
 OpenStreetMap et tous les fichiers réseau générés restent locaux en raison de
@@ -355,7 +356,7 @@ nœuds légèrement situés en dehors de la bounding box lorsqu'ils sont
 nécessaires pour préserver des chemins ou relations OSM complets.
 
 La bounding box est une emprise de traitement, et non la limite administrative
-exacte de la Communauté d'agglomération de La Rochelle.
+exacte de la Communauté d'Agglomération de La Rochelle.
 
 ## Étape 2 — Conversion de l'extrait OSM en réseau SUMO
 

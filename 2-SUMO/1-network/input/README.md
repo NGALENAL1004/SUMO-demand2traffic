@@ -6,7 +6,7 @@
 # OpenStreetMap input data
 
 This folder receives the regional OpenStreetMap extract used to construct the
-SUMO network for the La Rochelle case study.
+SUMO network for the Communauté d'Agglomération de La Rochelle case study.
 
 The `.osm.pbf` file is not distributed in this Git repository. It is too large
 for standard GitHub storage and is updated regularly by its provider. Each
@@ -106,7 +106,7 @@ retaining this README and `.gitignore`. After cloning the repository, the
 # Données d'entrée OpenStreetMap
 
 Ce dossier reçoit l'extrait régional OpenStreetMap utilisé pour construire le
-réseau SUMO du cas d'étude de La Rochelle.
+réseau SUMO du cas d'étude de la Communauté d'Agglomération de La Rochelle.
 
 Le fichier `.osm.pbf` n'est pas distribué dans ce dépôt Git. Il est trop
 volumineux pour un stockage GitHub standard et il est régulièrement mis à jour

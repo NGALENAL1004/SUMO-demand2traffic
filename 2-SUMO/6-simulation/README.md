@@ -6,7 +6,7 @@
 # Running the SUMO/TraCI simulation
 
 This folder contains the final SUMO configuration and an event-driven TraCI
-controller for the La Rochelle scenario.
+controller for the Communauté d'Agglomération de La Rochelle scenario.
 
 The controller monitors public transport passengers, detects cases where no
 suitable future service can complete the planned ride, and applies a
@@ -247,7 +247,7 @@ are excluded because they are large and reproducible.
 # Exécution de la simulation SUMO/TraCI
 
 Ce dossier contient la configuration SUMO finale et un contrôleur TraCI
-événementiel pour le scénario de La Rochelle.
+événementiel pour le scénario de la Communauté d'Agglomération de La Rochelle.
 
 Le contrôleur surveille les passagers des transports collectifs, détecte les
 cas où aucun service futur adapté ne peut terminer le trajet prévu et applique

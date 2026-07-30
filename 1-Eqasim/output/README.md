@@ -8,8 +8,9 @@
 This folder gathers the results produced by the Eqasim part of the project,
 from the synthetic population to the trajectories simulated by MATSim. The
 `17` prefix indicates that the initial scenario covers the
-**Charente-Maritime department**. A geographic filtering step then prepares
-the subset required for the La Rochelle case study and its transfer to SUMO.
+**Charente-Maritime department**. A geographic filtering step designed for the
+**Yélo DETA** project then prepares the subset required for the Communauté
+d'Agglomération de La Rochelle case study and its transfer to SUMO.
 
 Output files are not tracked on GitHub: they are large and can be regenerated
 from the input data and configuration documented in the `data/` and `code/`
@@ -118,8 +119,9 @@ README in the corresponding subfolder.
 Ce dossier rassemble les résultats produits par la partie Eqasim du projet,
 depuis la population synthétique jusqu'aux trajectoires simulées par MATSim.
 Le préfixe `17` indique que le scénario initial couvre la
-**Charente-Maritime**. Un filtrage géographique prépare ensuite le sous-ensemble
-utile au cas d'étude de La Rochelle et à son transfert vers SUMO.
+**Charente-Maritime**. Un filtrage géographique conçu pour le projet
+**Yélo DETA** prépare ensuite le sous-ensemble utile au cas d'étude de la
+Communauté d'Agglomération de La Rochelle et à son transfert vers SUMO.
 
 Les fichiers de résultats ne sont pas versionnés sur GitHub : ils sont
 volumineux et peuvent être régénérés à partir des données d'entrée et de la

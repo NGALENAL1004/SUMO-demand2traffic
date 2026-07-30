@@ -5,8 +5,9 @@
 
 # Importing Yélo public transport into SUMO
 
-This folder creates the SUMO public transport supply used by the La Rochelle
-scenario. It maps a dated Yélo GTFS timetable to the SUMO network, generates
+This folder creates the SUMO public transport supply used by the Communauté
+d'Agglomération de La Rochelle scenario. It maps a dated Yélo GTFS timetable
+to the SUMO network, generates
 stops and scheduled vehicles, and adds the official line colours for
 visualisation.
 
@@ -192,8 +193,9 @@ tracked scripts, notebook, configuration, and input documentation.
 
 # Import des transports collectifs Yélo dans SUMO
 
-Ce dossier construit l’offre de transport collectif SUMO utilisée dans le
-scénario de La Rochelle. Il apparie une offre GTFS datée de Yélo au réseau
+Ce dossier construit l'offre de transport collectif SUMO utilisée dans le
+scénario de la Communauté d'Agglomération de La Rochelle. Il apparie une offre
+GTFS datée de Yélo au réseau
 SUMO, génère les arrêts et véhicules programmés, puis ajoute les couleurs
 officielles des lignes pour la visualisation.
 

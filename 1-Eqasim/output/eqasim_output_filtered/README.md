@@ -3,13 +3,19 @@
 > **Languages:** The English version is presented first.
 > [The French version is available below.](#version-francaise)
 
-# Filtering Eqasim/MATSim outputs for La Rochelle
+# Filtering Eqasim/MATSim outputs for the Communauté d'Agglomération de La Rochelle
 
 This folder contains the notebook that extracts, from the scenario covering
-Charente-Maritime, the population and trips required for the La Rochelle case
-study. Filtering reduces the volume of data before its conversion and use in
-SUMO, while preserving the relationships between persons, households, plans,
-and activity facilities.
+Charente-Maritime, the population and trips required for the **Communauté
+d'Agglomération de La Rochelle (CdA)** case study. Filtering reduces the
+volume of data before its conversion and use in SUMO, while preserving the
+relationships between persons, households, plans, and activity facilities.
+
+The selection was designed for the **Yélo DETA** research project, which
+targets an automated demand-responsive transport service in eight peri-urban
+and rural municipalities of the CdA. It retains both the residents directly
+concerned by the project and the wider travel demand circulating within the
+CdA.
 
 The notebook is tracked on GitHub. The files it produces are reproducible,
 sometimes large, and therefore remain local.
@@ -19,20 +25,27 @@ sometimes large, and therefore remain local.
 A person is retained if they satisfy at least one of the following two
 criteria:
 
-1. their household is located in one of the eight selected peri-urban
-   municipalities, whose codes are listed below;
+1. their household is located in one of the eight peri-urban and rural
+   municipalities targeted by Yélo DETA, whose codes are listed below;
 2. all their known activities are located in one of the 28 municipalities of
-   the La Rochelle urban community.
+   the CdA.
 
-The final selection is the union of these two sets. The eight codes actually
-used are:
+The second criterion represents people whose simulated daily trips take place
+within the CdA; technically, the notebook implements it by checking that every
+known activity of the person is inside the CdA. The final selection is the
+union of these two sets.
+
+The eight Yélo DETA municipalities and the codes used by the notebook are:
 
 ```text
-17059, 17245, 17109, 17194, 17373, 17315, 17136, 17420
+Bourgneuf (17059), Montroy (17245), Clavette (17109),
+La Jarrie (17194), Saint-Médard-d'Aunis (17373),
+Saint-Christophe (17315), Croix-Chapeau (17136),
+Salles-sur-Mer (17420)
 ```
 
-The 28 codes of the urban community are defined directly in the notebook so
-that the study area remains explicit and reproducible.
+The 28 codes of the CdA are defined directly in the notebook so that the study
+area remains explicit and reproducible.
 
 ## Why two data sources are used
 
@@ -141,13 +154,20 @@ Before moving to SUMO, check at least that:
 > **Langues :** [La version anglaise se trouve en haut de ce document.](#english-version)
 > La version française commence ci-dessous.
 
-# Filtrage des sorties Eqasim/MATSim pour La Rochelle
+# Filtrage des sorties Eqasim/MATSim pour la Communauté d'Agglomération de La Rochelle
 
 Ce dossier contient le notebook qui extrait, à partir du scénario couvrant la
 Charente-Maritime, la population et les déplacements utiles au cas d'étude de
-La Rochelle. Le filtrage réduit le volume des données avant leur conversion et
-leur utilisation dans SUMO, tout en conservant les relations entre personnes,
-ménages, plans et lieux d'activité.
+la **Communauté d'Agglomération de La Rochelle (CdA)**. Le filtrage réduit le
+volume des données avant leur conversion et leur utilisation dans SUMO, tout
+en conservant les relations entre personnes, ménages, plans et lieux
+d'activité.
+
+La sélection a été conçue pour le projet de recherche **Yélo DETA**, qui vise
+un service de transport automatisé à la demande dans huit communes
+périurbaines et rurales de la CdA. Elle conserve à la fois les habitants
+directement concernés par le projet et la demande de mobilité plus large
+circulant dans la CdA.
 
 Le notebook est versionné sur GitHub. Les fichiers qu'il produit sont
 reproductibles, parfois volumineux, et restent donc locaux.
@@ -157,20 +177,27 @@ reproductibles, parfois volumineux, et restent donc locaux.
 Une personne est conservée si elle satisfait au moins l'un des deux critères
 suivants :
 
-1. son ménage est localisé dans l'une des huit communes périurbaines retenues,
-   dont les codes sont donnés ci-dessous ;
+1. son ménage est localisé dans l'une des huit communes périurbaines et rurales
+   visées par Yélo DETA, dont les codes sont donnés ci-dessous ;
 2. toutes ses activités connues sont situées dans l'une des 28 communes de la
-   Communauté d'agglomération de La Rochelle.
+   CdA.
 
-La sélection finale est l'union de ces deux ensembles. La liste des huit codes
-effectivement utilisée est :
+Le second critère représente les personnes dont les déplacements quotidiens
+simulés s'effectuent dans la CdA ; techniquement, le notebook vérifie pour cela
+que toutes les activités connues de la personne se situent dans la CdA. La
+sélection finale est l'union de ces deux ensembles.
+
+Les huit communes de Yélo DETA et les codes utilisés par le notebook sont :
 
 ```text
-17059, 17245, 17109, 17194, 17373, 17315, 17136, 17420
+Bourgneuf (17059), Montroy (17245), Clavette (17109),
+La Jarrie (17194), Saint-Médard-d'Aunis (17373),
+Saint-Christophe (17315), Croix-Chapeau (17136),
+Salles-sur-Mer (17420)
 ```
 
-Les 28 codes de la Communauté d'agglomération sont définis directement dans le
-notebook afin que le périmètre soit explicite et reproductible.
+Les 28 codes de la CdA sont définis directement dans le notebook afin que le
+périmètre soit explicite et reproductible.
 
 ## Pourquoi deux sources sont utilisées
 

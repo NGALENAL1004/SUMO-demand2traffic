@@ -13,11 +13,13 @@ The method is based on the open-source
 [`eqasim-france`](https://github.com/eqasim-org/eqasim-france) pipeline. It can
 be transferred to other French territories, but the configuration, local
 data, and filtering process provided here correspond to its application to
-**Charente-Maritime and the La Rochelle case study**.
+**Charente-Maritime and the Communauté d'Agglomération de La Rochelle (CdA)**.
 
-The population is first generated for the whole department 17. The study area
-is filtered only after the MATSim simulation in order to preserve trips that
-cross the boundaries of the La Rochelle urban community.
+The population is first generated for the whole department 17 and filtered
+only after the MATSim simulation. This downstream selection was designed for
+the **Yélo DETA** project: it combines residents of the eight municipalities
+targeted by the project with people whose simulated daily travel takes place
+within the 28 municipalities of the CdA.
 
 > This repository is not an official Eqasim distribution. It documents a
 > reproducible adaptation of `eqasim-france` for the needs of this project.
@@ -44,7 +46,7 @@ cross the boundaries of the La Rochelle urban community.
 | ↓ |
 | **3. Eqasim–MATSim simulation** |
 | ↓ |
-| **4. Filtering for the La Rochelle case study** |
+| **4. Filtering for the CdA case study** |
 | ↓ |
 | **5. Demand preparation for SUMO** |
 
@@ -285,7 +287,7 @@ Zstandard-compressed Eqasim tables, and convergence indicators.
 Each file is described in [`output/README.md`](output/README.md) and
 [`output/simulation_output/README.md`](output/simulation_output/README.md).
 
-## Filtering for the La Rochelle case study
+## Filtering for the Communauté d'Agglomération de La Rochelle
 
 The
 [`output/eqasim_output_filtered/create_output_filtered.ipynb`](output/eqasim_output_filtered/create_output_filtered.ipynb)
@@ -294,13 +296,15 @@ part of the project.
 
 A person is retained if:
 
-- their household is located in one of the eight selected peri-urban
-  municipalities; or
-- all their activities are located in the 28 municipalities of the La
-  Rochelle urban community.
+- their household is located in one of the eight peri-urban and rural
+  municipalities targeted by Yélo DETA; or
+- all their activities are located in the 28 municipalities of the CdA.
 
-The union of these two sets retains both a targeted resident population and
-persons whose entire activity schedule concerns the urban community.
+These criteria reflect the needs of the **Yélo DETA** project. The first
+retains the residents of the eight peri-urban and rural municipalities served
+by the project, including their trips outside the CdA. The second represents
+the wider travel demand circulating within the CdA; operationally, it retains
+people whose complete known activity chain is located inside the CdA.
 
 For the 11% reference run, the filter retains:
 
@@ -393,7 +397,7 @@ synthetic population used as the methodological model for this project:
 
 For a scientific publication using this adaptation, cite the relevant
 references above and explicitly describe the data, configuration, and changes
-specific to the La Rochelle case study.
+specific to the Communauté d'Agglomération de La Rochelle case study.
 
 ## Licence and attribution
 
@@ -425,11 +429,14 @@ La méthode repose sur le pipeline open source
 [`eqasim-france`](https://github.com/eqasim-org/eqasim-france). Elle est
 transférable à d'autres territoires français, mais la configuration, les
 données locales et le filtrage fournis ici correspondent à son application à
-la **Charente-Maritime et au cas d'étude de La Rochelle**.
+la **Charente-Maritime et à la Communauté d'Agglomération de La Rochelle
+(CdA)**.
 
-La population est d'abord générée à l'échelle du département 17. Le périmètre
-d'étude est seulement filtré après la simulation MATSim afin de conserver les
-déplacements qui franchissent les limites de l'agglomération rochelaise.
+La population est d'abord générée à l'échelle du département 17, puis filtrée
+seulement après la simulation MATSim. Cette sélection en aval a été conçue pour
+le projet **Yélo DETA** : elle réunit les habitants des huit communes visées
+par le projet et les personnes dont les déplacements quotidiens simulés
+s'effectuent dans les 28 communes de la CdA.
 
 > Ce dépôt n'est pas une distribution officielle d'Eqasim. Il documente une
 > adaptation reproductible d'`eqasim-france` pour les besoins de ce projet.
@@ -456,7 +463,7 @@ déplacements qui franchissent les limites de l'agglomération rochelaise.
 | ↓ |
 | **3. Simulation Eqasim–MATSim** |
 | ↓ |
-| **4. Filtrage du cas d'étude de La Rochelle** |
+| **4. Filtrage du cas d'étude de la CdA** |
 | ↓ |
 | **5. Préparation de la demande pour SUMO** |
 
@@ -702,7 +709,7 @@ La description de chaque fichier est disponible dans
 [`output/README.md`](output/README.md) et
 [`output/simulation_output/README.md`](output/simulation_output/README.md).
 
-## Filtrage pour le cas d'étude de La Rochelle
+## Filtrage pour la Communauté d'Agglomération de La Rochelle
 
 Le notebook
 [`output/eqasim_output_filtered/create_output_filtered.ipynb`](output/eqasim_output_filtered/create_output_filtered.ipynb)
@@ -711,14 +718,16 @@ projet.
 
 Une personne est conservée si :
 
-- son ménage est localisé dans l'une des huit communes périurbaines retenues ;
-  ou
-- toutes ses activités sont situées dans les 28 communes de la Communauté
-  d'agglomération de La Rochelle.
+- son ménage est localisé dans l'une des huit communes périurbaines et rurales
+  visées par Yélo DETA ; ou
+- toutes ses activités sont situées dans les 28 communes de la CdA.
 
-L'union de ces deux ensembles permet de conserver à la fois une population
-résidente ciblée et les personnes dont le programme d'activités concerne
-entièrement l'agglomération.
+Ces critères répondent aux besoins du projet **Yélo DETA**. Le premier conserve
+les habitants des huit communes périurbaines et rurales desservies par le
+projet, y compris leurs déplacements hors de la CdA. Le second représente la
+demande de mobilité plus large circulant dans la CdA ; techniquement, il
+conserve les personnes dont toute la chaîne d'activités connue se situe dans
+la CdA.
 
 Pour l'exécution de référence à 11 %, le filtre conserve :
 
@@ -814,7 +823,8 @@ synthétique qui sert de modèle méthodologique à ce projet :
 
 Pour une publication scientifique utilisant cette adaptation, citer les
 références pertinentes ci-dessus, puis décrire explicitement les données, la
-configuration et les modifications propres au cas de La Rochelle.
+configuration et les modifications propres au cas de la Communauté
+d'Agglomération de La Rochelle.
 
 ## Licence et attribution
 
